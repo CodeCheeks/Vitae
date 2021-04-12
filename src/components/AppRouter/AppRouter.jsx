@@ -6,7 +6,15 @@ import Home from '../Views/Home/Home'
 
 import Servicios from '../Views/Servicios/Servicios'
 import Terapias from '../Views/Servicios/Terapias/Terapias'
+import Fisioterapia from '../Views/Servicios/Terapias/Fisioterapia/Fisioterapia'
+import TerapiaOcupacional from '../Views/Servicios/Terapias/TerapiaOcupacional/TerapiaOcupacional'
+import Psicologia from '../Views/Servicios/Terapias/Psicologia/Psicologia'
+import Animacion from '../Views/Servicios/Terapias/Animacion/Animacion'
 import Asistenciales from '../Views/Servicios/Asistenciales/Asistenciales'
+import MedicinaEnfermeria from '../Views/Servicios/Asistenciales/MedicinaEnfermeria/MedicinaEnfermeria'
+import AyudaDomicilio from '../Views/Servicios/Asistenciales/AyudaDomicilio/AyudaDomicilio'
+import Transporte from '../Views/Servicios/Asistenciales/Transporte/Transporte'
+import Comedor from '../Views/Servicios/Asistenciales/Comedor/Comedor'
 
 import Especialidades from '../Views/Especialidades/Especialidades'
 import Ictus from '../Views/Especialidades/Ictus/Ictus'
@@ -28,6 +36,7 @@ import AreaPersonal from '../Views/AreaPersonal/AreaPersonal'
 
 import NotFound from '../Views/NotFound/NotFound'
 
+
 const AppRouter = () => {
 
     return(
@@ -36,7 +45,15 @@ const AppRouter = () => {
 
             <Route exact path="/servicios" component={Servicios} />
             <Route exact path="/servicios/terapias" component={Terapias} />
+            <Route exact path="/servicios/terapias/fisioterapia" component={Fisioterapia} />
+            <Route exact path="/servicios/terapias/terapia-ocupacional" component={TerapiaOcupacional} />
+            <Route exact path="/servicios/terapias/psicologia" component={Psicologia} />
+            <Route exact path="/servicios/terapias/animacion" component={Animacion} />
             <Route exact path="/servicios/asistenciales" component={Asistenciales} />
+            <Route exact path="/servicios/asistenciales/medicina-enfermeria" component={MedicinaEnfermeria} />
+            <Route exact path="/servicios/asistenciales/ayuda-domicilio" component={AyudaDomicilio} />
+            <Route exact path="/servicios/asistenciales/transporte" component={Transporte} />
+            <Route exact path="/servicios/asistenciales/comedor" component={Comedor} />
 
             <Route exact path="/especialidades" component={Especialidades} />
             <Route exact path="/especialidades/ictus" component={Ictus} />
