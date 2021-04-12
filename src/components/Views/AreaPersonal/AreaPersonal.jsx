@@ -4,7 +4,7 @@ import './AreaPersonal.css'
 const AreaPersonal = () => {
     return (
         <div>
-            
+            <h1>Log in</h1>
         </div>
     );
 };
