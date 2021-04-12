@@ -1,3 +1,50 @@
-.selected{
-    color: red!important;
+:root {
+    --light-blue-color: #2fb2b9;
+    --medium-blue-color: #3e7dd0;
+    --primary-blue-color: #007bff;
+  }
+
+.brand__logo__text{
+    font-size: 1.6rem !important
 }
+.selected{
+    color: var(--primary-blue-color) !important;
+    font-weight: 700;
+}
+
+.text__style{
+    color: var(--light-blue-color);
+    font-weight: 500 !important;
+    font-size: 1.3rem ;
+}
+
+.text__style__sm{
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--light-blue-color) !important;
+}
+
+.text__style__xs{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--light-blue-color) !important;
+}
+
+.text__style:hover{
+    color: var(--medium-blue-color) !important;
+}
+
+
+.link__style{
+    margin: 0 10px;
+    
+}
+
+
+.link__style:hover {
+    text-decoration: none;
+}
+
+
+
+
