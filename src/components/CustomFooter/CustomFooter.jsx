@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import {Link} from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
 
 import './CustomFooter.css'
   
   const CustomFooter = () => {
+
+    const { i18n } = useTranslation();
+
     return (
         <div className="container-fluid footer__container">
             <div className="row mb-2">
@@ -31,9 +35,10 @@ import './CustomFooter.css'
                 <div className="d-flex flex-column col">
                     <Link to="/ayudas" className="text-light h5">Ayudas</Link>
                     <Link to="/preguntas-frecuentes" className="text-light h5">FAQs</Link>
-                    <Link to="/sobre-nosotros" className="text-light h5">Sobre Nosotros</Link>
+                    <Link to="/sobre-nosotros" className="text-light h5">Nosotros</Link>
                     <Link to="/empleo" className="text-light h5">Empleo</Link>
-                    <Link to="/#" className="text-light h5">Idioma</Link>
+                    <Link onClick={() => i18n.changeLanguage('en')} className="text-light h5">EN</Link>
+                    <Link onClick={() => i18n.changeLanguage('es')} className="text-light h5">ES</Link>
                 </div>
                 <div className="col border-left d-none d-sm-none d-md-block">
                     <div className="row d-flex align-items-center">
@@ -61,4 +66,12 @@ import './CustomFooter.css'
       );
   };
   
-  export default CustomFooter;
+
+
+  export default function App() {
+    return (
+      <Suspense fallback="loading">
+        <CustomFooter />
+      </Suspense>
+    );
+  }

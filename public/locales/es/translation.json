@@ -1,0 +1,36 @@
+{
+  "navbar": {
+    "services":{
+      "title": "Servicios",
+      "terapeutics" : {
+        "title": "Terapéuticos",
+        "physiotherapy" : "Fisioterapia",
+        "psychology" : "Psicología",
+        "ot" : "Terapia ocupacional",
+        "recreation" : "Animación"
+      },
+      "assistance" : {
+        "title": "Asistenciales",
+        "medicine": "Medicina y enfermería",
+        "home": "Ayuda a domicilio",
+        "transport": "Transporte",
+        "catering": "Comedor"
+      }
+    },
+    "specialities": {
+      "title": "Especialidades",
+      "ictus": "Ictus",
+      "fractures": "Fracturas",
+      "alzheimer": "Alzheimer",
+      "parkinson": "Parkinson",
+      "dementia": "Demencias",
+      "depression": "Depresión"
+    },
+    "aids": "Ayudas",
+    "faq": "FAQs",
+    "about": "Sobre Nosotros",
+    "jobs": "Empleo",
+    "contact": "Contacto",
+    "login": "Área Personal"
+  }
+}
