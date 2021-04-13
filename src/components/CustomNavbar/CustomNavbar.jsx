@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import './CustomNavbar.css'
 //components
 import {NavLink} from 'react-router-dom'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
+import { useTranslation } from 'react-i18next';
+
 
 const CustomNavbar = () => { 
+
+  const { t } = useTranslation();
 
       
     return (
@@ -21,38 +25,38 @@ const CustomNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto container d-flex justify-content-center">
           
-            <NavDropdown className='link__style text__style' title={<span className=" text__style">Servicios</span>} id="Servicios" className='link__style text__style' >
-                <NavDropdown title={<span className="link__style text__style__sm ">Terapéuticos</span>} id="terapeuticos" className='dropdown__content'>
-                  <NavDropdown.Item><NavLink to="/servicios/terapias/Fisioterapia" className='link__style__sm' activeClassName="selected">Fisioterapia</NavLink></NavDropdown.Item>
-                  <NavDropdown.Item><NavLink to="/servicios/terapias/psicologia" className='link__style__sm' activeClassName="selected">Psicología</NavLink></NavDropdown.Item>
-                  <NavDropdown.Item><NavLink to="/servicios/terapias/terapia-ocupacional" className='link__style__sm' activeClassName="selected">Terapia Ocupacional</NavLink></NavDropdown.Item>
-                  <NavDropdown.Item><NavLink to="/servicios/terapias/animacion" className='link__style__sm' activeClassName="selected">Animación</NavLink></NavDropdown.Item>
+            <NavDropdown className='link__style text__style' title={<span className=" text__style">{t('navbar.services.title')}</span>} id="Servicios" className='link__style text__style' >
+                <NavDropdown title={<span className="link__style text__style__sm ">{t('navbar.services.terapeutics.title')}</span>} id="terapeuticos" className='dropdown__content'>
+                  <NavDropdown.Item><NavLink to="/servicios/terapias/Fisioterapia" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.physiotherapy')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/terapias/psicologia" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.psychology')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/terapias/terapia-ocupacional" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.ot')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/terapias/animacion" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.recreation')}</NavLink></NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown className='link__style' title={<span className=" text__style__sm ">Asistenciales</span>} id="asistenciales">
-                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/medicina-enfermeria" className='link__style__sm' activeClassName="selected">Medicina y enfermería</NavLink></NavDropdown.Item>
-                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/ayuda-domicilio" className='link__style__sm' activeClassName="selected">Ayuda a domicilio</NavLink></NavDropdown.Item>
-                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/transporte" className='link__style__sm' activeClassName="selected">Transporte</NavLink></NavDropdown.Item>
-                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/comedor" className='link__style__sm' activeClassName="selected">Comedor</NavLink></NavDropdown.Item>
+                <NavDropdown className='link__style' title={<span className=" text__style__sm ">{t('navbar.services.assistance.title')}</span>} id="asistenciales">
+                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/medicina-enfermeria" className='link__style__sm' activeClassName="selected">{t('navbar.services.assistance.medicine')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/ayuda-domicilio" className='link__style__sm' activeClassName="selected">{t('navbar.services.assistance.home')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/transporte" className='link__style__sm' activeClassName="selected">{t('navbar.services.assistance.transport')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/comedor" className='link__style__sm' activeClassName="selected">{t('navbar.services.assistance.catering')}</NavLink></NavDropdown.Item>
                 </NavDropdown>
             </NavDropdown>
 
-            <NavDropdown title={<span className="link__style text__style">Especialidades</span>} id="Especialidades" className='link__style text__style'>
-              <NavDropdown.Item><NavLink to="/especialidades/ictus" className='link__style text__style__sm' activeClassName="selected">Ictus</NavLink></NavDropdown.Item>
-              <NavDropdown.Item><NavLink to="/especialidades/fracturas" className='link__style text__style__sm' activeClassName="selected">Fracturas</NavLink></NavDropdown.Item>
-              <NavDropdown.Item><NavLink to="/especialidades/alzheimer" className='link__style text__style__sm' activeClassName="selected">Alzheimer</NavLink></NavDropdown.Item>
-              <NavDropdown.Item><NavLink to="/especialidades/parkinson" className='link__style text__style__sm' activeClassName="selected">Parkinson</NavLink></NavDropdown.Item>
-              <NavDropdown.Item><NavLink to="/especialidades/demencias" className='link__style text__style__sm' activeClassName="selected">Demencias</NavLink></NavDropdown.Item>
-              <NavDropdown.Item><NavLink to="/especialidades/depresion" className='link__style text__style__sm' activeClassName="selected">Depresión</NavLink></NavDropdown.Item>
+            <NavDropdown title={<span className="link__style text__style">{t('navbar.specialities.title')}</span>} id="Especialidades" className='link__style text__style'>
+              <NavDropdown.Item><NavLink to="/especialidades/ictus" className='link__style text__style__sm' activeClassName="selected">{t('navbar.specialities.ictus')}</NavLink></NavDropdown.Item>
+              <NavDropdown.Item><NavLink to="/especialidades/fracturas" className='link__style text__style__sm' activeClassName="selected">{t('navbar.specialities.fractures')}</NavLink></NavDropdown.Item>
+              <NavDropdown.Item><NavLink to="/especialidades/alzheimer" className='link__style text__style__sm' activeClassName="selected">{t('navbar.specialities.alzheimer')}</NavLink></NavDropdown.Item>
+              <NavDropdown.Item><NavLink to="/especialidades/parkinson" className='link__style text__style__sm' activeClassName="selected">{t('navbar.specialities.parkinson')}</NavLink></NavDropdown.Item>
+              <NavDropdown.Item><NavLink to="/especialidades/demencias" className='link__style text__style__sm' activeClassName="selected">{t('navbar.specialities.dementia')}</NavLink></NavDropdown.Item>
+              <NavDropdown.Item><NavLink to="/especialidades/depresion" className='link__style text__style__sm' activeClassName="selected">{t('navbar.specialities.depression')}</NavLink></NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link><NavLink to="/ayudas" className='link__style text__style' activeClassName="selected">Ayudas</NavLink></Nav.Link>
-            <Nav.Link><NavLink to="/preguntas-frecuentes" className='link__style text__style' activeClassName="selected">FAQs</NavLink></Nav.Link>
-            <Nav.Link><NavLink to="/sobre-nosotros" className='link__style text__style' activeClassName="selected">Sobre Nosotros</NavLink></Nav.Link>
-            <Nav.Link><NavLink to="/empleo" className='link__style text__style' activeClassName="selected">Empleo</NavLink></Nav.Link>
-            <Nav.Link><NavLink to="/contacto" className='link__style text__style' activeClassName="selected">Contacto</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/ayudas" className='link__style text__style' activeClassName="selected">{t('navbar.aids')}</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/preguntas-frecuentes" className='link__style text__style' activeClassName="selected">{t('navbar.faq')}</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/sobre-nosotros" className='link__style text__style' activeClassName="selected">{t('navbar.about')}</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/empleo" className='link__style text__style' activeClassName="selected">{t('navbar.jobs')}</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="/contacto" className='link__style text__style' activeClassName="selected">{t('navbar.contact')}</NavLink></Nav.Link>
 
           </Nav>
-          <Nav.Link><NavLink to="/area-personal" activeClassName="selected" className='link__style text__style'>Area Personal</NavLink></Nav.Link>
+          <Nav.Link><NavLink to="/area-personal" activeClassName="selected" className='link__style text__style'>{t('navbar.login')}</NavLink></Nav.Link>
 
         </Navbar.Collapse>
       </Navbar>
@@ -60,4 +64,10 @@ const CustomNavbar = () => {
         
 };
 
-export default CustomNavbar;
+export default function App() {
+  return (
+    <Suspense fallback="loading">
+      <CustomNavbar />
+    </Suspense>
+  );
+}
