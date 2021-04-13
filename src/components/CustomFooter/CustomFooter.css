@@ -1,8 +1,21 @@
 .footer__container {
     background-color: #3ec8d0;
+    padding-top: 20px ;
+    padding-bottom: 15px ;
 }
 
+ul {
+    list-style: none;
+    margin-left: 0;
+
+ }
+
 .footer__img {
-    width: 30px;
+    width: 250px;
     margin: 5px 10px;
 }
+.footer__item__hover:hover{
+    color: black!important;
+    cursor: pointer;
+}
+
