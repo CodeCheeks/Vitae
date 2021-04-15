@@ -64,6 +64,47 @@
           "title":"Terapias",
           "paragraph": "Todos estos aspectos motores, perceptivos y cognitivos deben trabajarse con la neurorehabilitación para poder recuperarse. El fisioterapeuta se ocupa de recuperar el movimiento, el logopeda el lenguaje y el neuropsicólogo los aspectos cognitivos. Todos ellos deben trabajar de manera integral para garantizar la máxima recuperación de la funcionalidad de la persona afectada. La rehabilitación se fundamenta en la neuroplasticidad, que es la capacidad del cerebro para modificarse y adaptarse en respuesta a las demandas ambientales. A través de un entrenamiento adecuado se persigue restablecer hasta cierto punto la función cerebral afectada. Esto siempre dependiendo de la gravedad, momento evolutivo y tiempo transcurrido desde que ha ocurrido el ictus."
         }
-      } 
+      },
+      "fractures":{
+        "definition": {
+          "title":"Definición de Fractura",
+          "paragraph": "Es la ruptura total o parcial de un hueso por diversas causas; lo más común es que se deba a un accidente, una caída fuerte o una lesión deportiva. La fractura provoca un dolor intenso y dependiendo de la gravedad puede necesitar cirugía para recomponer el hueso."
+          },
+          "types":{
+            "title":"Tipos de Fractura",
+            "complete": {
+              "title": "Fractura completa",
+              "paragraph": "El hueso se rompe en dos partes."
+            },
+            "simple":{
+              "title": "Fractura simple",
+              "paragraph": "El hueso se quiebra por una parte."
+            },
+            "comminuted":{
+              "title": "Fractura conminuta",
+              "paragraph": "El hueso se quiebra en más de una parte o se astilla."
+            },
+            "open":{
+              "title": "Fractura abierta",
+              "paragraph": "El hueso sobresale a través de la piel."
+            },
+            "closed":{
+              "title": "Fractura cerrada",
+              "paragraph": "Hay rotura pero no sobresale el hueso por la piel."
+            }
+          },
+          "symptoms":{
+            "title":"Síntomas",
+            "damage": "Hinchazón, hematoma o sangrado",
+            "tingling": "Entumecimiento y hormigueo",
+            "limited": "Movimiento limitado o incapacitado",
+            "deformation": "Deformación de la zona",
+            "fever": "Fiebre localizada"
+          },
+          "therapies":{
+            "title":"Terapias",
+            "paragraph": "El tratamiento local de las fracturas se basa en la reducción, la inmovilización y posteriormente la recuperación. La reducción e inmovilización, realizada por el especialista, puede hacerse mediante tratamiento quirúrgico (material de osteosíntesis) o conservador (inmovilización con yeso).En nuestro centro nuestro servicio de fisioterapia está especializado en rehabilitar fracturas de cadera, fémur, hombro y muñeca. Este tipo de fracturas son las más comunes en las personas de avanzada edad"
+          }
+        } 
   }
 }

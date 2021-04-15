@@ -64,6 +64,47 @@
           "title":"Therapies",
           "paragraph": "All these motor, perceptual and cognitive aspects must be worked with neurorehabilitation in order to recover. The physiotherapist deals with the recovery of movement, the speech therapist with language and the neuropsychologist with cognitive aspects. All of them must work in a comprehensive manner to ensure maximum recovery of the functionality of the affected person. Rehabilitation is based on neuroplasticity, which is the brain's ability to modify and adapt in response to environmental demands. Through appropriate training, the aim is to restore the affected brain function to a certain extent. This always depends on the severity, evolutionary moment and time elapsed since the stroke occurred."
         }
-      } 
+      },
+      "fractures":{
+        "definition": {
+          "title":"Fracture Definition",
+          "paragraph": "It is the total or partial breakage of a bone due to various causes; most commonly it is due to an accident, a hard fall or a sports injury. The fracture causes intense pain and depending on the severity may require surgery to reset the bone."
+          },
+          "types":{
+            "title":"Fracture Types",
+            "complete": {
+              "title": "Complete fracture",
+              "paragraph": "The bone is broken into two parts."
+            },
+            "simple":{
+              "title": "Simple fracture",
+              "paragraph": "The bone breaks on one side."
+            },
+            "comminuted":{
+              "title": "Comminuted fracture",
+              "paragraph": "The bone breaks in more than one part or splinters."
+            },
+            "open":{
+              "title": "Open fracture",
+              "paragraph": "The bone protrudes through the skin."
+            },
+            "closed":{
+              "title": "Closed fracture",
+              "paragraph": "There is a break but the bone does not protrude through the skin."
+            }
+          },
+          "symptoms":{
+            "title":"Síntomas",
+            "damage": "Swelling, bruising or bleeding",
+            "tingling": "Numbness and tingling",
+            "limited": "Limited or disabled movement",
+            "deformation": "Deformation of the area",
+            "fever": "Localized fever"
+          },
+          "therapies":{
+            "title":"Terapias",
+            "paragraph": "The local treatment of fractures is based on reduction, immobilization and subsequent recovery. The reduction and immobilization, performed by the specialist, can be done by surgical treatment (osteosynthesis material) or conservative (immobilization with plaster).in our center our physiotherapy service is specialized in rehabilitating hip, femur, shoulder and wrist fractures. These types of fractures are the most common in the elderly."
+          }
+        }  
   }
 }
