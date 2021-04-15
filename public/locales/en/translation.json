@@ -218,6 +218,55 @@
           }
         }
       }
+    },
+    "dementia":{
+      "definition": {
+        "title":"Definition of Dementia",
+        "paragraph1": "Dementia is the leading cause of long-term disability in the elderly, affecting 2% of people aged 65-70 years and older and 20% of those over 80 years of age.",
+        "paragraph2": "It progressively affects the patient's neuronal functions including memory, speech, reasoning, comprehension, behavior and control of emotions. This deterioration incapacitates the patient to perform usual activities until he becomes completely dependent on his caregivers."
+      },
+      "types":{
+        "title":"Types of Dementia",
+        "alzheimer": {
+          "title": "Alzheimer's disease",
+          "paragraph": "Alzheimer's disease is the most common cause of dementia."
+        },
+        "vascular":{
+          "title": "Cardiovascular dementia",
+          "paragraph": "This second most common type of dementia is caused by damage to the vessels that supply blood to the brain. Blood vessel problems can cause strokes or damage the brain in other ways, such as by damaging the white matter fibers of the brain. The most common symptoms of vascular dementia include difficulties with problem solving, slowed thinking, concentration and organization. These tend to be more noticeable than memory loss."
+        },
+        "lewy":{
+          "title": "Dementia with Lewy bodies",
+          "paragraph": "Lewy bodies are abnormal clumps of balloon-shaped proteins that have been found in the brains of people who have dementia with Lewy bodies, Alzheimer's disease and Parkinson's disease. This is one of the most common types of progressive dementia. Common signs and symptoms include physically acting out dreams during sleep, seeing things that are not there (visual hallucinations), and problems with concentration and attention. Other signs include slow or uncoordinated movements, tremors and rigidity."
+        },
+        "tempront":{
+          "title": "Frontotemporal dementia",
+          "paragraph": "This is a group of diseases characterized by the breakdown (degeneration) of nerve cells and their connections in the frontal and temporal lobes of the brain, the areas usually associated with personality, behavior and language. Common symptoms affect behavior, personality, thinking, judgment, language and movement."
+        }
+      },
+      "symptoms":{
+        "title":"Symptoms",
+        "disorientation": "Disorientation",
+        "memory": "Memory impairment",
+        "attention": "Attention deficit",
+        "language": "Language impairment",
+        "apraxias": "Apraxias",
+        "agnosia": "Agnosia",
+        "behaviour": "Behavioral alterations"
+      },
+      "therapies":{
+        "title": "Treatment and prevention",
+        "paragraph": "There is no sure way to prevent dementia, but there are measures that could be helpful. This is where our professionals focus; carrying out all kinds of activities to prevent the early onset of symptoms.",
+        "prevention": {
+          "activity": "Physical and social activity",
+          "active": "Keeping the mind active",
+          "smoke": "No smoking",
+          "vitam": "Consuming enough vitamins",
+          "cardio": "Control cardiovascular risk factors",
+          "eat": "Healthy diet",
+          "sleep": "Good quality of sleep"
+        }
+      }
     }
   }
 }
