@@ -12,6 +12,7 @@ function App() {
 
       <header className="mb-5">
         <CustomNavbar/>
+        <div className="custom__navbar__spacer"></div>
       </header>
 
       <main>
