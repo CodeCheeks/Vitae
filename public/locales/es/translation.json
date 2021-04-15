@@ -219,6 +219,55 @@
             }
           }
         }
+      },
+      "dementia":{
+        "definition": {
+          "title":"Definición de Demencia",
+          "paragraph1": "La demencia es la principal causa de incapacidad en la tercera edad a largo plazo, y afecta al 2% de las personas a partir de los 65-70 años y al 20% de los mayores de 80. Suele comenzar con pequeñas alteraciones de la memoria.",
+          "paragraph2": "Afecta de manera progresiva las funciones neuronales del paciente que incluyen la memoria, el habla, el razonamiento, la compresión, el comportamiento y el control de las emociones. Este deterioro incapacita al paciente para realizar las actividades habituales hasta llegar a una completa dependencia de sus cuidadores."
+        },
+        "types":{
+          "title":"Tipos de Demencia",
+          "alzheimer": {
+            "title": "Enfermedad de Alzheimer",
+            "paragraph": "La enfermedad de Alzheimer es la causa más común de demencia."
+          },
+          "vascular":{
+            "title": "Demencia Cardiovascular",
+            "paragraph": "Este segundo tipo más común de demencia es causado por el daño a los vasos que suministran sangre al cerebro. Los problemas de los vasos sanguíneos pueden causar accidentes cerebrovasculares o dañar el cerebro. Los síntomas más comunes de la demencia vascular incluyen dificultades para resolver problemas, lentitud del pensamiento, concentración y organización. Estos tienden a ser más notorios que la pérdida de memoria."
+          },
+          "lewy":{
+            "title": "Demencia con cuerpos de Lewy",
+            "paragraph": "Los cuerpos de Lewy son grupos anormales de proteínas en forma de globo que se han encontrado en el cerebro de personas que tienen demencia con cuerpos de Lewy, enfermedad de Alzheimer y enfermedad de Parkinson. Este es uno de los tipos más comunes de demencia progresiva. Los signos y síntomas comunes incluyen actuar físicamente los sueños durante el sueño, ver cosas que no existen (alucinaciones visuales) y problemas con la concentración y la atención. Otros signos incluyen movimientos lentos o descoordinados, temblores y rigidez."
+          },
+          "tempront":{
+            "title": "Demencia frontotemporal",
+            "paragraph": "Este es un grupo de enfermedades caracterizadas por la ruptura (degeneración) de las células nerviosas y sus conexiones en los lóbulos frontal y temporal del cerebro, las áreas generalmente asociadas con la personalidad, el comportamiento y el lenguaje. Los síntomas comunes afectan el comportamiento, la personalidad, el pensamiento, el juicio, el lenguaje y el movimiento."
+          }
+        },
+        "symptoms":{
+          "title":"Síntomas",
+          "disorientation": "Desorientación",
+          "memory": "Alteración de la memoria",
+          "attention": "Déficit de atención",
+          "language": "Alteración del lenguaje",
+          "apraxias": "Apraxias",
+          "agnosia": "Agnosia",
+          "behaviour": "Alteraciones conductuales"
+        },
+        "therapies":{
+          "title":"Tratamiento y prevención",
+          "paragraph": "No hay una manera segura de prevenir la demencia, pero hay medidas que podrían ser de utilidad. Es aquí donde nuestros profesionales se centran; llevando acabo todo tipo de actividades para prevenir la aparición temprana de los síntomas.",
+          "prevention": {
+            "activity": "Realizar actividad física y social",
+            "active": "Mantener la mente activa",
+            "smoke": "No fumar",
+            "vitam": "Consumir la cantidad suficiente de vitaminas",
+            "cardio": "Controlar los factores de riesgo cardiovascular",
+            "eat": "Dieta saludable",
+            "sleep": "Buena calidad de sueño"
+          }
+        }
       }
   }
 }

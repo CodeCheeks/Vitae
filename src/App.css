@@ -62,6 +62,10 @@ body {
 }
 
 
+.custom__navbar__spacer{
+  height: 150px;
+}
+
 .custom__spacer{
   height: 300px;
 }

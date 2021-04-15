@@ -13,7 +13,7 @@ const CustomNavbar = () => {
 
       
     return (
-      <Navbar bg="light" expand="lg" >
+      <Navbar bg="light" expand="lg" fixed="top" >
          <Navbar.Brand>
             <NavLink className='link__style'to="/">
               <img src="https://pics.freeicons.io/uploads/icons/png/18081978721600459989-512.png" width="70" height="70" className="d-inline-block align-top mx-3" alt="vitae-logo"/>
