@@ -32,5 +32,38 @@
     "jobs": "Employment",
     "contact": "Contact",
     "login": "Personal area"
+  },
+
+  "specialities":{
+    "ictus":{
+      "definition": {
+        "title":"Definition of stroke",
+        "paragraph": "Stroke, or more commonly known as cerebral infarction or embolism, is a cerebrovascular disease. It occurs when there is a rupture or obstruction in a blood vessel reducing the blood flow to the brain. Because the blood does not reach the brain in the necessary quantity, the nerve cells do not receive oxygen and stop functioning. According to data from the Study Group on Cerebrovascular Diseases of the Spanish Society of Neurology (GEECV-SEM), 650,000 people die of this disease in Europe, of which around 40,000 in Spain."
+        },
+        "types":{
+          "title":"Types of Stroke",
+          "ischemic": {
+            "title": "Ischemic Stroke",
+            "paragraph": "It is caused by the obstruction of an artery leading to the brain; the obstruction is due to the formation of a blood clot and/or an atherosclerotic fat deposit."
+          },
+          "hemorrhagic":{
+            "title": "Hemorrhagic Stroke",
+            "paragraph": "It involves bleeding into the brain, which compresses and damages adjacent brain tissue."
+          }
+        },
+        "symptoms":{
+          "title":"Symptoms",
+          "strength": "Loss of strength in the extremities",
+          "confusion": "Feeling of confusion",
+          "walking": "Difficulty walking",
+          "speech": "Communication problems",
+          "numbness": "Numbness",
+          "vision": "Loss of vision"
+        },
+        "therapies":{
+          "title":"Therapies",
+          "paragraph": "All these motor, perceptual and cognitive aspects must be worked with neurorehabilitation in order to recover. The physiotherapist deals with the recovery of movement, the speech therapist with language and the neuropsychologist with cognitive aspects. All of them must work in a comprehensive manner to ensure maximum recovery of the functionality of the affected person. Rehabilitation is based on neuroplasticity, which is the brain's ability to modify and adapt in response to environmental demands. Through appropriate training, the aim is to restore the affected brain function to a certain extent. This always depends on the severity, evolutionary moment and time elapsed since the stroke occurred."
+        }
+      } 
   }
 }

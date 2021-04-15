@@ -32,5 +32,38 @@
     "jobs": "Empleo",
     "contact": "Contacto",
     "login": "Área Personal"
+  },
+
+  "specialities":{
+    "ictus":{
+      "definition": {
+        "title":"Definición de Ictus",
+        "paragraph": "El ictus o más comúnmente conocido como infarto cerebral o embolia, es una enfermedad cerebrovascular. Se produce cuando hay una rotura u obstrucción en un vaso sanguíneo reduciéndose el flujo de sangre que llega al cerebro. Debido a que la sangre no llega al cerebro en la cantidad necesaria, las células nerviosas no reciben oxígeno y dejan de funcionar. Según datos Del Grupo de Estudios de Enfermedades Cerebrovasculares de la Sociedad Española De Neurología (GEECV-SEM), en Europa mueren 650.000 personas de esta enfermedad, de los cuales alrededor de 40.000 en España."
+        },
+        "types":{
+          "title":"Tipos de Ictus",
+          "ischemic": {
+            "title": "Ictus Isquémico",
+            "paragraph": "Se produce por la obstrucción de una arteria que va al cerebro; la obstrucción es debida a la formación de un coágulo sanguíneo e/o a un depósito de grasa ateroesclerótico."
+          },
+          "hemorrhagic":{
+            "title": "Ictus Hemorrágico",
+            "paragraph": "Implica el sangrado dentro del cerebro, lo que comprime y daña el tejido cerebral adyacente."
+          }
+        },
+        "symptoms":{
+          "title":"Síntomas",
+          "strength": "Pérdida de fuerza en las extremidades",
+          "confusion": "Sensación de confusión",
+          "walking": "Dificultad para caminar",
+          "speech": "Problemas a la hora de comunicarse",
+          "numbness": "Adormecimiento",
+          "vision": "Pérdida de visión"
+        },
+        "therapies":{
+          "title":"Terapias",
+          "paragraph": "Todos estos aspectos motores, perceptivos y cognitivos deben trabajarse con la neurorehabilitación para poder recuperarse. El fisioterapeuta se ocupa de recuperar el movimiento, el logopeda el lenguaje y el neuropsicólogo los aspectos cognitivos. Todos ellos deben trabajar de manera integral para garantizar la máxima recuperación de la funcionalidad de la persona afectada. La rehabilitación se fundamenta en la neuroplasticidad, que es la capacidad del cerebro para modificarse y adaptarse en respuesta a las demandas ambientales. A través de un entrenamiento adecuado se persigue restablecer hasta cierto punto la función cerebral afectada. Esto siempre dependiendo de la gravedad, momento evolutivo y tiempo transcurrido desde que ha ocurrido el ictus."
+        }
+      } 
   }
 }
