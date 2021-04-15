@@ -24,5 +24,17 @@ ul {
 }
 
 .footer__text__1{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+}
+
+.media__icon{
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+    margin: 5px;
+}
+
+.li__element{
+    list-style-type: none;
+    align-self: start;
+    
 }
