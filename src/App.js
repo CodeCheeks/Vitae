@@ -18,6 +18,7 @@ function App() {
         <AppRouter/>
       </main>
 
+      <div className="custom__spacer"></div>
       <footer className="footer">
       <CustomFooter/>
       </footer>
