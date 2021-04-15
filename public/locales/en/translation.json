@@ -64,118 +64,160 @@
           "title":"Therapies",
           "paragraph": "All these motor, perceptual and cognitive aspects must be worked with neurorehabilitation in order to recover. The physiotherapist deals with the recovery of movement, the speech therapist with language and the neuropsychologist with cognitive aspects. All of them must work in a comprehensive manner to ensure maximum recovery of the functionality of the affected person. Rehabilitation is based on neuroplasticity, which is the brain's ability to modify and adapt in response to environmental demands. Through appropriate training, the aim is to restore the affected brain function to a certain extent. This always depends on the severity, evolutionary moment and time elapsed since the stroke occurred."
         }
-      },
-      "fractures":{
-        "definition": {
-          "title":"Fracture Definition",
-          "paragraph": "It is the total or partial breakage of a bone due to various causes; most commonly it is due to an accident, a hard fall or a sports injury. The fracture causes intense pain and depending on the severity may require surgery to reset the bone."
+    },
+    "fractures":{
+      "definition": {
+        "title":"Fracture Definition",
+        "paragraph": "It is the total or partial breakage of a bone due to various causes; most commonly it is due to an accident, a hard fall or a sports injury. The fracture causes intense pain and depending on the severity may require surgery to reset the bone."
+        },
+        "types":{
+          "title":"Fracture Types",
+          "complete": {
+            "title": "Complete fracture",
+            "paragraph": "The bone is broken into two parts."
           },
-          "types":{
-            "title":"Fracture Types",
-            "complete": {
-              "title": "Complete fracture",
-              "paragraph": "The bone is broken into two parts."
-            },
-            "simple":{
-              "title": "Simple fracture",
-              "paragraph": "The bone breaks on one side."
-            },
-            "comminuted":{
-              "title": "Comminuted fracture",
-              "paragraph": "The bone breaks in more than one part or splinters."
-            },
-            "open":{
-              "title": "Open fracture",
-              "paragraph": "The bone protrudes through the skin."
-            },
-            "closed":{
-              "title": "Closed fracture",
-              "paragraph": "There is a break but the bone does not protrude through the skin."
-            }
+          "simple":{
+            "title": "Simple fracture",
+            "paragraph": "The bone breaks on one side."
           },
-          "symptoms":{
-            "title":"Symptoms",
-            "damage": "Swelling, bruising or bleeding",
-            "tingling": "Numbness and tingling",
-            "limited": "Limited or disabled movement",
-            "deformation": "Deformation of the area",
-            "fever": "Localized fever"
+          "comminuted":{
+            "title": "Comminuted fracture",
+            "paragraph": "The bone breaks in more than one part or splinters."
           },
-          "therapies":{
-            "title":"Therapies",
-            "paragraph": "The local treatment of fractures is based on reduction, immobilization and subsequent recovery. The reduction and immobilization, performed by the specialist, can be done by surgical treatment (osteosynthesis material) or conservative (immobilization with plaster).in our center our physiotherapy service is specialized in rehabilitating hip, femur, shoulder and wrist fractures. These types of fractures are the most common in the elderly."
+          "open":{
+            "title": "Open fracture",
+            "paragraph": "The bone protrudes through the skin."
+          },
+          "closed":{
+            "title": "Closed fracture",
+            "paragraph": "There is a break but the bone does not protrude through the skin."
           }
         },
-        "alzheimer":{
-          "definition": {
-            "title":"Definition of Alzheimer's disease",
-            "paragraph": "Alzheimer's is the most common form of dementia, a general term applied to the loss of memory and other cognitive abilities that interfere with daily life. Alzheimer's disease accounts for 60 to 80 percent of dementia cases."
-            },
-            "types":{
-              "title":"Types of Alzheimer's disease",
-              "early": {
-                "title": "Early onset",
-                "paragraph": "Symptoms first appear before the age of 60. This type is much less common than late onset. It tends to worsen rapidly. Early onset disease may be inherited. Several genes have been identified."
-              },
-              "late":{
-                "title": "Late onset",
-                "paragraph": "This is the most common form of the disease. It occurs in people aged 60 years and older. It may be inherited, but the role of genes is less clear."
+        "symptoms":{
+          "title":"Symptoms",
+          "damage": "Swelling, bruising or bleeding",
+          "tingling": "Numbness and tingling",
+          "limited": "Limited or disabled movement",
+          "deformation": "Deformation of the area",
+          "fever": "Localized fever"
+        },
+        "therapies":{
+          "title":"Therapies",
+          "paragraph": "The local treatment of fractures is based on reduction, immobilization and subsequent recovery. The reduction and immobilization, performed by the specialist, can be done by surgical treatment (osteosynthesis material) or conservative (immobilization with plaster).in our center our physiotherapy service is specialized in rehabilitating hip, femur, shoulder and wrist fractures. These types of fractures are the most common in the elderly."
+        }
+      },
+    "alzheimer":{
+      "definition": {
+        "title":"Definition of Alzheimer's disease",
+        "paragraph": "Alzheimer's is the most common form of dementia, a general term applied to the loss of memory and other cognitive abilities that interfere with daily life. Alzheimer's disease accounts for 60 to 80 percent of dementia cases."
+        },
+        "types":{
+          "title":"Types of Alzheimer's disease",
+          "early": {
+            "title": "Early onset",
+            "paragraph": "Symptoms first appear before the age of 60. This type is much less common than late onset. It tends to worsen rapidly. Early onset disease may be inherited. Several genes have been identified."
+          },
+          "late":{
+            "title": "Late onset",
+            "paragraph": "This is the most common form of the disease. It occurs in people aged 60 years and older. It may be inherited, but the role of genes is less clear."
+          }
+        },
+        "symptoms":{
+          "title": "Symptoms",
+          "memory": "Memory impairment",
+          "concentrate": "Difficulty concentrating",
+          "hours": "Confusing the hours",
+          "task": "Problems completing daily tasks",
+          "places": "Confusing places"
+        },
+        "phases":{
+          "title": "Stages of Alzheimer's disease",
+          "phases": {
+            "mild":{
+              "title": "Mild stage",
+              "paragraph1":"In the early stage of Alzheimer's disease, the person can function independently. He or she may be able to drive, work and participate in social activities. Despite this, the person may experience episodes of memory loss, including forgetting familiar words or the location of everyday objects.",
+              "paragraph2": "Friends, family and others begin to notice the difficulties. During a detailed medical interview, doctors may be able to detect memory or concentration problems. Common difficulties include:",
+              "difficulties": {
+                "finding": "Problems finding the correct word or name.",
+                "remembering": "Difficulty remembering names when introduced to new people.",
+                "task": "Difficulty performing tasks in social or work settings.",
+                "forget": "Forgetting something you have just read.",
+                "losing": "Losing or misplacing a valuable object.",
+                "organize": "Having more trouble planning or organizing."
               }
             },
-            "symptoms":{
-              "title": "Symptoms",
-              "memory": "Memory impairment",
-              "concentrate": "Difficulty concentrating",
-              "hours": "Confusing the hours",
-              "task": "Problems completing daily tasks",
-              "places": "Confusing places"
-            },
-            "phases":{
-              "title": "Stages of Alzheimer's disease",
-              "phases": {
-                "mild":{
-                  "title": "Mild stage",
-                  "paragraph1":"In the early stage of Alzheimer's disease, the person can function independently. He or she may be able to drive, work and participate in social activities. Despite this, the person may experience episodes of memory loss, including forgetting familiar words or the location of everyday objects.",
-                  "paragraph2": "Friends, family and others begin to notice the difficulties. During a detailed medical interview, doctors may be able to detect memory or concentration problems. Common difficulties include:",
-                  "difficulties": {
-                    "finding": "Problems finding the correct word or name.",
-                    "remembering": "Difficulty remembering names when introduced to new people.",
-                    "task": "Difficulty performing tasks in social or work settings.",
-                    "forget": "Forgetting something you have just read.",
-                    "losing": "Losing or misplacing a valuable object.",
-                    "organize": "Having more trouble planning or organizing."
-                  }
-                },
-                "moderate":{
-                  "title": "Moderate stage",
-                  "paragraph1": "Moderate Alzheimer's is usually the longest stage and can last for many years. As the disease progresses, the person with Alzheimer's will require a higher level of care.",
-                  "paragraph2": "You may notice that the person with Alzheimer's confuses words, becomes frustrated or angry, or acts unexpectedly (e.g., does not want to take a bath). Damage to nerve cells in the brain can make it difficult to express thoughts and perform everyday tasks. At this point, others may notice symptoms, which may include:",
-                  "difficulties": {
-                    "forget": "Forgetting events or personal history information.",
-                    "moody": "Feeling moody or withdrawn, especially in socially or mentally demanding situations.",
-                    "remember": "Not being able to remember your own address or phone number, or the school or college where you graduated.",
-                    "confusion": "Confusion about the current location and date.",
-                    "clothes": "Need help choosing the right clothes for the season or occasion.",
-                    "bath": "Problem controlling the need to go to the bathroom.",
-                    "night": "Changes in sleep patterns, such as sleeping during the day and being restless at night.",
-                    "lost": "Increased risk of becoming disoriented and lost.",
-                    "behavior": "Personality and behavioral changes."
-                  }
-                },
-                "severe":{
-                  "title": "Severe stage",
-                  "paragraph1": "In the final stage of this disease, people lose the ability to respond to their environment, to carry on a conversation and, eventually, to control movements. They can still speak words or phrases, but communication becomes difficult. As memory and cognitive skills worsen, significant personality changes may occur and people may need a lot of help with daily tasks. At this stage, people can:",
-                  "difficulties": {
-                    "assistance": "Need assistance all the time with daily activities and personal care.",
-                    "notion": "Losing track of recent experiences and the facts surrounding them.",
-                    "physics": "Experience changes in physical abilities, including the ability to speak, sit, and eventually swallow.",
-                    "communication": "Having more difficulty communicating.",
-                    "infections": "Becoming vulnerable to infections, especially pneumonia."
-                  }
-                }
+            "moderate":{
+              "title": "Moderate stage",
+              "paragraph1": "Moderate Alzheimer's is usually the longest stage and can last for many years. As the disease progresses, the person with Alzheimer's will require a higher level of care.",
+              "paragraph2": "You may notice that the person with Alzheimer's confuses words, becomes frustrated or angry, or acts unexpectedly (e.g., does not want to take a bath). Damage to nerve cells in the brain can make it difficult to express thoughts and perform everyday tasks. At this point, others may notice symptoms, which may include:",
+              "difficulties": {
+                "forget": "Forgetting events or personal history information.",
+                "moody": "Feeling moody or withdrawn, especially in socially or mentally demanding situations.",
+                "remember": "Not being able to remember your own address or phone number, or the school or college where you graduated.",
+                "confusion": "Confusion about the current location and date.",
+                "clothes": "Need help choosing the right clothes for the season or occasion.",
+                "bath": "Problem controlling the need to go to the bathroom.",
+                "night": "Changes in sleep patterns, such as sleeping during the day and being restless at night.",
+                "lost": "Increased risk of becoming disoriented and lost.",
+                "behavior": "Personality and behavioral changes."
               }
-              
+            },
+            "severe":{
+              "title": "Severe stage",
+              "paragraph1": "In the final stage of this disease, people lose the ability to respond to their environment, to carry on a conversation and, eventually, to control movements. They can still speak words or phrases, but communication becomes difficult. As memory and cognitive skills worsen, significant personality changes may occur and people may need a lot of help with daily tasks. At this stage, people can:",
+              "difficulties": {
+                "assistance": "Need assistance all the time with daily activities and personal care.",
+                "notion": "Losing track of recent experiences and the facts surrounding them.",
+                "physics": "Experience changes in physical abilities, including the ability to speak, sit, and eventually swallow.",
+                "communication": "Having more difficulty communicating.",
+                "infections": "Becoming vulnerable to infections, especially pneumonia."
+              }
             }
           }
+          
+        }
+    },
+    "parkinson":{
+      "definition": {
+        "title":"Definition of Parkinson's disease",
+        "paragraph1": "Parkinson's disease is a type of movement disorder. It occurs when nerve cells (neurons) do not produce enough of an important chemical in the brain known as dopamine. Some cases are genetic but most do not seem to run in families.",
+        "paragraph2": "Parkinson's disease usually begins around age 60, but may appear earlier. It is much more common among men than women. There is no cure for Parkinson's disease. There are several medications that sometimes help greatly improve symptoms. In severe cases, surgery and deep brain stimulation (electrodes implanted in the brain that send pulses to stimulate the parts of the brain that control movement) may help."
+      },
+      "symptoms":{
+        "title":"Symptoms",
+        "trembling": "Tremors",
+        "small": "Small print",
+        "smell": "Loss of smell",
+        "sleep": "Sleep problems",
+        "move": "Difficulty moving",
+        "low": "Low tone of voice",
+        "dizziness": "Dizziness"
+      },
+      "phases":{
+        "title":"Stages",
+        "phases": {
+          "1":{
+            "title": "First Stage",
+            "paragraph":"During this initial stage, the person has mild symptoms that usually do not interfere with daily activities. The tremor and other movement symptoms occur on only one side of the body. Changes in posture, gait, and facial expressions occur."
+          },
+          "2":{
+            "title": "Second Stage",
+            "paragraph":"Symptoms begin to worsen. Tremor, rigidity and other movement symptoms affect both sides of the body. Problems with walking and poor posture may be evident. The person can still live alone, but daily tasks are more difficult and time-consuming."
+          },
+          "3":{
+            "title": "Third Stage",
+            "paragraph":"It is considered an intermediate stage. The person begins to have difficulty with balance and slowness of movement. Falls are frequent. The person is still fully independent, but symptoms significantly affect activities such as dressing and eating."
+          },
+          "4":{
+            "title": "Fourth Stage",
+            "paragraph":"At this point, symptoms are severe and limiting. The person may require a walker. The person needs help with activities of daily living and cannot live alone."
+          },
+          "5":{
+            "title": "Fifth Stage",
+            "paragraph":"This is the most advanced stage. Stiffness in the legs may make it impossible to stand or walk. Permanent help is required to move with autonomy."
+          }
+        }
+      }
+    }
   }
 }
