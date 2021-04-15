@@ -19,3 +19,10 @@ ul {
     cursor: pointer;
 }
 
+.second__footer{
+    border-top: 2px solid rgba(232,236,241,0.4);
+}
+
+.footer__text__1{
+    font-size: 1.3rem;
+}
