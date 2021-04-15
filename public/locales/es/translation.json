@@ -105,78 +105,124 @@
             "title":"Terapias",
             "paragraph": "El tratamiento local de las fracturas se basa en la reducción, la inmovilización y posteriormente la recuperación. La reducción e inmovilización, realizada por el especialista, puede hacerse mediante tratamiento quirúrgico (material de osteosíntesis) o conservador (inmovilización con yeso).En nuestro centro nuestro servicio de fisioterapia está especializado en rehabilitar fracturas de cadera, fémur, hombro y muñeca. Este tipo de fracturas son las más comunes en las personas de avanzada edad"
           }
-        },
-        "alzheimer":{
-          "definition": {
-            "title":"Definición de Alzheimer",
-            "paragraph": "El Alzheimer es la forma más común de demencia, un término general que se aplica a la pérdida de memoria y otras habilidades cognitivas que interfieren con la vida cotidiana. La enfermedad de Alzheimer es responsable de entre un 60 y un 80 por ciento de los casos de demencia."
+      },
+      "alzheimer":{
+        "definition": {
+          "title":"Definición de Alzheimer",
+          "paragraph": "El Alzheimer es la forma más común de demencia, un término general que se aplica a la pérdida de memoria y otras habilidades cognitivas que interfieren con la vida cotidiana. La enfermedad de Alzheimer es responsable de entre un 60 y un 80 por ciento de los casos de demencia."
+          },
+          "types":{
+            "title":"Tipos de Alzheimer",
+            "early": {
+              "title": "Aparición temprana",
+              "paragraph": "Los síntomas aparecen primero antes de los 60 años. Este tipo es mucho menos común que el de aparición tardía. Tiende a empeorar rápidamente. La enfermedad de aparición temprana puede ser hereditaria. Se han identificado varios genes."
             },
-            "types":{
-              "title":"Tipos de Alzheimer",
-              "early": {
-                "title": "Aparición temprana",
-                "paragraph": "Los síntomas aparecen primero antes de los 60 años. Este tipo es mucho menos común que el de aparición tardía. Tiende a empeorar rápidamente. La enfermedad de aparición temprana puede ser hereditaria. Se han identificado varios genes."
+            "late":{
+              "title": "Aparición tardía",
+              "paragraph": "Esta es la forma más común de la enfermedad. Se presenta en personas de 60 años en adelante. Puede ser hereditario, pero el papel de los genes es menos claro. "
+            }
+          },
+          "symptoms":{
+            "title": "Síntomas",
+            "memory": "Deterioro de la memoria",
+            "concentrate": "Dificultad para concentrarse",
+            "hours": "Confundir las horas",
+            "task": "Problemas para completar tareas diarias",
+            "places": "Confundir lugares"
+          },
+          "phases":{
+            "title":"Fases del Alzheimer",
+            "phases": {
+              "mild":{
+                "title": "Etapa leve",
+                "paragraph1":"En la etapa temprana del Alzheimer, la persona puede desenvolverse de forma independiente. Es posible que pueda conducir, trabajar y participar de actividades sociales. A pesar de esto, la persona puede sentir que tiene episodios de pérdida de memoria, que incluyen olvidarse palabras familiares o la ubicación de objetos cotidianos.",
+                "paragraph2": "Los amigos, familiares y otras personas comienzan a notar las dificultades. Durante una entrevista médica detallada, es posible que los médicos puedan detectar problemas de memoria o concentración. Las dificultades comunes incluyen:",
+                "difficulties": {
+                  "finding": "Problemas para encontrar la palabra o el nombre correctos.",
+                  "remembering": "Dificultad para recordar nombres cuando se presenta a personas nuevas.",
+                  "task": "Dificultad para realizar tareas en entornos sociales o laborales.",
+                  "forget": "Olvidarse de algo que acaba de leer.",
+                  "losing": "Perder o traspapelar un objeto valioso.",
+                  "organize": "Tener más problemas para planificar u organizar."
+                }
               },
-              "late":{
-                "title": "Aparición tardía",
-                "paragraph": "Esta es la forma más común de la enfermedad. Se presenta en personas de 60 años en adelante. Puede ser hereditario, pero el papel de los genes es menos claro. "
-              }
-            },
-            "symptoms":{
-              "title": "Síntomas",
-              "memory": "Deterioro de la memoria",
-              "concentrate": "Dificultad para concentrarse",
-              "hours": "Confundir las horas",
-              "task": "Problemas para completar tareas diarias",
-              "places": "Confundir lugares"
-            },
-            "phases":{
-              "title":"Fases del Alzheimer",
-              "phases": {
-                "mild":{
-                  "title": "Etapa leve",
-                  "paragraph1":"En la etapa temprana del Alzheimer, la persona puede desenvolverse de forma independiente. Es posible que pueda conducir, trabajar y participar de actividades sociales. A pesar de esto, la persona puede sentir que tiene episodios de pérdida de memoria, que incluyen olvidarse palabras familiares o la ubicación de objetos cotidianos.",
-                  "paragraph2": "Los amigos, familiares y otras personas comienzan a notar las dificultades. Durante una entrevista médica detallada, es posible que los médicos puedan detectar problemas de memoria o concentración. Las dificultades comunes incluyen:",
-                  "difficulties": {
-                    "finding": "Problemas para encontrar la palabra o el nombre correctos.",
-                    "remembering": "Dificultad para recordar nombres cuando se presenta a personas nuevas.",
-                    "task": "Dificultad para realizar tareas en entornos sociales o laborales.",
-                    "forget": "Olvidarse de algo que acaba de leer.",
-                    "losing": "Perder o traspapelar un objeto valioso.",
-                    "organize": "Tener más problemas para planificar u organizar."
-                  }
-                },
-                "moderate":{
-                  "title": "Etapa moderada",
-                  "paragraph1": "El Alzheimer moderado generalmente constituye la etapa más prolongada y puede durar muchos años. A medida que la enfermedad avanza, la persona con Alzheimer requerirá un mayor nivel de atención.",
-                  "paragraph2": "Es posible que note que la persona con Alzheimer confunde palabras, se frustra o enoja, o actúa de forma inesperada (por ejemplo, no quiere bañarse). El daño a las células nerviosas del cerebro puede dificultar la expresión de pensamientos y la realización de tareas cotidianas. En este punto, otros podrán notar los síntomas, que pueden incluir:",
-                  "difficulties": {
-                    "forget": "Olvidarse eventos o información de la historia personal.",
-                    "moody": "Sentirse malhumorado o retraído, especialmente en situaciones social o mentalmente exigentes.",
-                    "remember": "No poder recordar la dirección o el número de teléfono propios, o la escuela o universidad donde se graduó.",
-                    "confusion": "Confusión sobre la ubicación y fecha actuales.",
-                    "clothes": "Necesitar ayuda para elegir la ropa adecuada para la temporada o la ocasión.",
-                    "bath": "Problema para controlar la necesidad de ir al baño.",
-                    "night": "Cambios en los patrones de sueño, como dormir durante el día y estar inquieto durante la noche.",
-                    "lost": "Aumento del riesgo de desorientarse y perderse.",
-                    "behavior": "Cambios en la personalidad y el comportamiento."
-                  }
-                },
-                "severe":{
-                  "title": "Etapa grave",
-                  "paragraph1": "En la etapa final de esta enfermedad, las personas pierden la capacidad de responder a su entorno, de llevar adelante una conversación y, eventualmente, de controlar los movimientos. Todavía pueden decir palabras o frases, pero la comunicación se torna difícil. A medida que la memoria y las habilidades cognitivas empeoran, es posible que ocurran cambios significativos en la personalidad y que las personas necesiten mucha ayuda con las tareas diarias.",
-                  "paragraph2": "En esta etapa, las personas pueden:",
-                  "difficulties": {
-                    "assistance": "Necesitar asistencia todo el tiempo con las actividades diarias y el cuidado personal.",
-                    "notion": "Perder la noción de experiencias recientes y los hechos que las rodean.",
-                    "physics": "Experimentar cambios en las capacidades físicas, incluida la capacidad de hablar, sentarse y, eventualmente, tragar.",
-                    "communication": "Tener más dificultad para comunicarse",
-                    "infections": "Volverse vulnerables a infecciones, especialmente neumonía"
-                  }
+              "moderate":{
+                "title": "Etapa moderada",
+                "paragraph1": "El Alzheimer moderado generalmente constituye la etapa más prolongada y puede durar muchos años. A medida que la enfermedad avanza, la persona con Alzheimer requerirá un mayor nivel de atención.",
+                "paragraph2": "Es posible que note que la persona con Alzheimer confunde palabras, se frustra o enoja, o actúa de forma inesperada (por ejemplo, no quiere bañarse). El daño a las células nerviosas del cerebro puede dificultar la expresión de pensamientos y la realización de tareas cotidianas. En este punto, otros podrán notar los síntomas, que pueden incluir:",
+                "difficulties": {
+                  "forget": "Olvidarse eventos o información de la historia personal.",
+                  "moody": "Sentirse malhumorado o retraído, especialmente en situaciones social o mentalmente exigentes.",
+                  "remember": "No poder recordar la dirección o el número de teléfono propios, o la escuela o universidad donde se graduó.",
+                  "confusion": "Confusión sobre la ubicación y fecha actuales.",
+                  "clothes": "Necesitar ayuda para elegir la ropa adecuada para la temporada o la ocasión.",
+                  "bath": "Problema para controlar la necesidad de ir al baño.",
+                  "night": "Cambios en los patrones de sueño, como dormir durante el día y estar inquieto durante la noche.",
+                  "lost": "Aumento del riesgo de desorientarse y perderse.",
+                  "behavior": "Cambios en la personalidad y el comportamiento."
+                }
+              },
+              "severe":{
+                "title": "Etapa grave",
+                "paragraph1": "En la etapa final de esta enfermedad, las personas pierden la capacidad de responder a su entorno, de llevar adelante una conversación y, eventualmente, de controlar los movimientos. Todavía pueden decir palabras o frases, pero la comunicación se torna difícil. A medida que la memoria y las habilidades cognitivas empeoran, es posible que ocurran cambios significativos en la personalidad y que las personas necesiten mucha ayuda con las tareas diarias.",
+                "paragraph2": "En esta etapa, las personas pueden:",
+                "difficulties": {
+                  "assistance": "Necesitar asistencia todo el tiempo con las actividades diarias y el cuidado personal.",
+                  "notion": "Perder la noción de experiencias recientes y los hechos que las rodean.",
+                  "physics": "Experimentar cambios en las capacidades físicas, incluida la capacidad de hablar, sentarse y, eventualmente, tragar.",
+                  "communication": "Tener más dificultad para comunicarse",
+                  "infections": "Volverse vulnerables a infecciones, especialmente neumonía"
                 }
               }
-              
             }
-          } 
+            
+          }
+      },
+      "parkinson":{
+        "definition": {
+          "title":"Definición de Parkinson",
+          "paragraph1": "La enfermedad de Parkinson es un tipo de trastorno del movimiento. Ocurre cuando las células nerviosas (neuronas) no producen suficiente cantidad de una sustancia química importante en el cerebro conocida como dopamina. Algunos casos son genéticos pero la mayoría no parecen darse entre miembros de una misma familia.",
+          "paragraph2": "La enfermedad de Parkinson suele comenzar alrededor de los 60 años, pero puede aparecer antes. Es mucho más común entre los hombres que entre las mujeres. No existe una cura para la enfermedad de Parkinson. Existen diversas medicinas que a veces ayudan a mejorar enormemente los síntomas. En casos severos, una cirugía y estimulación cerebral profunda (electrodos implantados en el cerebro que envían pulsos para estimular las partes del cerebro que controlan el movimiento) pueden ayudar. "
+        },
+        "symptoms":{
+          "title":"Síntomas",
+          "trembling": "Temblor",
+          "small": "Letra pequeña",
+          "smell": "Pérdida de olfato",
+          "sleep": "Problemas con el sueño",
+          "move": "Dificultad para moverse",
+          "low": "Tono de voz bajo",
+          "dizziness": "Mareos"
+        },
+        "phases":{
+          "title":"Etapas",
+          "phases": {
+            "1":{
+              "title": "Primera Etapa",
+              "paragraph":"Durante esta etapa inicial, la persona presenta síntomas leves que generalmente no interfieren con las actividades diarias. El temblor y otros síntomas de movimiento ocurren en un solo lado del cuerpo. Se producen cambios en la postura, la marcha y las expresiones faciales."
+            },
+            "2":{
+              "title": "Segunda Etapa",
+              "paragraph":"Los síntomas comienzan a empeorar. El temblor, la rigidez y otros síntomas del movimiento afectan a ambos lados del cuerpo. Pueden ser evidentes problemas para caminar y una mala postura. La persona aún puede vivir sola, pero las tareas diarias son más difíciles y largas."
+            },
+            "3":{
+              "title": "Tercera Etapa",
+              "paragraph":"Se la considera una etapa intermedia. La persona comienza a tener dificultades con el equilibrio y lentitud en los movimientos. Las caídas son frecuentes. La persona todavía es completamente independiente, pero los síntomas afectan significativamente actividades como vestirse y comer."
+            },
+            "4":{
+              "title": "Cuarta Etapa",
+              "paragraph":"En este punto, los síntomas son graves y limitantes. La persona puede requerir un andador. La persona necesita ayuda con las actividades de la vida diaria y no puede vivir sola."
+            },
+            "5":{
+              "title": "Quinta Etapa",
+              "paragraph":"Esta es la etapa más avanzada. La rigidez en las piernas puede hacer que sea imposible pararse o caminar. Se requiere ayuda permanente para moverse con autonomía."
+            }
+          }
+        }
+      }
   }
 }
+
+
+  
+    
