@@ -25,9 +25,9 @@ const CustomNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto container d-flex justify-content-center">
           
-            <NavDropdown className='link__style text__style' title={<span className=" text__style">{t('navbar.services.title')}</span>} id="Servicios" className='link__style text__style' >
+            <NavDropdown className='link__style text__style' title={<span className=" text__style">{t('navbar.services.title')}</span>} id="Servicios">
                 <NavDropdown title={<span className="link__style text__style__sm ">{t('navbar.services.terapeutics.title')}</span>} id="terapeuticos" className='dropdown__content'>
-                  <NavDropdown.Item><NavLink to="/servicios/terapias/Fisioterapia" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.physiotherapy')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/terapias/fisioterapia" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.physiotherapy')}</NavLink></NavDropdown.Item>
                   <NavDropdown.Item><NavLink to="/servicios/terapias/psicologia" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.psychology')}</NavLink></NavDropdown.Item>
                   <NavDropdown.Item><NavLink to="/servicios/terapias/terapia-ocupacional" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.ot')}</NavLink></NavDropdown.Item>
                   <NavDropdown.Item><NavLink to="/servicios/terapias/animacion" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.recreation')}</NavLink></NavDropdown.Item>

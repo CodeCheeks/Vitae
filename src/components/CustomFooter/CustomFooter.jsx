@@ -34,7 +34,6 @@ import './CustomFooter.css'
                         <Link to="/preguntas-frecuentes" className="text-light h5 mx-2">FAQs</Link>
                         <Link to="/sobre-nosotros" className="text-light h5 mx-2">Nosotros</Link>
                         <Link to="/empleo" className="text-light h5 mx-2">Empleo</Link>
-                        <h6></h6>
                         <div className='d-flex justify-content-center align-items-center'> 
                             <Link onClick={() => i18n.changeLanguage('en')} className="text-light h5 mx-2">EN</Link>
                             <Link onClick={() => i18n.changeLanguage('es')} className="text-light h5 mx-2">ES</Link>
@@ -46,9 +45,8 @@ import './CustomFooter.css'
                                 <img className="footer__img" src="../../../media/images/fake_map.png" alt="fake-map"/>
                             </div>
                             <div className="col">
-                                <h6 className="text-light">Avenida de las Castañas</h6>
-                                <h6 className="text-light">Nº46   28056</h6>
-                                <h6 className="text-light">Madrid</h6>
+                                <h6 className="text-light">Avenida de las Castañas Nº46</h6>
+                                <h6 className="text-light">28056 Madrid</h6>
                             </div>
                         </div>
                     </div>
