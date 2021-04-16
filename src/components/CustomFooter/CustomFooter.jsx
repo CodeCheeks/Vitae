@@ -29,7 +29,7 @@ import './CustomFooter.css'
                         </div> 
                     </div>
                     
-                    <div className="d-flex  flex-column justify-content-center align-items-center col mt-4">
+                    <div className=" justify-content-center align-items-center col mt-4 footer__list">
                         <Link to="/ayudas" className="text-light h5 mx-2">Ayudas</Link>
                         <Link to="/preguntas-frecuentes" className="text-light h5 mx-2">FAQs</Link>
                         <Link to="/sobre-nosotros" className="text-light h5 mx-2">Nosotros</Link>
@@ -39,7 +39,7 @@ import './CustomFooter.css'
                             <Link onClick={() => i18n.changeLanguage('es')} className="text-light h5 mx-2">ES</Link>
                         </div>
                     </div>
-                    <div className="col border-left d-none d-sm-none d-md-block">
+                    <div className="col border-left d-none d-sm-none d-lg-block">
                         <div className="row d-flex align-items-center">
                             <div className="col">
                                 <img className="footer__img" src="../../../media/images/fake_map.png" alt="fake-map"/>

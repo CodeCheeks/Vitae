@@ -38,3 +38,15 @@ ul {
     align-self: start;
     
 }
+
+.footer__list{
+    display: flex;
+    flex-direction: column ;
+}
+
+@media screen and (max-width: 460px) {
+    .footer__list{
+        display: flex;
+        flex-direction: row ;
+    }
+  }
