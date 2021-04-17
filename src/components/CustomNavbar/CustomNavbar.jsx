@@ -49,14 +49,14 @@ const CustomNavbar = () => {
               <NavDropdown.Item><NavLink to="/especialidades/depresion" className='link__style text__style__sm' activeClassName="selected">{t('navbar.specialities.depression')}</NavLink></NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link><NavLink to="/ayudas" className='link__style text__style' activeClassName="selected">{t('navbar.aids')}</NavLink></Nav.Link>
-            <Nav.Link><NavLink to="/preguntas-frecuentes" className='link__style text__style' activeClassName="selected">{t('navbar.faq')}</NavLink></Nav.Link>
-            <Nav.Link><NavLink to="/sobre-nosotros" className='link__style text__style' activeClassName="selected">{t('navbar.about')}</NavLink></Nav.Link>
-            <Nav.Link><NavLink to="/empleo" className='link__style text__style' activeClassName="selected">{t('navbar.jobs')}</NavLink></Nav.Link>
-            <Nav.Link><NavLink to="/contacto" className='link__style text__style' activeClassName="selected">{t('navbar.contact')}</NavLink></Nav.Link>
+            <NavLink to="/ayudas" className='link__style text__style' activeClassName="selected">{t('navbar.aids')}</NavLink>
+            <NavLink to="/preguntas-frecuentes" className='link__style text__style' activeClassName="selected">{t('navbar.faq')}</NavLink>
+            <NavLink to="/sobre-nosotros" className='link__style text__style' activeClassName="selected">{t('navbar.about')}</NavLink>
+            <NavLink to="/empleo" className='link__style text__style' activeClassName="selected">{t('navbar.jobs')}</NavLink>
+            <NavLink to="/contacto" className='link__style text__style' activeClassName="selected">{t('navbar.contact')}</NavLink>
 
           </Nav>
-          <Nav.Link><NavLink to="/area-personal" activeClassName="selected" className='link__style text__style'>{t('navbar.login')}</NavLink></Nav.Link>
+          <NavLink to="/area-personal" activeClassName="selected" className='link__style text__style'>{t('navbar.login')}</NavLink>
 
         </Navbar.Collapse>
       </Navbar>

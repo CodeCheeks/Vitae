@@ -35,8 +35,8 @@ import './CustomFooter.css'
                         <Link to="/sobre-nosotros" className="text-light h5 mx-2">Nosotros</Link>
                         <Link to="/empleo" className="text-light h5 mx-2">Empleo</Link>
                         <div className='d-flex justify-content-center align-items-center'> 
-                            <Link onClick={() => i18n.changeLanguage('en')} className="text-light h5 mx-2">EN</Link>
-                            <Link onClick={() => i18n.changeLanguage('es')} className="text-light h5 mx-2">ES</Link>
+                            <Link to="#" onClick={() => i18n.changeLanguage('en')} className="text-light h5 mx-2">EN</Link>
+                            <Link to="#" onClick={() => i18n.changeLanguage('es')} className="text-light h5 mx-2">ES</Link>
                         </div>
                     </div>
                     <div className="col border-left d-none d-sm-none d-lg-block">
