@@ -1,14 +1,14 @@
-import React, { Suspense } from 'react'
+import React, { Suspense, useContext } from 'react'
 import './CustomNavbar.css'
 //components
 import {NavLink} from 'react-router-dom'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
-
+import { UserContext } from "../../contexts/UserContext";
 import { useTranslation } from 'react-i18next';
-
+import { logout } from "../../store/AccessTokenStore";
 
 const CustomNavbar = () => { 
-
+  const { user } = useContext(UserContext);
   const { t } = useTranslation();
 
       
@@ -56,8 +56,10 @@ const CustomNavbar = () => {
             <NavLink to="/contacto" className='link__style text__style' activeClassName="selected">{t('navbar.contact')}</NavLink>
 
           </Nav>
-          <NavLink to="/area-personal" activeClassName="selected" className='link__style text__style'>{t('navbar.login')}</NavLink>
-
+          {!user ? 
+          (<NavLink to="/iniciar-sesion" activeClassName="selected" className='link__style text__style'>{t('navbar.login')}</NavLink>)
+          :
+          (<NavLink to="/" onClick={logout} className='link__style text__style'>{t('navbar.logout')}</NavLink>)}
         </Navbar.Collapse>
       </Navbar>
     )

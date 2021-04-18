@@ -31,7 +31,8 @@
     "about": "About us",
     "jobs": "Employment",
     "contact": "Contact",
-    "login": "Personal area"
+    "login": "Sign in",
+    "logout": "Logout"
   },
 
   "specialities":{

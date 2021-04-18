@@ -31,7 +31,8 @@
     "about": "Sobre Nosotros",
     "jobs": "Empleo",
     "contact": "Contacto",
-    "login": "Área Personal"
+    "login": "Iniciar Sesión",
+    "logout": "Cerrar Sesión"
   },
 
   "specialities":{

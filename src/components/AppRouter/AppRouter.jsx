@@ -32,7 +32,7 @@ import FAQ from '../Views/FAQ/FAQ'
 import Contacto from '../Views/Contacto/Contacto'
 import Empleo from '../Views/Empleo/Empleo'
 import SobreNosotros from '../Views/SobreNosotros/SobreNosotros'
-import AreaPersonal from '../Views/AreaPersonal/AreaPersonal'
+import Login from '../Views/Login/Login'
 
 import NotFound from '../Views/NotFound/NotFound'
 
@@ -71,7 +71,7 @@ const AppRouter = () => {
             <Route exact path="/sobre-nosotros" component={SobreNosotros} />
             <Route exact path="/empleo" component={Empleo} />
             <Route exact path="/contacto" component={Contacto} />
-            <Route exact path="/area-personal" component={AreaPersonal} />
+            <Route exact path="/iniciar-sesion" component={Login} />
 
             <Route component={NotFound} />
         </Switch>
