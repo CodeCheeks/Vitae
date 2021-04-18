@@ -1,5 +1,6 @@
-import React from 'react'
-import { Route, Switch } from 'react-router-dom'
+import React, { useContext } from 'react'
+import { Redirect, Route, Switch } from 'react-router-dom'
+import { UserContext } from "../../contexts/UserContext";
 
 //views
 import Home from '../Views/Home/Home'
@@ -33,11 +34,13 @@ import Contacto from '../Views/Contacto/Contacto'
 import Empleo from '../Views/Empleo/Empleo'
 import SobreNosotros from '../Views/SobreNosotros/SobreNosotros'
 import Login from '../Views/Login/Login'
-
+import PersonalArea from '../Views/PersonalArea/PersonalArea'
 import NotFound from '../Views/NotFound/NotFound'
 
 
 const AppRouter = () => {
+
+    const { user } = useContext(UserContext);
 
     return(
         <Switch>
@@ -72,6 +75,9 @@ const AppRouter = () => {
             <Route exact path="/empleo" component={Empleo} />
             <Route exact path="/contacto" component={Contacto} />
             <Route exact path="/iniciar-sesion" component={Login} />
+            <Route exact path="/area-personal" component={PersonalArea}>
+                {!user ? <Redirect to="/iniciar-sesion" /> : <PersonalArea/>}
+            </Route>
 
             <Route component={NotFound} />
         </Switch>

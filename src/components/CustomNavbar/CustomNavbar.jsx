@@ -56,10 +56,12 @@ const CustomNavbar = () => {
             <NavLink to="/contacto" className='link__style text__style' activeClassName="selected">{t('navbar.contact')}</NavLink>
 
           </Nav>
+          {user && (<NavLink to="/area-personal" className='link__style text__style'>{t('navbar.area')}</NavLink>)}
           {!user ? 
-          (<NavLink to="/iniciar-sesion" activeClassName="selected" className='link__style text__style'>{t('navbar.login')}</NavLink>)
+            (<NavLink to="/iniciar-sesion" activeClassName="selected" className='link__style text__style'>{t('navbar.login')}</NavLink>)
           :
-          (<NavLink to="/" onClick={logout} className='link__style text__style'>{t('navbar.logout')}</NavLink>)}
+            (<NavLink to="/" onClick={logout} className='link__style text__style'>{t('navbar.logout')}</NavLink>)
+          }
         </Navbar.Collapse>
       </Navbar>
     )
