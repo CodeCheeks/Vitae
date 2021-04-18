@@ -1,7 +1,7 @@
 import './Login.css'
-import React, { useState } from 'react';
+import React, { Suspense, useState } from 'react';
 import { useHistory } from 'react-router';
-
+import { useTranslation } from 'react-i18next';
 import { useUser } from '../../../hooks/useUser';
 import { login } from '../../../services/AuthService';
 import { setAccessToken } from '../../../store/AccessTokenStore';
@@ -9,6 +9,7 @@ import { setAccessToken } from '../../../store/AccessTokenStore';
 
 // eslint-disable-next-line no-useless-escape
 const EMAIL_PATTERN = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+
 
 const validators = {
   email: (value) => {
@@ -28,16 +29,17 @@ const validators = {
     if (!value) {
       message = "Password is required";
     } else if (value && value.length < 8) {
-      message = "Password must have 8 character or more";
+      message = "Incorrect password";
     }
 
     return message;
   },
 };
 
-const AreaPersonal = () => {
+const Login = () => {
   const { push } = useHistory();
   const { getUser: doLogin } = useUser();
+  const { t } = useTranslation();
 
   const [state, setState] = useState({
     fields: {
@@ -64,7 +66,7 @@ const AreaPersonal = () => {
     if (isValid()) {
       login(fields).then((response) => {
         setAccessToken(response.access_token);
-        doLogin().then(() => push("/"));
+        doLogin().then(() => push("/area-personal"));
       });
     }
   };
@@ -105,12 +107,14 @@ const AreaPersonal = () => {
   const { email, password } = state.fields;
   const { errors } = state;
 
+ 
   return (
+
     <div className="Login mt-4 container d-flex justify-content-center">
       <form onSubmit={onSubmit} style={{ maxWidth: 500 }}>
         <div className="mb-3">
           <label htmlFor="email" className="form-label">
-            Email address
+          {t('login.email.title')}
           </label>
           <input
             className={`form-control custom__input ${touched.email && errors.email ? "is-invalid" : ""}`}
@@ -123,12 +127,12 @@ const AreaPersonal = () => {
             onBlur={onBlur}
             onFocus={onFocus}
           />
-          <div className="invalid-feedback">{errors.email}</div>
+          <div className="invalid-feedback">{errors.email==="Email is required" ?  t('login.email.error.required') : t('login.email.error.invalid')}</div>
         </div>
 
         <div className="mb-3">
           <label htmlFor="password" className="form-label">
-            Password
+          {t('login.pass.title')}
           </label>
           <input
             className={`form-control ${
@@ -142,7 +146,7 @@ const AreaPersonal = () => {
             onBlur={onBlur}
             onFocus={onFocus}
           />
-          <div className="invalid-feedback">{errors.password}</div>
+          <div className="invalid-feedback">{errors.password==="Password is required" ?  t('login.pass.error.required') : t('login.pass.error.invalid')}</div>
         </div>
 
         <button
@@ -157,4 +161,12 @@ const AreaPersonal = () => {
   );
 };
 
-export default AreaPersonal;
+
+
+export default function App() {
+  return (
+    <Suspense fallback="loading">
+      <Login />
+    </Suspense>
+  );
+}

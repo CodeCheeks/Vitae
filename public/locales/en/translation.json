@@ -31,8 +31,25 @@
     "about": "About us",
     "jobs": "Employment",
     "contact": "Contact",
+    "area": "Personal Area",
     "login": "Sign in",
     "logout": "Logout"
+  },
+  "login" :{
+    "email": {
+      "title":"Email address",
+      "error": {
+        "required": "Email is required",
+        "invalid": "Email is invalid"
+      }
+    },
+    "pass": {
+      "title":"Password",
+      "error": {
+        "required": "Password is required",
+        "invalid": "Incorrect password"
+      }
+    }
   },
 
   "specialities":{

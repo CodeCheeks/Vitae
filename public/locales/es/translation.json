@@ -31,8 +31,25 @@
     "about": "Sobre Nosotros",
     "jobs": "Empleo",
     "contact": "Contacto",
+    "area": "Área Personal",
     "login": "Iniciar Sesión",
     "logout": "Cerrar Sesión"
+  },
+  "login" :{
+    "email": {
+      "title":"Correo Electrónico",
+      "error": {
+        "required": "Introduzca el correo electrónico",
+        "invalid": "Email incorrecto"
+      }
+    },
+    "pass": {
+      "title":"Contraseña",
+      "error": {
+        "required": "Introduzca la contraseña",
+        "invalid": "Contraseña incorrecta"
+      }
+    }
   },
 
   "specialities":{

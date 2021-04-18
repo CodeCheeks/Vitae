@@ -118,9 +118,13 @@ const Banner = () => {
                 banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572705/Vitae/imagenes/banner/banner-contact_qypewq.jpg)"
                 banner.title = 'navbar.contact'
                 break;
-            case "area-personal":
+            case "iniciar-sesion":
                 banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572633/Vitae/imagenes/banner/banner-aboutus_rx0tsn.jpg)"
                 banner.title = 'navbar.login'
+                break;
+            case "area-personal":
+                banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572633/Vitae/imagenes/banner/banner-aboutus_rx0tsn.jpg)"
+                banner.title = 'navbar.area'
                 break;
 
             default:
