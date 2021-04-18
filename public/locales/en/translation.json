@@ -285,6 +285,39 @@
           "sleep": "Good quality of sleep"
         }
       }
+    },
+    "depression":{
+      "definition": {
+        "title":"Definition of Depression",
+        "paragraph1": "Depression is a mental illness. It is a mood disorder in which feelings of sadness, loss, anger, or frustration interfere with daily life for weeks or longer. Depression in older adults is a widespread problem, but it is not a normal part of aging. It often goes unrecognized and untreated.",
+        "paragraph2": "An elderly person may also feel a loss of control over his or her life due to problems with eyesight, hearing loss and other physical changes, as well as external pressures such as limited financial resources. These and other issues often leave negative emotions such as sadness, anxiety, loneliness and low self-esteem, which in turn lead to social isolation and apathy."
+      },
+      "types":{
+        "title":"Types of depression",
+        "severe": {
+          "title": "Severe depression",
+          "paragraph": "Severe symptoms that interfere with the ability to work, sleep, concentrate, eat and enjoy life. Some people may have only one episode in a lifetime, but it is more common to have several episodes."
+        },
+        "persistant":{
+          "title": "Persistent depressive disorder (dysthymia)",
+          "paragraph": "Depressive symptoms not as strong as those of major depression, but lasting for a long time (at least two years)."
+        },
+        "minor":{
+          "title": "Minor depression",
+          "paragraph": "Depressive symptoms that are not as strong as those of major depression or persistent depressive disorder and do not last long."
+        }
+      },
+      "symptoms":{
+        "title":"Symptoms",
+        "low": "Low mood",
+        "interest": "Loss of interest",
+        "pessimism": "Pessimism",
+        "fatigue": "Fatigue"
+      },
+      "therapies":{
+        "title":"Treatment and prevention",
+        "paragraph": "The good news is that, in most cases, depression in the elderly is treatable. Appropriate treatment can help improve overall health and quality of life. With proper treatment, you can begin to see improvements as soon as two weeks after starting treatment. Some symptoms may begin to improve within a week or two, but it may take several weeks before the full effect is felt."
+      }
     }
   }
 }

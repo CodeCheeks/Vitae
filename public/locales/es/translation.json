@@ -286,6 +286,39 @@
             "sleep": "Buena calidad de sueño"
           }
         }
+      },
+      "depression":{
+        "definition": {
+          "title":"Definición de Depresión",
+          "paragraph1": "La depresión es una enfermedad mental. Es un trastorno del estado de ánimo en el cual los sentimientos de tristeza, pérdida, ira o frustración interfieren con la vida diaria durante semanas o por más tiempo. La depresión en los adultos mayores es un problema generalizado, pero no es una parte normal del envejecimiento. Con frecuencia, no se reconoce ni recibe tratamiento.",
+          "paragraph2": "Una persona de edad avanzada también puede sentir una pérdida de control sobre su vida debido a problemas con la vista, pérdida de la audición y otros cambios físicos, así como presiones externas como, por ejemplo, recursos financieros limitados. Estos y otros asuntos suelen dejar emociones negativas como la tristeza, la ansiedad, la soledad y la baja autoestima, que a su vez conducen al aislamiento social y la apatía."
+        },
+        "types":{
+          "title":"Tipos de depresión",
+          "severe": {
+            "title": "Depresión grave o mayor:",
+            "paragraph": "Síntomas graves que interfieren con la capacidad de trabajar, dormir, concentrarse, comer y disfrutar de la vida. Algunas personas pueden tener un solo episodio en la vida, pero es más común tener varios episodios."
+          },
+          "persistant":{
+            "title": "Trastorno depresivo persistente (distimia):",
+            "paragraph": "Síntomas de depresión no tan fuertes como los de la depresión grave, pero que duran por mucho tiempo (por lo menos dos años)."
+          },
+          "minor":{
+            "title": "Depresión menor:",
+            "paragraph": "Síntomas de depresión que no son tan fuertes como los de la depresión grave o del trastorno depresivo persistente y que no duran mucho tiempo."
+          }
+        },
+        "symptoms":{
+          "title":"Síntomas",
+          "low": "Bajo estado de ánimo",
+          "interest": "Pérdida de interés ",
+          "pessimism": "Pesimismo",
+          "fatigue": "Fatiga"
+        },
+        "therapies":{
+          "title":"Tratamiento y prevención",
+          "paragraph": "La buena noticia es que, en la mayoría de los casos, la depresión en las personas mayores es tratable. El tratamiento apropiado puede ayudar a mejorar la salud en general y la calidad de vida. Con el tratamiento apropiado, se puede comenzar a ver mejoras tan pronto como dos semanas después de iniciarlo. Algunos síntomas pueden comenzar a mejorar al cabo de una o dos semanas, pero es posible que pasen varias semanas antes de sentir el efecto total."
+        }
       }
   }
 }
