@@ -1,0 +1,23 @@
+:root {
+    --light-blue-color: #2fb2b9;
+    --medium-blue-color: #3e7dd0;
+    --primary-blue-color: #007bff;
+    --secondary-blue-color: #44697d;
+}
+
+.title__style{
+    color: var(--light-blue-color);
+    font-weight: 500 !important;
+    font-size: 1.3rem ;
+}
+
+.answer__style{
+    color: var( --secondary-blue-color);
+    font-weight: 300 !important;
+    font-size: 1.1rem ;
+}
+
+.accordion__style{
+    cursor: pointer;
+}
+

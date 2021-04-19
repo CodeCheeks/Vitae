@@ -320,6 +320,96 @@
           "paragraph": "La buena noticia es que, en la mayoría de los casos, la depresión en las personas mayores es tratable. El tratamiento apropiado puede ayudar a mejorar la salud en general y la calidad de vida. Con el tratamiento apropiado, se puede comenzar a ver mejoras tan pronto como dos semanas después de iniciarlo. Algunos síntomas pueden comenzar a mejorar al cabo de una o dos semanas, pero es posible que pasen varias semanas antes de sentir el efecto total."
         }
       }
+  },
+  "faq":{
+    "1": {
+      "ask":"¿Qué es un centro de día para personas mayores?",
+      "answer": "Es un espacio donde las personas mayores con deterioro cognitivo leve o moderado, acuden diariamente, algunos días u horas a la semana, para trabajar a nivel físico y funcional aquellas partes de su organismo que necesitan una estimulación especializada."
+    },
+    "2": {
+      "ask":"¿Qué ventajas tiene ir a un centro de día?",
+      "answer": "Cuando existe una patología, es importantísima la prevención de futuras limitaciones y el fortalecimiento y mejora de las habilidades actuales. Eso se consigue con rehabilitación física, cognitiva y funcional diaria.Además, existe riesgo de aislamiento social porque la persona no se ve o cree capaz de hacer cosas, por el qué dirán los demás, … Y acudir con personas que han pasado ese trance y poder hablar con ellas, compartir intereses, tomarse un café con amigos e sun gran aliciente en la vida.Y a los familiares les da la oportunidad de conocer gente que está atravesando la misma situación, conocer experiencias, hablar con profesionales."
+    },
+    "3": {
+      "ask":"¿A partir de qué edad puedo ir?",
+      "answer": "Vitae está pensado para atender las necesidades físicas, sociales y cognitivas de adultos que padezcan patologías limitantes que requieran de rehabilitación diaria."
+    },
+    "4": {
+      "ask":"¿Cómo se hace el ingreso en un Centro de Día?",
+      "answer": "Es un proceso muy sencillo en el que el/la Director/a del Centro de Día te irá guiando hasta completar la información que hace falta. Básicamente son datos personales, expedientes médicos así como otra información de carácter personal que la Directora deba tener en cuenta. Si no se tiene todo en el momento del ingreso, no pasa nada, se completará más adelante. "
+    },
+    "5": {
+      "ask":"¿Puedo ir a la hora que quiera?",
+      "answer": "No es imprescindible. Nuestro Centro de Día está abierto de Lunes a Viernes de 08:00 a 18:00 horas. Elige el horario que mejor se adapte a tus necesidades."
+    },
+    "6": {
+      "ask":"¿Qué ocurre si mi familiar no se adapta al centro de día?",
+      "answer": "Es difícil que esto ocurra si el perfil de usuario es el adecuado para un Centro de Día, aspecto que evaluamos en el momento del ingreso. Dicho esto, la gran mayoría de los usuarios que acuden a nuestro centro, se adaptan perfectamente en un plazo entre una y tres semanas. De ello depende en gran medida de la colaboración de los familiares. No obstante si por lo que fuera finalmente no se consiguiera la adaptación del mayor al Centro, se procedería a buscar alguna otra alternativa, o incluso la baja sin ningún problema si fuera necesario."
+    },
+    "7": {
+      "ask":"¿Cuándo y cómo le digo a mi familiar que tiene que ir a un Centro de Día?",
+      "answer": "Hay que personalizar cada caso, ya que dependerá de la situación de la persona, la familia y sus necesidades concretas. Lo que es muy importante, es acudir previamente a un Centro de Día para que el equipo profesional del Centro te asesore una vez le hayas contado cual es tu necesidad y la situación de tu mayor. Para los familiares probablemente esta situación es nueva y por tanto desconocida; en los Centros de Día por el contrario, estamos especializados en atender este tipo de situaciones."
+    },
+    "8": {
+      "ask":"¿Cuánto cuesta un Centro de Día?",
+      "answer": "Cada persona necesita un plan adaptado a su necesidad concreta. Del mismo modo, las tarifas se ajustarán a lo que cada usuario requiera en cada momento, al grado de dependencia y al centro por el que esté interesado. "
+    },
+    "9": {
+      "ask":"¿Existen subvenciones para pagar la cuota mensual?",
+      "answer": "Así es, las diferentes competencias autonómicas ponen a disposición del ciudadano subvenciones para ayudar a pagar estos servicios, en caso de necesidad. Coméntanos tu situación, te informaremos y haremos los trámites necesarios. También ponemos a disposición un cheque Vitae para facilitar ayuda económica a los familiares de los usuarios que lo necesiten."
+    },
+    "10": {
+      "ask":"¿Cómo se pide el Cheque Servicio (Prestación económica establecida en la Ley de Dependencia)?",
+      "answer": "Previamente hay que solicitar el PIA (Programa Individual de Atención), establecido y regulado en la Ley de Dependencia y posteriormente, la prestación vinculada al servicio (conocida como cheque servicio). Según el nivel de tramitación que tenga tu expediente de dependencia, los pasos para solicitar la ayuda económica serán más o menos rápidos. En Vitae, nuestra trabajadora social o director/a te informará y ayudará a tramitarlo sin coste alguno."
+    },
+    "11": {
+      "ask":"Cuánto dinero me dará la Comunidad de Madrid para ayudarme a pagar el Centro de Día?",
+      "answer": "Actualmente, el cheque servicio concede una prestación mínima de 300€ y máxima de 719€ mensuales . La cantidad final dependerá del grado de dependencia, el coste del Centro de Día y la capacidad económica de la persona solicitante. Aunque tarde algunos meses en ser concedido, la prestación es retroactiva desde el momento de su admisión."
+    },
+    "12": {
+      "ask":"¿Y si me voy de vacaciones?",
+      "answer": "¡Pásatelo bien! Te guardamos tu plaza sin coste alguno. Avísanos un par de semanas antes y listo."
+    },
+    "13": {
+      "ask":"¿Y si un día no puedo/quiero ir?",
+      "answer": "Vitae es un centro de entrada libre, si no te apetece venir un día no pasa nada. Si no se acude días sueltos se abonará a final de mes la cuota del servicio contratado, excepto en ausencias prolongadas."
+    },
+    "14": {
+      "ask":"Si mi cónyuge asiste al centro, ¿puedo comer yo allí también?",
+      "answer": "Sí, al trabajar con catering especializado podemos pedir un menú completo para que comas con tu cónyuge en nuestro comer, al precio de 5,50€."
+    },
+    "15": {
+      "ask":"¿Puedo seguir con mis aficiones en el centro?",
+      "answer": "Por supuesto, después de recibir rehabilitación, en los ratos libres como después de comer o por la tarde después de la merienda, dispondrás de tiempo y espacio para hacer lo que te guste: informática, pintura al óleo, costura, leer, tomar café y conversar, ver la TV, etc..."
+    },
+    "16": {
+      "ask":"¿Puedo ir solamente a los servicios sanitarios: fisioterapia, psicología…?",
+      "answer": "Claro. Pide cita con el profesional que quieras, te daremos una fecha y ven ese día."
+    },
+    "17": {
+      "ask":"¿Y si quiero recibir rehabilitación, pero no me apetece estar todo el día en el centro?",
+      "answer": "No te preocupes, nosotros nos desplazamos a tu hogar. En una primera valoración gratuita, en tu domicilio, vemos qué necesidades tienes y así podemos seleccionar el profesional auxiliar más adecuado. Esta persona irá a tu casa y llevará el material de rehabilitación cognitiva y haréis los ejercicios físicos pautados desde el equipo de rehabilitación. Además, realizará el trabajo asistencial necesario: duchas, higiene, alimentación…"
+    },
+    "18": {
+      "ask":"¿Qué es la estimulación cognitiva?",
+      "answer": "Son todas aquellas actividades dirigidas a mantener en buen estado las funciones cerebrales superiores tales como la lectura, el cálculo, la escritura, memoria y atención. Son muy variadas y se adaptan a cada grado de necesidad."
+    },
+    "19": {
+      "ask":"¿Cómo identifico el Parkinson?",
+      "answer": "Los síntomas de la Enfermedad de Parkinson son muy variados y muy distintos en cada persona. El temblor es el síntoma que más se ha relacionado históricamente con el Parkinson y, sin embargo, son una minoría los enfermos que lo padecen. Es por esto que ante cualquier síntoma debemos consultar a un neurólogo que confirme o desmienta nuestras sospechas."
+    },
+    "20": {
+      "ask":"¿Cómo puedo identificar los síntomas de un Ictus?",
+      "answer": "Los síntomas de un ictus, ya sea isquémico o hemorrágico, pueden ser; dificultad en el lenguaje, boca torcida, dificultad en el movimiento de un brazo, dolor de cabeza, dificultad en la marcha, entre otros."
+    },
+    "21": {
+      "ask":"¿Puedo mejorar después de un Ictus en un centro de Día?",
+      "answer": "La rehabilitación de ictus que se proporciona en un centro de día garantiza la mejoría, sobre todo si esta comienza lo más rápidamente posible después del ictus. Cuando ha pasado un tiempo, la rehabilitación se hace indispensable también para evitar que a las propias secuelas del ictus, se añaden las derivadas del inmovilismo físico y/o cognitivo."
+    },
+    "22": {
+      "ask":"¿Puede mejorar mi memoria acudiendo a un centro de día?",
+      "answer": "La estimulación cognitiva realizada por un profesional de neuropsicología siempre provoca beneficios en la memoria de la persona que la realiza, además de en su orientación, en su lenguaje y en su estado de ánimo."
+    }
   }
 }
 
