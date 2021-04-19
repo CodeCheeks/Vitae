@@ -2,7 +2,8 @@
     --light-blue-color: #2fb2b9;
     --medium-blue-color: #3e7dd0;
     --primary-blue-color: #007bff;
-  }
+    --secondary-blue-color: #44697d;
+}
 
 .brand__logo__text{
     font-size: 1.6rem !important
@@ -51,5 +52,4 @@
     justify-content: center;
     align-items: center;
 }
-
 

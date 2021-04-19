@@ -319,5 +319,95 @@
         "paragraph": "The good news is that, in most cases, depression in the elderly is treatable. Appropriate treatment can help improve overall health and quality of life. With proper treatment, you can begin to see improvements as soon as two weeks after starting treatment. Some symptoms may begin to improve within a week or two, but it may take several weeks before the full effect is felt."
       }
     }
+  },
+  "faq":{
+    "1": {
+      "ask":"What is a day center for the elderly?",
+      "answer": "It is a space where elderly people with mild or moderate cognitive impairment, come daily, a few days or hours a week, to work physically and functionally those parts of your body that need specialized stimulation."
+    },
+    "2": {
+      "ask":"What are the advantages of going to a day center?",
+      "answer": "When there is a pathology, it is very important to prevent future limitations and to strengthen and improve current skills. This is achieved with daily physical, cognitive and functional rehabilitation, and there is a risk of social isolation because the person does not see him/herself or does not think he/she is capable of doing things, because of what others will say, ... And going to meet people who have gone through this situation and being able to talk to them, share interests, have a coffee with friends is a great incentive in life, and gives family members the opportunity to meet people who are going through the same situation, learn about experiences and talk to professionals."
+    },
+    "3": {
+      "ask":"At what age can I go?",
+      "answer": "Vitae is designed to meet the physical, social and cognitive needs of adults suffering from limiting pathologies that require daily rehabilitation."
+    },
+    "4": {
+      "ask":"How is admission to a Day Center done?",
+      "answer": "It is a very simple process in which the Director of the Day Center will guide you to complete the necessary information. Basically it is personal data, medical records as well as other personal information that the Director must take into account. If you do not have everything at the time of admission, nothing happens, it will be completed later."
+    },
+    "5": {
+      "ask":"Can I come at any time?",
+      "answer": "Our Day Center is open Monday through Friday from 8:00 am to 6:00 pm. Choose the schedule that best suits your needs."
+    },
+    "6": {
+      "ask":"What happens if my family member does not adapt to the day center?",
+      "answer": "It is difficult for this to happen if the user profile is appropriate for a Day Center, an aspect that we evaluate at the time of admission. That said, the vast majority of users who come to our center adapt perfectly within one to three weeks. This depends to a great extent on the collaboration of the family members. However, if for whatever reason the adaptation of the elderly person to the Center is not achieved, we will proceed to look for some other alternative, or even the discharge without any problem if necessary."
+    },
+    "7": {
+      "ask":"When and how do I tell my family member that he/she needs to go to a Day Center?",
+      "answer": "It is necessary to personalize each case, since it will depend on the situation of the person, the family and their specific needs. What is very important is to visit a Day Center beforehand so that the professional team of the Center can advise you once you have told them about your needs and the situation of your elderly person. For family members this situation is probably new and therefore unknown; in the Day Care Centers, on the other hand, we are specialized in dealing with this type of situation."
+    },
+    "8": {
+      "ask":"How much does a Day Center cost?",
+      "answer": "Each person needs a plan adapted to his or her specific needs. In the same way, the rates will be adjusted to what each user requires at each moment, to the degree of dependence and to the center he/she is interested in."
+    },
+    "9": {
+      "ask":"Are there any subsidies to pay the monthly fee?",
+      "answer": "That's right, the different autonomic competences make available to the citizen subsidies to help pay for these services, in case of need. Let us know your situation, we will inform you and make the necessary arrangements. We also make available a Vitae check to provide financial assistance to the family members of users who need it."
+    },
+    "10": {
+      "ask":"How do I request the Service Check (economic benefit established in the Dependency Law)?",
+      "answer": "Previously, it is necessary to request the PIA (Individual Care Program), established and regulated in the Dependency Law, and subsequently, the benefit linked to the service (known as service check). Depending on the level of processing that has your file of dependency, the steps to request the economic aid will be more or less fast. In Vitae, our social worker or director will inform you and will help you to process it without any cost."
+    },
+    "11": {
+      "ask":"How much money will the Community of Madrid give me to help me pay for the Day Center?",
+      "answer": "Currently, the service check grants a minimum benefit of €300 and a maximum of €719 per month. The final amount will depend on the degree of dependency, the cost of the Day Center and the economic capacity of the applicant. Although it takes a few months to be granted, the benefit is retroactive from the moment of admission."
+    },
+    "12": {
+      "ask":"Can I go on vacation?",
+      "answer": "Have fun! We'll save your place for you free of charge. Just let us know a couple of weeks in advance and you're ready to go."
+    },
+    "13": {
+      "ask":"What if one day I can't/won't go?",
+      "answer": "Vitae is a free entrance center, if you do not feel like coming one day nothing happens. If you do not come on individual days, the contracted service fee will be paid at the end of the month, except in the case of prolonged absences."
+    },
+    "14": {
+      "ask":"If my spouse attends the center, can I eat there too?",
+      "answer": "Yes, as we work with specialized catering we can order a complete menu for you to eat with your spouse in our restaurant, at a price of 5,50€."
+    },
+    "15": {
+      "ask":"Can I pursue my hobbies at the center?",
+      "answer": "Of course, after rehabilitation, in your free time, such as after lunch or in the afternoon after snack, you will have time and space to do whatever you like: computers, oil painting, sewing, reading, drinking coffee and chatting, watching TV, etc..."
+    },
+    "16": {
+      "ask":"Can I only go to health services: physiotherapy, psychology...?",
+      "answer": "Of course. Make an appointment with the professional of your choice, we will give you a date and come that day."
+    },
+    "17": {
+      "ask":"What if I want to receive rehabilitation, but I don't feel like being at the center all day?",
+      "answer": "Don't worry, we will come to your home. In a first free assessment, at your home, we see what needs you have and so we can select the most appropriate professional assistant. This person will come to your home and will bring the cognitive rehabilitation material and you will do the physical exercises prescribed by the rehabilitation team. In addition, he/she will carry out the necessary care work: showers, hygiene, feeding..."
+    },
+    "18": {
+      "ask":"What is cognitive stimulation?",
+      "answer": "They are all those activities aimed at maintaining in good condition the higher brain functions such as reading, calculation, writing, memory and attention. They are very varied and are adapted to each degree of need."
+    },
+    "19": {
+      "ask":"How do I identify Parkinson's?",
+      "answer": "The symptoms of Parkinson's disease are very varied and very different in each person. Tremor is the symptom that has historically been most associated with Parkinson's disease and, nevertheless, only a minority of patients suffer from it. For this reason, we should consult a neurologist to confirm or deny our suspicions in case of any symptom."
+    },
+    "20": {
+      "ask":"How can I identify the symptoms of a stroke?",
+      "answer": "The symptoms of a stroke, whether ischemic or hemorrhagic, can be; difficulty in speech, twisted mouth, difficulty in moving an arm, headache, difficulty in walking, among others."
+    },
+    "21": {
+      "ask":"Can I get better after a stroke in a day center?",
+      "answer": "Stroke rehabilitation provided in a day center guarantees improvement, especially if it begins as soon as possible after the stroke. After some time has passed, rehabilitation also becomes essential to prevent the physical and/or cognitive immobility from being added to the after-effects of the stroke."
+    },
+    "22": {
+      "ask":"Can I improve my memory by attending a day center?",
+      "answer": "Cognitive stimulation performed by a neuropsychology professional always causes benefits in the memory of the person who performs it, as well as in their orientation, language and mood."
+    }
   }
 }
