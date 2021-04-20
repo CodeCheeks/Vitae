@@ -38,6 +38,10 @@ import PersonalArea from '../Views/PersonalArea/PersonalArea'
 import NotFound from '../Views/NotFound/NotFound'
 import Profile from '../Views/PersonalArea/Profile/Profile';
 import Relative from '../Views/PersonalArea/Relative/Relative';
+import Professionals from '../Views/PersonalArea/Professionals/Professionals';
+import Activities from '../Views/PersonalArea/Activities/Activities';
+import Reports from '../Views/PersonalArea/Reports/Reports';
+import Schedule from '../Views/PersonalArea/Schedule/Schedule';
 
 
 const AppRouter = () => {
@@ -76,6 +80,8 @@ const AppRouter = () => {
             <Route exact path="/sobre-nosotros" component={SobreNosotros} />
             <Route exact path="/empleo" component={Empleo} />
             <Route exact path="/contacto" component={Contacto} />
+
+
             <Route exact path="/iniciar-sesion" component={Login} >
                 {user ? <Redirect to="/area-personal" /> : <Login/>}
             </Route>
@@ -87,6 +93,18 @@ const AppRouter = () => {
             </Route>
             <Route exact path="/area-personal/familiar" component={PersonalArea}>
                 {!user ? <Redirect to="/iniciar-sesion" /> : <Relative/>}
+            </Route>
+            <Route exact path="/area-personal/profesionales" component={PersonalArea}>
+                {!user ? <Redirect to="/iniciar-sesion" /> : <Professionals/>}
+            </Route>
+            <Route exact path="/area-personal/actividades" component={PersonalArea}>
+                {!user ? <Redirect to="/iniciar-sesion" /> : <Activities/>}
+            </Route>
+            <Route exact path="/area-personal/informes" component={PersonalArea}>
+                {!user ? <Redirect to="/iniciar-sesion" /> : <Reports/>}
+            </Route>
+            <Route exact path="/area-personal/horario" component={PersonalArea}>
+                {!user ? <Redirect to="/iniciar-sesion" /> : <Schedule/>}
             </Route>
 
             <Route component={NotFound} />
