@@ -26,7 +26,11 @@
       "dementia": "Dementia",
       "depression": "Depression"
     },
-    "aids": "Aids",
+    "aids": {
+      "title":"Aids",
+      "vitae":"Aid - Vitae",
+      "dependence":"Aid - Dependence"
+    },
     "faq": "FAQs",
     "about": "About us",
     "jobs": "Employment",

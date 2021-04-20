@@ -100,7 +100,15 @@ const Banner = () => {
                 break;
             case "ayudas":
                 banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618573050/Vitae/imagenes/banner/banner-services_1_jvwidw.jpg)"
-                banner.title = "navbar.aids"
+                banner.title = "navbar.aids.title"
+                break;
+            case "cheque-vitae":
+                banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618573050/Vitae/imagenes/banner/banner-services_1_jvwidw.jpg)"
+                banner.title = "navbar.aids.vitae"
+                break;
+            case "cheque-dependencia":
+                banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618573050/Vitae/imagenes/banner/banner-services_1_jvwidw.jpg)"
+                banner.title = "navbar.aids.dependence"
                 break;
             case "preguntas-frecuentes":
                 banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572494/Vitae/imagenes/banner/banner-faq_gubuse.jpg)"

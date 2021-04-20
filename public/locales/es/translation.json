@@ -26,7 +26,11 @@
       "dementia": "Demencias",
       "depression": "Depresión"
     },
-    "aids": "Ayudas",
+    "aids": {
+      "title":"Ayudas",
+      "vitae":"Cheque - Vitae",
+      "dependence":"Cheque - Dependencia"
+    },
     "faq": "FAQs",
     "about": "Sobre Nosotros",
     "jobs": "Empleo",
