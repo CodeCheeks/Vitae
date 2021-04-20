@@ -82,28 +82,28 @@ const AppRouter = () => {
             <Route exact path="/contacto" component={Contacto} />
 
 
-            <Route exact path="/iniciar-sesion" component={Login} >
+            <Route exact path="/iniciar-sesion"  >
                 {user ? <Redirect to="/area-personal" /> : <Login/>}
             </Route>
-            <Route exact path="/area-personal" component={PersonalArea}>
+            <Route exact path="/area-personal" >
                 {!user ? <Redirect to="/iniciar-sesion" /> : <PersonalArea/>}
             </Route>
-            <Route exact path="/area-personal/perfil" component={PersonalArea}>
+            <Route exact path="/area-personal/perfil" >
                 {!user ? <Redirect to="/iniciar-sesion" /> : <Profile/>}
             </Route>
-            <Route exact path="/area-personal/familiar" component={PersonalArea}>
+            <Route exact path="/area-personal/familiar" >
                 {!user ? <Redirect to="/iniciar-sesion" /> : <Relative/>}
             </Route>
-            <Route exact path="/area-personal/profesionales" component={PersonalArea}>
+            <Route exact path="/area-personal/profesionales" >
                 {!user ? <Redirect to="/iniciar-sesion" /> : <Professionals/>}
             </Route>
-            <Route exact path="/area-personal/actividades" component={PersonalArea}>
+            <Route exact path="/area-personal/actividades" >
                 {!user ? <Redirect to="/iniciar-sesion" /> : <Activities/>}
             </Route>
-            <Route exact path="/area-personal/informes" component={PersonalArea}>
+            <Route exact path="/area-personal/informes" >
                 {!user ? <Redirect to="/iniciar-sesion" /> : <Reports/>}
             </Route>
-            <Route exact path="/area-personal/horario" component={PersonalArea}>
+            <Route exact path="/area-personal/horario" >
                 {!user ? <Redirect to="/iniciar-sesion" /> : <Schedule/>}
             </Route>
 
