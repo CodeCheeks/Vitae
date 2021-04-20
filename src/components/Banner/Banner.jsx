@@ -106,7 +106,7 @@ const Banner = () => {
                 banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618573050/Vitae/imagenes/banner/banner-services_1_jvwidw.jpg)"
                 banner.title = "navbar.aids.vitae"
                 break;
-            case "cheque-dependencia":
+            case "cheque-servicio":
                 banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618573050/Vitae/imagenes/banner/banner-services_1_jvwidw.jpg)"
                 banner.title = "navbar.aids.dependence"
                 break;

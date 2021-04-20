@@ -51,7 +51,7 @@ const CustomNavbar = () => {
 
             <NavDropdown title={<span className="link__style text__style">{t('navbar.aids.title')}</span>} id="Aids" className='link__style text__style'>
               <NavDropdown.Item><NavLink to="/ayudas/cheque-vitae" className='link__style text__style__sm' activeClassName="selected">{t('navbar.aids.vitae')}</NavLink></NavDropdown.Item>
-              <NavDropdown.Item><NavLink to="/ayudas/cheque-dependencia" className='link__style text__style__sm' activeClassName="selected">{t('navbar.aids.dependence')}</NavLink></NavDropdown.Item>
+              <NavDropdown.Item><NavLink to="/ayudas/cheque-servicio" className='link__style text__style__sm' activeClassName="selected">{t('navbar.aids.dependence')}</NavLink></NavDropdown.Item>
             </NavDropdown>
 
             <NavLink to="/preguntas-frecuentes" className='link__style text__style' activeClassName="selected">{t('navbar.faq')}</NavLink>

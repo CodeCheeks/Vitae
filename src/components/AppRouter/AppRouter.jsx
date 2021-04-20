@@ -74,7 +74,7 @@ const AppRouter = () => {
 
             <Route exact path="/ayudas" component={Ayudas} />
             <Route exact path="/ayudas/cheque-vitae" component={ChequeVitae} />
-            <Route exact path="/ayudas/cheque-dependencia" component={ChequeServicio} />
+            <Route exact path="/ayudas/cheque-servicio" component={ChequeServicio} />
 
             <Route exact path="/preguntas-frecuentes" component={FAQ} />
             <Route exact path="/sobre-nosotros" component={SobreNosotros} />
