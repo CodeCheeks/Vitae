@@ -23,12 +23,12 @@ const Employment = () => {
                 <Form.Row>
                     <Form.Group as={Col} controlId="firstname">
                         <Form.Label>Firstname</Form.Label>
-                        <Form.Control  className={`${errors.firstName ? "is-invalid" : ""}`} type="string" placeholder="First name" {...register("firstName", { required: true })} />
+                        <Form.Control  className={errors.firstName && "is-invalid"} type="string" placeholder="First name" {...register("firstName", { required: true })} />
                         {errors.firstName && <div className="invalid-feedback">First name is required</div>}
                     </Form.Group>
                     <Form.Group as={Col} controlId="lastname">
                         <Form.Label>Lastname</Form.Label>
-                        <Form.Control className={`${errors.lastName ? "is-invalid" : ""}`} type="string" placeholder="Last name" {...register("lastName", { required: true })} />
+                        <Form.Control className={errors.lastName && "is-invalid"} type="string" placeholder="Last name" {...register("lastName", { required: true })} />
                         {errors.lastName && <div className="invalid-feedback">Last name is required</div>}
                     </Form.Group>
                 </Form.Row>
@@ -36,12 +36,12 @@ const Employment = () => {
                 <Form.Row>
                     <Form.Group as={Col} controlId="email">
                         <Form.Label>Email</Form.Label>
-                        <Form.Control className={`${errors.email ? "is-invalid" : ""}`} type="email" placeholder="Enter email" {...register("email", { required: true })}/>
+                        <Form.Control className={errors.email && "is-invalid"} type="email" placeholder="Enter email" {...register("email", { required: true })}/>
                         {errors.email && <div className="invalid-feedback">Email is required</div>}
                     </Form.Group>
                     <Form.Group as={Col} controlId="formGridPassword">
                         <Form.Label>Teléfono</Form.Label>
-                        <Form.Control className={`${errors.phoneNumber ? "is-invalid" : ""}`} 
+                        <Form.Control className={errors.phoneNumber && "is-invalid"} 
                             type="string" 
                             placeholder="Teléfono" 
                             {...register("phoneNumber", {
@@ -58,18 +58,18 @@ const Employment = () => {
                 <Form.Row>
                     <Form.Group as={Col} controlId="street">
                         <Form.Label>Street</Form.Label>
-                        <Form.Control className={`${errors.street ? "is-invalid" : ""}`} type="string" placeholder="Street" {...register("street", { required: true })}/>
+                        <Form.Control className={errors.street && "is-invalid"} type="string" placeholder="Street" {...register("street", { required: true })}/>
                         {errors.street && <div className="invalid-feedback">Street is required</div>}
                     </Form.Group>
 
                     <Form.Group as={Col} controlId="city">
                         <Form.Label>City</Form.Label>
-                        <Form.Control className={`${errors.city ? "is-invalid" : ""}`} type="string" placeholder="city" {...register("city", { required: true })}/>
+                        <Form.Control className={errors.city && "is-invalid"} type="string" placeholder="city" {...register("city", { required: true })}/>
                         {errors.city && <div className="invalid-feedback">City is required</div>}
                     </Form.Group>
                     <Form.Group as={Col} controlId="zip">
                         <Form.Label>Zip</Form.Label>
-                        <Form.Control className={`${errors.zip ? "is-invalid" : ""}`} type="string" placeholder="zip" {...register("zip", { required: true })}/>
+                        <Form.Control className={errors.zip && "is-invalid"} type="string" placeholder="zip" {...register("zip", { required: true })}/>
                         {errors.zip && <div className="invalid-feedback">Zip code is required</div>}
                     </Form.Group>
                 </Form.Row>
@@ -77,8 +77,8 @@ const Employment = () => {
                 <Form.Row>
                 <Form.Group as={Col} controlId="vacancy">
                     <Form.Label>Vacancy</Form.Label>
-                    <Form.Control className={`${errors.vacancy ? "is-invalid" : ""}`} as="select" {...register("vacancy", { required: true })}>
-                        <option>...</option>
+                    <Form.Control className={errors.vacancy && "is-invalid"} as="select" {...register("vacancy", { required: true })}>
+                        <option></option>
                         <option>{t('navbar.services.terapeutics.physiotherapy')}</option>
                         <option>{t('navbar.services.terapeutics.psychology')}</option>
                         <option>{t('navbar.services.terapeutics.ot')}</option>
