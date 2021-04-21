@@ -28,8 +28,8 @@
     },
     "aids": {
       "title":"Ayudas",
-      "vitae":"Cheque - Vitae",
-      "dependence":"Cheque - Servicio"
+      "vitae":"Cheque-Vitae",
+      "dependence":"Cheque-Servicio"
     },
     "faq": "FAQs",
     "about": "Sobre Nosotros",

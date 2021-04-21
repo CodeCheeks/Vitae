@@ -31,7 +31,7 @@ import ChequeServicio from '../Views/Ayudas/ChequeServicio/ChequeServicio'
 
 import FAQ from '../Views/FAQ/FAQ'
 import Contacto from '../Views/Contacto/Contacto'
-import Empleo from '../Views/Empleo/Empleo'
+import Employment from '../Views/Employment/Employment'
 import SobreNosotros from '../Views/SobreNosotros/SobreNosotros'
 import Login from '../Views/Login/Login'
 import PersonalArea from '../Views/PersonalArea/PersonalArea'
@@ -78,7 +78,7 @@ const AppRouter = () => {
 
             <Route exact path="/preguntas-frecuentes" component={FAQ} />
             <Route exact path="/sobre-nosotros" component={SobreNosotros} />
-            <Route exact path="/empleo" component={Empleo} />
+            <Route exact path="/empleo" component={Employment} />
             <Route exact path="/contacto" component={Contacto} />
 
 
