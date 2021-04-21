@@ -414,6 +414,86 @@
       "ask":"¿Puede mejorar mi memoria acudiendo a un centro de día?",
       "answer": "La estimulación cognitiva realizada por un profesional de neuropsicología siempre provoca beneficios en la memoria de la persona que la realiza, además de en su orientación, en su lenguaje y en su estado de ánimo."
     }
+  },
+  "aids": {
+    "service": {
+      "title": "Cheque - Servicio",
+      "what": {
+        "title": "¿Qué es la dependencia?",
+        "paragraph": "La dependencia es el estado de carácter permanente en que se encuentran las personas que, por razones derivadas de la edad, la enfermedad o la discapacidad, precisan de la atención de otra persona o ayudas importantes para realizar las actividades básicas de la vida diaria.La Ley de Promoción de la Autonomía Personal y Atención a las personas en situación de Dependencia reconoce a los ciudadanos el derecho a la promoción de la autonomía personal y la atención a las personas dependientes."
+      },
+      "requirements": {
+        "title": "Requisitos para ser reconocido en situación de dependencia",
+        "1": "Necesitar de la atención de otra u otras personas o ayudas importantes para realizar las actividades básicas de la vida diaria.",
+        "2": "Residir legalmente en territorio español y haberlo hecho durante cinco años, de los cuales dos deberán ser inmediatamente anteriores a la fecha de presentación de la solicitud ( a excepción de los emigrantes retornados). Para los menores de cinco años el periodo de residencia se exigirá a quien ejerza su guarda y custodia.",
+        "3": "Residir en la Comunidad de Madrid en la fecha en que presenten la solicitud de reconocimiento de la situación de dependencia.",
+        "4": "Las personas que carezcan de nacionalidad española se regirán por lo establecido en la Ley Orgánica 4/2000, de 11 de enero, en los tratados internacionales y en los convenios que se establezcan con el país de origen. En el caso de tratarse de menores se estará a lo dispuesto en las leyes del Menor."
+      },
+      "how": {
+        "title": "¿Cómo solicito la dependencia?",
+        "paragraph": "El procedimiento se inicia a instancia del interesado a través de los Servicios Sociales del ayuntamiento en el que esté empadronado. Tras cumplimentar la solicitud y aportar la documentación necesaria, la Dirección General de Atención al Mayor y la Dependencia se pondrá en contacto con el interesado para fijar el día y la hora de la valoración.",
+        "documentation": {
+          "title": "Documentación necesaria",
+          "1": "Copia del DNI/NIE del solicitante o autorización para su consulta.",
+          "2": "En su caso, copia del DNI/NIE del representante o autorización para su consulta.",
+          "3": "Documento/s emitido/s por los ayuntamientos correspondientes que acrediten la residencia en territorio español durante cinco años, de los cuales, dos deberán ser inmediatamente anteriores a la fecha de presentación de la solicitud, así como el empadronamiento en un municipio de la Comunidad de Madrid en la fecha de presentación la solicitud.",
+          "4": "Los residentes no comunitarios que carezcan de la nacionalidad española deberán presentar certificado emitido por el Ministerio del Interior que acredite la residencia legal en España por los mismos períodos, así como el empadronamiento en un municipio de la Comunidad de Madrid en la fecha de la presentación de la solicitud.",
+          "5": "Informe de salud, que deberá estar elaborado en modelo normalizado y suscrito por un médico colegiado. Dicho informe, en el que se recogerá la patología principal que ocasiona la dependencia, no podrá tener una antigüedad superior a tres meses respecto a la fecha de presentación la solicitud.",
+          "6": "En su caso, copia de la resolución de reconocimiento del complemento de gran invalidez u otro documento que acredite que el solicitante sea pensionista de gran invalidez. Asimismo, si procede, copia de la resolución de reconocimiento del grado de discapacidad. Declaración responsable sobre la capacidad económica y patrimonial del solicitante.",
+          "7": "Autorización de comprobación, por parte de las administraciones públicas competentes, de los datos necesarios para la determinación de la capacidad económica y el reconocimiento del derecho a los servicios o prestaciones o, en su defecto, copia de la declaración del Impuesto sobre la Renta de las Personas Físicas."
+        }
+      },
+      "valuation": {
+        "title": "¿Cómo se realiza la valoración?",
+        "paragraph": "Para conocer si una persona se encuentra en situación de dependencia se procede a la valoración del solicitante, que es realizada por un valorador/a profesional con perfil sociosanitario y formación específica en la aplicación del Baremo de Valoración de la Situación de Dependencia (BVD). La valoración se lleva a cabo en el domicilio habitual del solicitante y se realiza teniendo en cuenta los informes de salud, el entorno en el que vive, y, si las hubiese, las ayudas técnicas, órtesis y prótesis prescritas. Los solicitantes menores de 3 años son valorados por personal médico en el Centro Regional de Coordinación y Valoración Infantil (CRECOVI), utilizando la Escala de Valoración Específica (EVE)."
+      },
+      "grades": {
+        "title": "Grados de dependencia",
+        "1": {
+          "title": "Dependencia moderada (Grado I):",
+          "paragraph": "si necesita apoyo al menos una vez al día o tiene necesidades de apoyo intermitente o limitado para su autonomía personal necesita apoyo al menos una vez al día o tiene necesidades de apoyo intermitente o limitado para su autonomía personal."
+        },
+        "2": {
+          "title": "Dependencia severa (Grado II):",
+          "paragraph": "si necesita apoyo al menos una vez al día o tiene necesidades de apoyo intermitente o limitado para su autonomía personal."
+        },
+        "3": {
+          "title": "Gran dependencia (Grado III):",
+          "paragraph": "si necesita ayuda varias veces al día o cuando por su pérdida total de autonomía precisa el apoyo contínuo de otra persona."
+        }
+      },
+      "attention": {
+        "title": "Servicios de atención",
+        "1": "Servicios de prevención de las situaciones de dependencia y los de promoción de la autonomía personal. Son programas preventivos y de rehabilitación desempeñados por los servicios sociales y los sanitarios.",
+        "2": "Servicios de ayuda a domicilio adquieren una importancia crucial. Atendiendo a las necesidades diarias del dependiente en su propia vivienda, desde cuidados del hogar hasta cuidados personales.",
+        "3": "Servicios de teleasistencia; es un servicio de atención telefónica y presencial de forma instantánea y urgente que el mayor solicita a través de un dispositivo portátil de aviso inmediato a través de su línea telefónica. Si la incidencia lo requiere, se personan en el domicilio servicios auxiliares o médicos.",
+        "4": "Servicios de Centro de Día y de Noche, son centros donde la persona mayor puede pasar el dia o la noche según las necesidades de cada persona mayor.",
+        "5": "Servicios de Atención Residencial, para aquellas personas mayores que precisen de una atención total y constante ya sea en centros públicos, o centros privados acreditados."
+      },
+      "pia": {
+        "title": "¿Qué ayudas puedo solicitar?",
+        "paragraph": "Una vez realizada la valoración se procede a elaborar del Programa Individual de Atención (PIA), en el que se establece la modalidad de intervención más adecuada para la atención de la persona, un servicio o una prestación económica, según sus necesidades y, siempre que cumpla los requisitos específicos del servicio o prestación solicitada y el régimen de compatibilidades entre los mismos. Es importante tener en cuenta que, en general, todos los servicios y prestaciones son incompatibles entre sí, salvo en el caso de los servicios de prevención y promoción de la autonomía personal, el servicio de teleasistencia y los servicios de ayuda a domicilio y atención diurna."
+      },
+      "money": {
+        "title": "Prestaciones económicas",
+        "paragraph1": "Contribuir a la financiación del coste de un servicio, prestado por un centro o entidad privada debidamente acreditada, cuando no sea posible el acceso a un servicio público o concertado (PEVS).",
+        "paragraph2":"Contribuir a los gastos derivados de la atención a la persona en situación de dependencia en su domicilio. Debido a sus requisitos, tiene carácter excepcional (PECEF).",
+        "paragraph3":"Contribuir a la financiación del contrato de una asistencia personal, que facilite el acceso tanto a la educación o al trabajo, como a una vida más autónoma (PEAP)."
+      },
+      "table": {
+        "row1": {
+          "col1":"Grado de dependencia",
+          "col2":"Cantidad Máxima",
+          "col3":"Cantidad Mínima"
+        },
+        "col1":"Grado I",
+        "col2":"Grado II",
+        "col3":"Grado III"
+      }
+    },
+    "vitae": {
+      "title": "Cheque - Vitae"
+    }
   }
 }
 
