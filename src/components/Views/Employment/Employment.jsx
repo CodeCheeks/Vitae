@@ -4,17 +4,20 @@ import { Col, Form, Button } from 'react-bootstrap';
 import { useForm } from "react-hook-form";
 import './Employment.css'
 
-
+import { employ } from '../../../services/UserService';
 import { useTranslation } from 'react-i18next';
 
 const Employment = () => {
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm();
     const { t } = useTranslation();
 
 
 
     const onSubmit = (data) => {
         console.log(data)
+        employ(data).then((response) => {
+            console.log("VACANCY ADDED")
+        });
     }
 
     return (
