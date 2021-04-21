@@ -26,7 +26,11 @@
       "dementia": "Dementia",
       "depression": "Depression"
     },
-    "aids": "Aids",
+    "aids": {
+      "title":"Aids",
+      "vitae":"Aid - Vitae",
+      "dependence":"Aid - Service"
+    },
     "faq": "FAQs",
     "about": "About us",
     "jobs": "Employment",
@@ -408,6 +412,86 @@
     "22": {
       "ask":"Can I improve my memory by attending a day center?",
       "answer": "Cognitive stimulation performed by a neuropsychology professional always causes benefits in the memory of the person who performs it, as well as in their orientation, language and mood."
+    }
+  },
+  "aids": {
+    "service": {
+      "title": "Aid - Service",
+      "what": {
+        "title": "What is dependence?",
+        "paragraph": "Dependence is the permanent state of people who, for reasons of age, illness or disability, require the care of another person or significant assistance to carry out basic activities of daily living. The Law for the Promotion of Personal Autonomy and Care for Dependent Persons recognizes the right of citizens to the promotion of personal autonomy and care for dependent persons."
+      },
+      "requirements": {
+        "title": "Requirements to be recognized in a situation of dependence",
+        "1": "Needing the attention of another person or persons or significant aids to perform basic activities of daily living.",
+        "2": "To reside legally in Spanish territory and to have done so for five years, two of which must be immediately prior to the date of submission of the application (with the exception of returned emigrants). For minors under five years of age, the period of residence will be required of the person who exercises their guardianship and custody.",
+        "3": "Residing in the Community of Madrid on the date on which the application for recognition of the situation of dependence is submitted.",
+        "4": "Persons lacking Spanish nationality shall be governed by the provisions of Organic Law 4/2000 of January 11, 2000, international treaties and agreements established with the country of origin. In the case of minors, the provisions of the laws on minors shall apply."
+      },
+      "how": {
+        "title": "How do I apply for dependency?",
+        "paragraph": "The procedure is initiated at the request of the interested party through the Social Services of the municipality in which he/she is registered. After completing the application and providing the necessary documentation, the Directorate General for Elderly and Dependency Care will contact the interested party to set a date and time for the assessment.",
+        "documentation": {
+          "title": "Required Documentation",
+          "1": "Copy of the applicant's DNI/NIE or authorization for its consultation.",
+          "2": "If applicable, a copy of the representative's DNI/NIE or authorization for its consultation.",
+          "3": "Document(s) issued by the corresponding city councils accrediting residence in Spanish territory for five years, two of which must be immediately prior to the date of submission of the application, as well as being registered in a municipality in the Community of Madrid on the date of submission of the application.",
+          "4": "Non-EU residents who do not have Spanish nationality must present a certificate issued by the Ministry of the Interior certifying legal residence in Spain for the same periods, as well as being registered in a municipality in the Community of Madrid on the date the application is submitted.",
+          "5": "Health report, which must be elaborated in a standardized model and signed by a registered physician. Said report, which shall include the main pathology causing the dependency, shall not be older than three months from the date of submission of the application.",
+          "6": "If applicable, a copy of the resolution of recognition of the severe disability supplement or other document certifying that the applicant is a severe disability pensioner. Also, if applicable, copy of the resolution of recognition of the degree of disability. Responsible declaration on the economic and patrimonial capacity of the applicant.",
+          "7": "Authorization for verification, by the competent public administrations, of the data necessary for the determination of the economic capacity and the recognition of the right to the services or benefits or, in its absence, a copy of the Personal Income Tax return."
+        }
+      },
+      "valuation": {
+        "title": "How is the valuation performed?",
+        "paragraph": "To determine whether a person is in a situation of dependence, the applicant is assessed by a professional assessor with a socio-sanitary profile and specific training in the application of the Scale for the Assessment of Dependency (BVD). The assessment is carried out at the applicant's usual home and takes into account the health reports, the environment in which he/she lives, and, if any, the technical aids, orthotics and prostheses prescribed. Applicants under 3 years of age are assessed by medical personnel at the Regional Center for the Coordination and Evaluation of Children (CRECOVI), using the Specific Evaluation Scale (EVE)."
+      },
+      "grades": {
+        "title": "Degrees of dependence",
+        "1": {
+          "title": "Moderate dependence (Grade I):",
+          "paragraph": "if you need support at least once a day or have intermittent or limited support needs for your personal autonomy needs support at least once a day or have intermittent or limited support needs for your personal autonomy needs support at least once a day or have intermittent or limited support needs for your personal autonomy."
+        },
+        "2": {
+          "title": "Severe dependence (Grade II):",
+          "paragraph": "if you need support at least once a day or have intermittent or limited support needs for personal autonomy."
+        },
+        "3": {
+          "title": "High dependency (Grade III):",
+          "paragraph": "if you need help several times a day or when your total loss of autonomy requires the continuous support of another person."
+        }
+      },
+      "attention": {
+        "title": "Services of assistance",
+        "1": "Services for the prevention of dependency situations and the promotion of personal autonomy. These are preventive and rehabilitation programs carried out by social and health services.",
+        "2": "Home help services are of crucial importance. Attending to the daily needs of the dependent in their own home, from home care to personal care.",
+        "3": "Telecare services; this is an instantaneous and urgent telephone and in-person care service that the elderly person requests through a portable device with immediate notification through their telephone line. If the incident requires it, auxiliary or medical services come to the home.",
+        "4": "Day and Night Center Services, are centers where the elderly person can spend the day or night according to the needs of each elderly person.",
+        "5": "Residential Care Services, for those elderly people who require total and constant attention either in public centers or accredited private centers."
+      },
+      "pia": {
+        "title": "What aids can I apply for?",
+        "paragraph": "Once the assessment has been carried out, the Individual Care Program (PIA) is drawn up, which establishes the most appropriate form of intervention for the care of the person, a service or a financial benefit, according to his or her needs and, provided that the specific requirements of the service or benefit requested and the compatibility regime between them are met. It is important to bear in mind that, in general, all services and benefits are incompatible with each other, except in the case of services for the prevention and promotion of personal autonomy, the telecare service and home help and day care services."
+      },
+      "money": {
+        "title": "Economic benefits",
+        "paragraph1": "Contribute to the financing of the cost of a service, provided by a center or duly accredited private entity, when it is not possible to access a public or subsidized service (PEVS).",
+        "paragraph2": "Contribute to the expenses derived from the care of the person in a situation of dependency at home. Due to its requirements, it is of an exceptional nature (PECEF).",
+        "paragraph3": "Contribute to the financing of a personal assistance contract, which facilitates access to education or work, as well as to a more autonomous life (PEAP)."
+      },
+      "table": {
+        "row1": {
+          "col1":"Degree of dependence",
+          "col2":"Maximum Quantity",
+          "col3":"Minimum Quantity"
+        },
+        "col1":"Grade I",
+        "col2":"Grade II",
+        "col3":"Grade III"
+      }
+    },
+    "vitae": {
+      "title": "Cheque - Vitae"
     }
   }
 }
