@@ -6,7 +6,7 @@
         "title": "Terapeutics",
         "physiotherapy" : "Physiotherapy",
         "psychology" : "Psychology",
-        "ot" : "Occupational therapy",
+        "ot" : "Occupational Therapy",
         "recreation" : "Recreation"
       },
       "assistance" : {
@@ -28,8 +28,8 @@
     },
     "aids": {
       "title":"Aids",
-      "vitae":"Aid - Vitae",
-      "dependence":"Aid - Service"
+      "vitae":"Aid-Vitae",
+      "dependence":"Aid-Service"
     },
     "faq": "FAQs",
     "about": "About us",
