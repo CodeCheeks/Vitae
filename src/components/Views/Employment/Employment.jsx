@@ -14,11 +14,18 @@ const Employment = () => {
 
 
     const onSubmit = (data) => {
-        console.log(data)
-        employ(data).then((response) => {
+        data.cv = data.cv[0]
+        const formData = new FormData();
+        Object.entries(data).forEach(([key, value]) => {
+            formData.append(key, value);
+          });
+        
+        employ(formData).then((response) => {
             console.log("VACANCY ADDED")
         });
     }
+
+
 
     return (
         <div className="container">
