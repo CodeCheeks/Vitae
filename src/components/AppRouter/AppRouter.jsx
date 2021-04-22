@@ -32,7 +32,7 @@ import ChequeServicio from '../Views/Aids/ChequeServicio/ChequeServicio'
 import FAQ from '../Views/FAQ/FAQ'
 import Contacto from '../Views/Contacto/Contacto'
 import Employment from '../Views/Employment/Employment'
-import SobreNosotros from '../Views/SobreNosotros/SobreNosotros'
+import About from '../Views/About/About'
 import Login from '../Views/Login/Login'
 import PersonalArea from '../Views/PersonalArea/PersonalArea'
 import NotFound from '../Views/NotFound/NotFound'
@@ -77,7 +77,7 @@ const AppRouter = () => {
             <Route exact path="/ayudas/cheque-servicio" component={ChequeServicio} />
 
             <Route exact path="/preguntas-frecuentes" component={FAQ} />
-            <Route exact path="/sobre-nosotros" component={SobreNosotros} />
+            <Route exact path="/sobre-nosotros" component={About} />
             <Route exact path="/empleo" component={Employment} />
             <Route exact path="/contacto" component={Contacto} />
 
