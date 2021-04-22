@@ -1,0 +1,14 @@
+.aid__img {
+    border-radius: 25px;
+    width: 320px;
+    height: 180px; 
+    background-color: #2fb2b9;
+}
+
+.custom__style {
+    color:#2fb2b9!important
+}
+
+.custom__style:hover {
+    color:#486e81!important
+}
