@@ -9,8 +9,8 @@
     font-size: 1.6rem !important
 }
 .selected{
-    color: var(--primary-blue-color) !important;
-    font-weight: 700;
+    color: var(--medium-blue-color) !important;
+    font-weight: bold;
 }
 
 .text__style{
