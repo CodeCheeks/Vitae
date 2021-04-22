@@ -25,9 +25,9 @@ import Parkinson from '../Views/Especialidades/Parkinson/Parkinson'
 import Demencias from '../Views/Especialidades/Demencias/Demencias'
 import Depresion from '../Views/Especialidades/Depresion/Depresion'
 
-import Ayudas from '../Views/Ayudas/Ayudas'
-import ChequeVitae from '../Views/Ayudas/ChequeVitae/ChequeVitae'
-import ChequeServicio from '../Views/Ayudas/ChequeServicio/ChequeServicio'
+import Aids from '../Views/Aids/Aids'
+import ChequeVitae from '../Views/Aids/ChequeVitae/ChequeVitae'
+import ChequeServicio from '../Views/Aids/ChequeServicio/ChequeServicio'
 
 import FAQ from '../Views/FAQ/FAQ'
 import Contacto from '../Views/Contacto/Contacto'
@@ -72,7 +72,7 @@ const AppRouter = () => {
             <Route exact path="/especialidades/demencias" component={Demencias} />
             <Route exact path="/especialidades/depresion" component={Depresion} />
 
-            <Route exact path="/ayudas" component={Ayudas} />
+            <Route exact path="/ayudas" component={Aids} />
             <Route exact path="/ayudas/cheque-vitae" component={ChequeVitae} />
             <Route exact path="/ayudas/cheque-servicio" component={ChequeServicio} />
 
