@@ -496,6 +496,12 @@
     }
   },
   "employ":{
+    "intro": {
+      "title":"¡Únete al Equipo Vitae!",
+      "phrase": "Buscamos profesionales que se quieran unir a nuestro proyecto: #EquipoVitae.",
+      "paragraph1": "Vitae nace de la mano de un selecto grupo de profesionales, reconocidos en el sector y con mucha experiencia en la gestión de empresas y servicios para personas mayores, que comparten una forma de trabajo donde prima el apoyo entre los componentes del equipo, con mucha comunicación y transparencia, fomentando la innovación y poniendo siempre el foco en lo más importante, el cuidado del mayor. Estamos incorporando distintos perfiles para trabajar directamente con las personas mayores en nuestros centros de día (dirección, trabajo social, cuidadoras y cuidadores, personal de cocina y limpieza, mantenimiento, personal de atención al cliente en la recepción, etc.).",
+      "paragraph2": "Si eres una persona responsable con empatía, vocación, capacidad de trabajo en equipo, ganas de seguir formándote y sobretodo te gusta el trato con los mayores, en Vitae apostamos por el talento de personas como tú. Envíanos tu CV y pasa a formar parte de nuestro equipo de trabajo."
+    },
     "firstName": {
       "tag":"Nombre",
       "placeholder": "Introduzca su nombre",
