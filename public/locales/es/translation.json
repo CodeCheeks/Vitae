@@ -494,6 +494,61 @@
     "vitae": {
       "title": "Cheque - Vitae"
     }
+  },
+  "employ":{
+    "firstName": {
+      "tag":"Nombre",
+      "placeholder": "Introduzca su nombre",
+      "error": "Introduzca su nombre"
+    },
+    "lastName": {
+      "tag":"Apellidos",
+      "placeholder": "Introduzca sus apellidos",
+      "error": "Introduzca sus apellidos"
+    },
+    "email": {
+      "tag":"Email",
+      "placeholder": "Introduzca su email",
+      "error": "Introduzca su email"
+    },
+    "phoneNumber": {
+      "tag":"Número de teléfono",
+      "placeholder": "Introduzca su número de teléfono",
+      "error": "Introduzca su número de teléfono",
+      "error2": "Número de teléfono incorrecto"
+    },
+    "street": {
+      "tag":"Calle",
+      "placeholder": "Calle",
+      "error": "Introduzca el nombre de su calle"
+    },
+    "city": {
+      "tag":"Ciudad",
+      "placeholder": "Ciudad",
+      "error": "Introduzca el nombre de su ciudad"
+    },
+    "zip": {
+      "tag":"Código postal",
+      "placeholder": "Código postal",
+      "error": "Introduzca el código postal"
+    },
+    "vacancy": {
+      "tag":"Puesto a solicitar",
+      "error": "Introduzca el puesto que solicita"
+    },
+    "cv": {
+      "tag":"Curriculum Vitae",
+      "error": "Adjunte su curriculum en formato PDF"
+    },
+    "comments": {
+      "tag":"Comentarios",
+      "placeholder": "Añadir comentario",
+      "error": "Añada un comentario válido"
+    },
+    "checkBox": {
+      "tag":"Estoy de acuerdo con los términos y condiciones",
+      "error": "Acepte los términos y condiciones para proseguir"
+    }
   }
 }
 

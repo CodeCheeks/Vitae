@@ -493,5 +493,60 @@
     "vitae": {
       "title": "Cheque - Vitae"
     }
+  },
+  "employ":{
+    "firstName": {
+      "tag":"First name",
+      "placeholder": "Enter your first name",
+      "error": "Enter your first name"
+    },
+    "lastName": {
+      "tag":"Last name",
+      "placeholder": "Enter your last name",
+      "error": "Enter your last name"
+    },
+    "email": {
+      "tag":"Email",
+      "placeholder": "Enter your email",
+      "error": "Enter your email"
+    },
+    "phoneNumber": {
+      "tag":"Phone number",
+      "placeholder": "Enter your phone number",
+      "error": "Enter your phone number",
+      "error2": "Phone number is incorrect"
+    },
+    "street": {
+      "tag":"Street",
+      "placeholder": "Street",
+      "error": "Enter your street"
+    },
+    "city": {
+      "tag":"City",
+      "placeholder": "City",
+      "error": "Enter your city"
+    },
+    "zip": {
+      "tag":"Zip code",
+      "placeholder": "Zip code",
+      "error": "Enter your zipcode"
+    },
+    "vacancy": {
+      "tag":"Workplace",
+      "error": "Please select workplace"
+    },
+    "cv": {
+      "tag":"Curriculum Vitae",
+      "error": "Attach your CV in PDF format"
+    },
+    "comments": {
+      "tag":"Comments",
+      "placeholder": "Add comment",
+      "error": "Add a valid comment"
+    },
+    "checkBox": {
+      "tag":"Agree terms and conditions",
+      "error": "Accept the terms and conditions to proceed."
+    }
   }
 }

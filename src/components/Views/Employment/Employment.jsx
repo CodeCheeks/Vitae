@@ -4,12 +4,17 @@ import { Col, Form, Button } from 'react-bootstrap';
 import { useForm } from "react-hook-form";
 import './Employment.css'
 
+
 import { employ } from '../../../services/UserService';
 import { useTranslation } from 'react-i18next';
+import { useHistory } from 'react-router';
+
+
 
 const Employment = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const { t } = useTranslation();
+    const { push } = useHistory();
 
 
 
@@ -21,10 +26,9 @@ const Employment = () => {
           });
         
         employ(formData).then((response) => {
-            console.log("VACANCY ADDED")
+            push("/")
         });
     }
-
 
 
     return (
@@ -32,61 +36,61 @@ const Employment = () => {
             <Form onSubmit={handleSubmit(onSubmit)}>
                 <Form.Row>
                     <Form.Group as={Col} controlId="firstname">
-                        <Form.Label>Firstname</Form.Label>
-                        <Form.Control  className={errors.firstName && "is-invalid"} type="string" placeholder="First name" {...register("firstName", { required: true })} />
-                        {errors.firstName && <div className="invalid-feedback">First name is required</div>}
+                        <Form.Label>{t('employ.firstName.tag')}</Form.Label>
+                        <Form.Control  className={errors.firstName && "is-invalid"} type="string" placeholder={t('employ.firstName.placeholder')} {...register("firstName", { required: true })} />
+                        {errors.firstName && <div className="invalid-feedback">{t('employ.firstName.error')}</div>}
                     </Form.Group>
                     <Form.Group as={Col} controlId="lastname">
-                        <Form.Label>Lastname</Form.Label>
-                        <Form.Control className={errors.lastName && "is-invalid"} type="string" placeholder="Last name" {...register("lastName", { required: true })} />
-                        {errors.lastName && <div className="invalid-feedback">Last name is required</div>}
+                        <Form.Label>{t('employ.lastName.tag')}</Form.Label>
+                        <Form.Control className={errors.lastName && "is-invalid"} type="string" placeholder={t('employ.lastName.placeholder')} {...register("lastName", { required: true })} />
+                        {errors.lastName && <div className="invalid-feedback">{t('employ.lastName.error')}</div>}
                     </Form.Group>
                 </Form.Row>
 
                 <Form.Row>
                     <Form.Group as={Col} controlId="email">
-                        <Form.Label>Email</Form.Label>
-                        <Form.Control className={errors.email && "is-invalid"} type="email" placeholder="Enter email" {...register("email", { required: true })}/>
-                        {errors.email && <div className="invalid-feedback">Email is required</div>}
+                        <Form.Label>{t('employ.email.tag')}</Form.Label>
+                        <Form.Control className={errors.email && "is-invalid"} type="email" placeholder={t('employ.email.placeholder')} {...register("email", { required: true })}/>
+                        {errors.email && <div className="invalid-feedback">{t('employ.email.error')}</div>}
                     </Form.Group>
                     <Form.Group as={Col} controlId="formGridPassword">
-                        <Form.Label>Teléfono</Form.Label>
+                        <Form.Label>{t('employ.phoneNumber.tag')}</Form.Label>
                         <Form.Control className={errors.phoneNumber && "is-invalid"} 
                             type="string" 
-                            placeholder="Teléfono" 
+                            placeholder={t('employ.phoneNumber.placeholder')}
                             {...register("phoneNumber", {
                                 required: true ,
                                 validate: {
                                   numberLength: (value) => value.length === 9,
                                 }
                               })}/>
-                        {errors.phoneNumber && errors.phoneNumber.type !=="numberLength" && <div className="invalid-feedback">Phone number is required</div>}
-                        {errors.phoneNumber && errors.phoneNumber.type ==="numberLength" && <div className="invalid-feedback">Introduce un número de teléfono válido</div>}
+                        {errors.phoneNumber && errors.phoneNumber.type !=="numberLength" && <div className="invalid-feedback">{t('employ.phoneNumber.error')}</div>}
+                        {errors.phoneNumber && errors.phoneNumber.type ==="numberLength" && <div className="invalid-feedback">{t('employ.phoneNumber.error2')}</div>}
                     </Form.Group>
                 </Form.Row>
 
                 <Form.Row>
                     <Form.Group as={Col} controlId="street">
-                        <Form.Label>Street</Form.Label>
-                        <Form.Control className={errors.street && "is-invalid"} type="string" placeholder="Street" {...register("street", { required: true })}/>
-                        {errors.street && <div className="invalid-feedback">Street is required</div>}
+                        <Form.Label>{t('employ.street.tag')}</Form.Label>
+                        <Form.Control className={errors.street && "is-invalid"} type="string" placeholder={t('employ.street.placeholder')} {...register("street", { required: true })}/>
+                        {errors.street && <div className="invalid-feedback">{t('employ.street.error')}</div>}
                     </Form.Group>
 
                     <Form.Group as={Col} controlId="city">
-                        <Form.Label>City</Form.Label>
-                        <Form.Control className={errors.city && "is-invalid"} type="string" placeholder="city" {...register("city", { required: true })}/>
-                        {errors.city && <div className="invalid-feedback">City is required</div>}
+                        <Form.Label>{t('employ.city.tag')}</Form.Label>
+                        <Form.Control className={errors.city && "is-invalid"} type="string" placeholder={t('employ.city.placeholder')} {...register("city", { required: true })}/>
+                        {errors.city && <div className="invalid-feedback">{t('employ.city.error')}</div>}
                     </Form.Group>
                     <Form.Group as={Col} controlId="zip">
-                        <Form.Label>Zip</Form.Label>
-                        <Form.Control className={errors.zip && "is-invalid"} type="string" placeholder="zip" {...register("zip", { required: true })}/>
-                        {errors.zip && <div className="invalid-feedback">Zip code is required</div>}
+                        <Form.Label>{t('employ.zip.tag')}</Form.Label>
+                        <Form.Control className={errors.zip && "is-invalid"} type="string" placeholder={t('employ.zip.placeholder')} {...register("zip", { required: true })}/>
+                        {errors.zip && <div className="invalid-feedback">{t('employ.zip.error')}</div>}
                     </Form.Group>
                 </Form.Row>
 
                 <Form.Row>
                 <Form.Group as={Col} controlId="vacancy">
-                    <Form.Label>Vacancy</Form.Label>
+                    <Form.Label>{t('employ.vacancy.tag')}</Form.Label>
                     <Form.Control className={errors.vacancy && "is-invalid"} as="select" {...register("vacancy", { required: true })}>
                         <option></option>
                         <option>{t('navbar.services.terapeutics.physiotherapy')}</option>
@@ -98,17 +102,18 @@ const Employment = () => {
                         <option>{t('navbar.services.assistance.transport')}</option>
                         <option>{t('navbar.services.assistance.catering')}</option>
                     </Form.Control>
-                    {errors.vacancy && <div className="invalid-feedback">Vacancy is required</div>}
+                    {errors.vacancy && <div className="invalid-feedback">{t('employ.vacancy.error')}</div>}
                 </Form.Group>
 
 
                 <Form.Group as={Col} controlId="cv">
-                    <Form.File id="cv" label="Curriculum Vitae" {...register("cv")}/>
+                    <Form.File id="cv" label="Curriculum Vitae" {...register("cv", { required: true })}/>
+                    {errors.vacancy && <div className="invalid-feedback">{t('employ.cv.error')}</div>}
                 </Form.Group>
                 </Form.Row>
 
                 <Form.Row>
-                    <Form.Label>Comentarios</Form.Label>
+                    <Form.Label>{t('employ.comments.tag')}</Form.Label>
                     <Form.Control as="textarea" rows={3} {...register("comments")}/>
                 </Form.Row>
 
@@ -116,8 +121,8 @@ const Employment = () => {
                 <Form.Group id="formGridCheckbox">
                     <Form.Check
                         required
-                        label="Agree to terms and conditions"
-                        feedback="You must agree before submitting."
+                        label={t('employ.checkBox.tag')}
+                        feedback={t('employ.checkBox.error')}
                         />
                 </Form.Group>
 
