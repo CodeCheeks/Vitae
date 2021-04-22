@@ -495,6 +495,12 @@
     }
   },
   "employ":{
+    "intro": {
+      "title":"Join the Vitae Team!",
+      "phrase": "We are looking for professionals who want to join our project: #EquipoVitae.",
+      "paragraph1": "Vitae is born from the hand of a select group of professionals, recognised in the sector and with a lot of experience in the management of companies and services for elderly people, who share a way of working where the support between the components of the team prevails, with a lot of communication and transparency, promoting innovation and always putting the focus on the most important thing, the care of the elderly. We are incorporating different profiles to work directly with the elderly in our day centres (management, social work, carers, kitchen and cleaning staff, maintenance, customer service staff at reception, etc.).",
+      "paragraph2": "If you are a responsible person with empathy, vocation, ability to work in a team, desire to continue training and above all you like dealing with the elderly, at Vitae we are committed to the talent of people like you. Send us your CV and become part of our team."
+    },
     "firstName": {
       "tag":"First name",
       "placeholder": "Enter your first name",
