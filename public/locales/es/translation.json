@@ -580,6 +580,26 @@
       "Companionship": "Compañerismo",
       "Integrity": "Integridad"
     }
+  },
+  "physiotherapy" : {
+    "title": "¿Qué es y para qué la utilizamos?",
+    "paragraph1": "La fisioterapia se preocupa por identificar y maximizar el potencial de movimiento dentro de las esferas de prevención, tratamiento, rehabilitación y promoción. Mejorando la calidad de vida de nuestros mayores, mediante la intervención en la parte física.  ",
+    "paragraph2": "El papel del fisioterapeuta en el centro de día es el de crear talleres de ejercicio activo,  en el que se potencien todos los campos físicos del adulto mayor. Desde la fuerza, equilibrio, agilidad, coordinación etc. Hasta la mejora del esquema corporal, autoconsciencia y psicomotricidad. Por ello es muy importante crear, en base al diagnóstico ofrecido por el médico, un plan de rehabilitación en el que se incluyen una valoración fisioterapéutica, un planteamiento de objetivos, y un tratamiento individual o grupal que genere los beneficios que se proponen.",
+    "types": {
+      "title": "Tipos de rehabilitación",
+      "re-education": {
+        "title": "Reeducación de la marcha"
+      },
+      "neurology": {
+        "title": "Neurológica"
+      },
+      "gymnasia": {
+        "title": "Gimnasia para mayores"
+      },
+      "traumatology": {
+        "title": "Traumatológica"
+      }
+    }
   }
 }
 
