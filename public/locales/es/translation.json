@@ -555,6 +555,12 @@
       "tag":"Estoy de acuerdo con los términos y condiciones",
       "error": "Acepte los términos y condiciones para proseguir"
     }
+  },
+  "about": {
+    "title": "",
+    "paragraph1": "Vitae nace en 1973 de la iniciativa de un grupo de personas formado por técnicos y voluntarios, entre ellos nuestra fundadora Pedra Pómez, que madura e impulsa la idea de poner en marcha un proyecto de atención integral a mayores, promoviendo medidas y servicios capaces de dar respuesta a la entonces emergente demanda de atención. Ese proyecto se ha concretado en una red de servicios escalonados y complementarios entre sí, que en la actualidad se extiende a diversas Comunidades Autónomas e incluye la gestión de recursos y centros tanto propios como de titularidad pública. Su experiencia en la gestión de Programas de Intervención social desde su fundación hasta la fecha, la ha convertido en una entidad de referencia en la prestación de servicios a la dependencia.",
+    "paragraph2": "",
+    "paragraph3": ""
   }
 }
 

@@ -8,6 +8,7 @@ import './Employment.css'
 import { employ } from '../../../services/UserService';
 import { useTranslation } from 'react-i18next';
 import { useHistory } from 'react-router';
+import Carousel from '../../Carousel/Carousel'
 
 
 
@@ -29,8 +30,7 @@ const Employment = () => {
             push("/")
         });
     }
-
-
+    
     return (
         <div className="container">
 
@@ -41,11 +41,11 @@ const Employment = () => {
                     <p className="col mb-3">{t('employ.intro.paragraph1')}</p>
                     <p className="col mb-5">{t('employ.intro.paragraph2')}</p>
                 </div>
-
             </div>
 
-            <div className="row justify-content-center">
-                <div className="col-lg-8">
+            <Carousel/>
+            <div className="row justify-content-center mt-5">
+                <div className="col-lg-8 mt-5">
                 <Form onSubmit={handleSubmit(onSubmit)}>
                     <Form.Row>
                         <Form.Group as={Col} controlId="firstname">
