@@ -1,0 +1,9 @@
+:root {
+    --light-blue-color: #2fb2b9;
+    --medium-blue-color: #3e7dd0;
+    --primary-blue-color: #007bff;
+    --secondary-blue-color: #44697d;
+}
+.text__style{
+    color: var(--light-blue-color)!important;
+}

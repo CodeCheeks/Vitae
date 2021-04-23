@@ -11,6 +11,7 @@ import { useHistory } from 'react-router';
 
 
 
+
 const Employment = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const { t } = useTranslation();
@@ -29,11 +30,9 @@ const Employment = () => {
             push("/")
         });
     }
-
-
+    
     return (
         <div className="container">
-
             <div className="row justify-content-center">
                 <div className="col my-2">
                     <h1 className="col mb-4">{t('employ.intro.title')}</h1>
@@ -41,11 +40,12 @@ const Employment = () => {
                     <p className="col mb-3">{t('employ.intro.paragraph1')}</p>
                     <p className="col mb-5">{t('employ.intro.paragraph2')}</p>
                 </div>
-
             </div>
 
-            <div className="row justify-content-center">
-                <div className="col-lg-8">
+            <h1 className="col mb-4 text-center">{t('employ.intro.title2')}</h1>
+            <div className="row justify-content-center mt-5">
+                
+                <div className="col-lg-8 mt-5">
                 <Form onSubmit={handleSubmit(onSubmit)}>
                     <Form.Row>
                         <Form.Group as={Col} controlId="firstname">
