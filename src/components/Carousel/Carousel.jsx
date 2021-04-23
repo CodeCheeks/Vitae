@@ -8,6 +8,12 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 export default class Carousel extends Component {
+
+
+  getProfessionals(){
+    
+  }
+
   render() {
     var settings = {
       autoplay:true,
@@ -74,8 +80,8 @@ export default class Carousel extends Component {
             <div className="container">
               <div className="col custom__border">
                 <img src="http://via.placeholder.com/320x250" className="figure-img img-fluid rounded" alt="A generic square placeholder."/>
-                <h4 className="text-center">Maravillas Belda</h4>
-                <h5 className="text-center">Neuropsicóloga</h5>
+                <h4 className="text-center">Poncio Pilates</h4>
+                <h5 className="text-center">Neuropsicólogo</h5>
               </div>
             </div>
             <div className="container">

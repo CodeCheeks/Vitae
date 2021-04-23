@@ -497,6 +497,7 @@
   "employ":{
     "intro": {
       "title":"Join the Vitae Team!",
+      "title2":"Send us your CV!",
       "phrase": "We are looking for professionals who want to join our project: #EquipoVitae.",
       "paragraph1": "Vitae is born from the hand of a select group of professionals, recognised in the sector and with a lot of experience in the management of companies and services for elderly people, who share a way of working where the support between the components of the team prevails, with a lot of communication and transparency, promoting innovation and always putting the focus on the most important thing, the care of the elderly. We are incorporating different profiles to work directly with the elderly in our day centres (management, social work, carers, kitchen and cleaning staff, maintenance, customer service staff at reception, etc.).",
       "paragraph2": "If you are a responsible person with empathy, vocation, ability to work in a team, desire to continue training and above all you like dealing with the elderly, at Vitae we are committed to the talent of people like you. Send us your CV and become part of our team."
@@ -553,6 +554,30 @@
     "checkBox": {
       "tag":"Agree terms and conditions",
       "error": "Accept the terms and conditions to proceed."
+    }
+  },
+  "about": {
+    "title1": "Origins",
+    "paragraph1": "Vitae was born in 1973 from the initiative of a group of people formed by technicians and volunteers, among them our founder Pedra Pómez, who matured and promoted the idea of starting up a project of integral care for the elderly, promoting measures and services capable of responding to the then emerging demand for care. This project has materialised in a network of staggered and complementary services, which currently extends to various Autonomous Communities and includes the management of both its own and publicly owned resources and centres. Its experience in the management of social intervention programmes from its foundation to date has made it a benchmark organisation in the provision of services for dependency.",
+    "paragraph2": "Today, we are more than 30 people who share the same interest and enthusiasm for developing more welcoming day centres, with spacious, bright and warm spaces, where regular attendance is a pleasant and stimulating routine that culminates each day with the return of the elderly person to their home.",
+    "paragraph3": "Your eldest will also be part of our family, and together we will strive to ensure that their days begin each morning with more vitality and enthusiasm than the day before.",
+    "paragraph4": "Thank you for your trust!",
+    "title2": "Our team",
+    "title3": "Vision and values",
+    "paragraph5":"The values that the Vitae team has considered to be the most representative of the work they carry out on a daily basis, and which have been agreed between professionals and users, are: Professionalism, affection, respect, closeness, vocation and enthusiasm.",
+    "title4": "Qualified care and adapted equipment",
+    "paragraph6": "The vocation and qualifications of our staff ensure that the work in the centres is carried out in a personalised manner and in the best possible conditions of attention and care by a team of people who are constantly undergoing training, a goal pursued over all these years of experience. The centres also provide innovative spaces and equipment that facilitate the daily work and mobilisation of the elderly. The adaptation of the spaces and the technical equipment are added to the objective of achieving the wellbeing of the elderly and their families, providing them with help in reconciling social and working life.",
+    "values": {
+      "Vocation": "Vocation",
+      "Passion": "Passion",
+      "Motivation": "Motivation",
+      "Responsibility": "Responsibility",
+      "Training": "Training",
+      "Sensitivity": "Sensitivity",
+      "Responsiveness": "Responsiveness",
+      "Proactivity": "Proactivity",
+      "Companionship": "Companionship",
+      "Integrity": "Integrity"
     }
   }
 }

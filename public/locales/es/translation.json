@@ -32,7 +32,7 @@
       "dependence":"Cheque-Servicio"
     },
     "faq": "FAQs",
-    "about": "Sobre Nosotros",
+    "about": "Nosotros",
     "jobs": "Empleo",
     "contact": "Contacto",
     "area": "Área Personal",
@@ -498,6 +498,7 @@
   "employ":{
     "intro": {
       "title":"¡Únete al Equipo Vitae!",
+      "title2":"¡Mándanos tu CV!",
       "phrase": "Buscamos profesionales que se quieran unir a nuestro proyecto: #EquipoVitae.",
       "paragraph1": "Vitae nace de la mano de un selecto grupo de profesionales, reconocidos en el sector y con mucha experiencia en la gestión de empresas y servicios para personas mayores, que comparten una forma de trabajo donde prima el apoyo entre los componentes del equipo, con mucha comunicación y transparencia, fomentando la innovación y poniendo siempre el foco en lo más importante, el cuidado del mayor. Estamos incorporando distintos perfiles para trabajar directamente con las personas mayores en nuestros centros de día (dirección, trabajo social, cuidadoras y cuidadores, personal de cocina y limpieza, mantenimiento, personal de atención al cliente en la recepción, etc.).",
       "paragraph2": "Si eres una persona responsable con empatía, vocación, capacidad de trabajo en equipo, ganas de seguir formándote y sobretodo te gusta el trato con los mayores, en Vitae apostamos por el talento de personas como tú. Envíanos tu CV y pasa a formar parte de nuestro equipo de trabajo."
@@ -557,13 +558,29 @@
     }
   },
   "about": {
-    "title": "",
+    "title1": "Orígenes",
     "paragraph1": "Vitae nace en 1973 de la iniciativa de un grupo de personas formado por técnicos y voluntarios, entre ellos nuestra fundadora Pedra Pómez, que madura e impulsa la idea de poner en marcha un proyecto de atención integral a mayores, promoviendo medidas y servicios capaces de dar respuesta a la entonces emergente demanda de atención. Ese proyecto se ha concretado en una red de servicios escalonados y complementarios entre sí, que en la actualidad se extiende a diversas Comunidades Autónomas e incluye la gestión de recursos y centros tanto propios como de titularidad pública. Su experiencia en la gestión de Programas de Intervención social desde su fundación hasta la fecha, la ha convertido en una entidad de referencia en la prestación de servicios a la dependencia.",
-    "paragraph2": "",
-    "paragraph3": ""
+    "paragraph2": "Hoy día, somos más de 30 personas que compartimos el mismo interés e ilusión por desarrollar Centros de día más acogedores, con espacios amplios, luminosos y cálidos, donde la asistencia periódica es una agradable y estimulante rutina que culmina cada día con el regreso del mayor a su hogar.",
+    "paragraph3": "Tu mayor será también parte de nuestra familia, y juntos nos esforzaremos para que sus días comiencen cada mañana con más vitalidad e ilusión que el día anterior.",
+    "paragraph4": "¡Gracias por vuestra confianza!",
+    "title2": "Nuestro equipo",
+    "title3": "Visión y valores",
+    "paragraph5":"Los valores que el equipo de Vitae ha considerado como mas representativos de la labor que desempeñan diariamente y que han sido consensuados entre profesionales y usuarios, son: Profesionalidad, Cariño, respeto, cercanía, vocación y ganas.",
+    "title4": "Atención cualificada y equipamientos adaptados",
+    "paragraph6": "La vocación y cualificación de nuestro personal hacen que el trabajo en los centros se realice de manera personalizada y en las condiciones más óptimas de atención y cuidados por parte de un equipo humano en constante formación meta perseguida en todos estos años de experiencia. Los centros proporcionan a su vez espacios y equipamientos innovadores que facilitan el trabajo diario y la movilización del Mayor. La adaptación de los espacios y los equipos técnicos se suman al objetivo de conseguir el bienestar del Mayor y su familia, proporcionando a estas, ayuda en la concilia de la vida social y laboral.",
+    "values": {
+      "Vocation": "Vocación",
+      "Passion": "Pasión",
+      "Motivation": "Motivación",
+      "Responsibility": "Responsabilidad",
+      "Training": "Formación",
+      "Sensitivity": "Sensibilidad",
+      "Responsiveness": "Receptividad",
+      "Proactivity": "Proactividad",
+      "Companionship": "Compañerismo",
+      "Integrity": "Integridad"
+    }
   }
 }
 
 
-  
-    

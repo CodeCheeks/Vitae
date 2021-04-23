@@ -8,7 +8,7 @@ import './Employment.css'
 import { employ } from '../../../services/UserService';
 import { useTranslation } from 'react-i18next';
 import { useHistory } from 'react-router';
-import Carousel from '../../Carousel/Carousel'
+
 
 
 
@@ -33,7 +33,6 @@ const Employment = () => {
     
     return (
         <div className="container">
-
             <div className="row justify-content-center">
                 <div className="col my-2">
                     <h1 className="col mb-4">{t('employ.intro.title')}</h1>
@@ -43,8 +42,9 @@ const Employment = () => {
                 </div>
             </div>
 
-            <Carousel/>
+            <h1 className="col mb-4 text-center">{t('employ.intro.title2')}</h1>
             <div className="row justify-content-center mt-5">
+                
                 <div className="col-lg-8 mt-5">
                 <Form onSubmit={handleSubmit(onSubmit)}>
                     <Form.Row>
