@@ -600,6 +600,46 @@
         "title": "Traumatológica"
       }
     }
+  },
+  "psychology" : {
+    "title1": "¿En qué consiste la terapia para mayores?",
+    "paragraph1": "La terapia psicológica ha demostrado su eficacia en cualquier momento de la vida, desde la atención temprana hasta la tercera edad. Los fundamentos de la psicoterapia apenas varían pero cada etapa de la vida tiene unas necesidades específicas que abordamos de manera diferente.",
+    "paragraph2": "En la tercera edad a veces es importante una valoración inicial del estado cognitivo. Es recomendable valorar la capacidad de autocuidados y el estilo de vida que lleva la persona que acude a terapia. También es importante conocer el apoyo social con el que cuenta. Estos pueden ser algunos de los aspectos diferenciales a tener en cuenta en casos donde el paciente se encuentra al cuidado de otros o no es totalmente independiente.",
+    "paragraph3": "Sin embargo, habitualmente nos encontramos pacientes de edad más avanzada pero independientes y autosuficientes, con los que trabajamos en sus necesidades igual que hacemos en psicoterapia de adultos. Los motivos de consulta más habituales son depresión, problemas de pareja, duelos y pérdidas, trastorno adaptativo ante algún cambio relevante en el entorno y síntomas ansioso-depresivos ante la jubilación.",
+    "title2": "¿Qué trabajamos en terapia para mayores?",
+    "paragraph4": "En terapia para mayores trabajamos los problemas que afectan con más frecuencia a las personas mayores:",
+    "types": {
+      "depression": "Depresión",
+      "anxiety": "Ansiedad",
+      "grief": "Duelo",
+      "disorder": "Trastorno adaptativo",
+      "cognitive": "Manejo de sintomatología asociada a deterioro cognitivo",
+      "support": "Apoyo a la familia en casos de demencia"
+    },
+    "title3": "¿En qué consiste un estudio neuropsicológico?",
+    "paragraph5": "Un estudio neuropsicológico consiste en una batería de pruebas que miden diferentes dominios cognitivos, y comparando los resultados obtenidos con unos valores de referencia nos permite determinar si hay alguna función afectada.",
+    "paragraph6": "Podemos realizar un estudio de la memoria, de la atención, de la planificación y la capacidad de secuenciación de una tarea determinada, por ejemplo. Podemos medir la inteligencia global o por capacidades específicas. Podemos valorar si existe un déficit en alguna función específica y crear un protocolo de entrenamiento específico de esa capacidad."
+  },
+  "therapy": {
+    "title1": "¿Qué es para qué sirve la terapia ocupacional?",
+    "paragraph1": "La terapia ocupacional es una profesión sociosanitaria mediante la cual, a través de la ocupación diaria de las personas (vestirse, asearse, alimentarse, utilizar transporte público, ir de compras, desarrollar los intereses lúdicos recreativos,etc.), tiene como objetivo posibilitar a las personas una independencia cuando han sufrido una enfermedad, o limitación en sus aspectos sensoriales, cognitivos, motrices o psicosociales, o cuando estan en riesgo de padecer esa limitación; es por tanto una intervención rehabilitadora y preventiva. ",
+    "paragraph2": "La terapia ocupacional concibe a la persona mayor como miembro activo y participativo de la sociedad en el ámbito social, cultural y espiritual. Su objetivo es el de mejorar la calidad de vida de los mayores, mediante la optimización de sus capacidades para realizar actividades de la vida diaria y de sus funciones en el hogar y su comunidad. Beneficia a las personas mayores con discapacidad física o disfunción social y promueve la recuperación funcional suficiente para poder seguir viviendo en su domicilio de forma independiente, ya que proporciona estrategias para mejorar capacidades del mayor, además de reducir el riesgo de aislamiento social. ",
+    "paragraph3": "Por otro lado, el terapeuta ocupacional es quien se encarga de valorar, prescribir, entrenar y compensar una limitación del mayor, mediante el uso de un producto de apoyo, así como adaptar su entorno más cercano, y elaborar programas de eliminación de barreras arquitectónicas, asesorando cuando es necesario a familiares y usuarios.",
+    "types": {
+      "title": "Tipos de terapias",
+      "avd": {
+        "title": "Actividades vida diaria (AVD)"
+      },
+      "sensorial": {
+        "title": "Estimulación sensorial"
+      },
+      "psyco": {
+        "title": "Psicomotricidad"
+      },
+      "labor": {
+        "title": "Laborterapia"
+      }
+    }
   }
 }
 
