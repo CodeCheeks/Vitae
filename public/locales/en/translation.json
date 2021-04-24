@@ -579,5 +579,65 @@
       "Companionship": "Companionship",
       "Integrity": "Integrity"
     }
+  },
+  "physiotherapy" : {
+    "title": "What is it and what do we use it for?",
+    "paragraph1": "Physiotherapy is concerned with identifying and maximising movement potential within the spheres of prevention, treatment, rehabilitation and promotion. Improving the quality of life of our elders, through intervention in the physical part.  ",
+    "paragraph2": "The role of the physiotherapist in the day centre is to create active exercise workshops, in which all physical fields of the elderly are enhanced. From strength, balance, agility, co-ordination, etc. To the improvement of the body schema, self-awareness and psychomotor skills. It is therefore very important to create, based on the diagnosis offered by the doctor, a rehabilitation plan that includes a physiotherapeutic assessment, a set of objectives, and an individual or group treatment that generates the proposed benefits.",
+    "types": {
+      "title": "Types of rehabilitation",
+      "re-education": {
+        "title": "Re-education"
+      },
+      "neurology": {
+        "title": "Neurological"
+      },
+      "gymnasia": {
+        "title": "Gymnastics for seniors"
+      },
+      "traumatology": {
+        "title": "Traumatology"
+      }
+    }
+  },
+  "psychology" : {
+    "title1": "What does therapy for the elderly consist of?",
+    "paragraph1": "Psychological therapy has proven to be effective at all stages of life, from early care to old age. The fundamentals of psychotherapy hardly vary, but each stage of life has specific needs that we address differently.",
+    "paragraph2": "In old age, an initial assessment of cognitive status is sometimes important. It is advisable to assess the self-care capacity and lifestyle of the person attending therapy. It is also important to know how much social support is available. These may be some of the differential aspects to take into account in cases where the patient is in the care of others or is not totally independent.",
+    "paragraph3": "However, we usually find patients who are older but independent and self-sufficient, with whom we work on their needs in the same way as we do in adult psychotherapy. The most common reasons for consultation are depression, relationship problems, grief and loss, adaptive disorder in the face of a significant change in the environment and anxious-depressive symptoms in the face of retirement.",
+    "title2": "What do we work on in therapy for older people?",
+    "paragraph4": "In therapy for the elderly we work on the problems that most frequently affect older people:",
+    "types": {
+      "depression": "Depression",
+      "anxiety": "Anxiety",
+      "grief": "Mourning",
+      "disorder": "Adaptive disorder",
+      "cognitive": "Management of symptomatology associated with cognitive impairment",
+      "support": "Family support for dementia"
+    },
+    "title3": "What does a neuropsychological study consist of?",
+    "paragraph5": "A neuropsychological study consists of a battery of tests that measure different cognitive domains, and comparing the results obtained with reference values allows us to determine whether any function is affected.",
+    "paragraph6": "We can carry out a study of memory, attention, planning and the ability to sequence a given task, for example. We can measure global intelligence or by specific abilities. We can assess whether there is a deficit in a specific function and create a specific training protocol for that ability."
+  },
+  "therapy": {
+    "title1": "What is occupational therapy for?",
+    "paragraph1": "Occupational therapy is a social-health profession by means of which, through the daily occupation of people (dressing, grooming, feeding, using public transport, shopping, developing leisure and recreational interests, etc.), it aims to enable people to become independent when they have suffered from an illness or limitation in their sensory, cognitive, motor or psychosocial aspects, or when they are at risk of suffering from such a limitation; it is therefore a rehabilitative and preventive intervention.",
+    "paragraph2": "Occupational therapy sees the older person as an active and participatory member of society in the social, cultural and spiritual spheres. It aims to improve the quality of life of older people by optimising their ability to perform activities of daily living and their roles in the home and community. It benefits elderly people with physical disability or social dysfunction and promotes functional recovery sufficient to be able to continue living independently at home, as it provides strategies to improve the abilities of the elderly, as well as reducing the risk of social isolation.",
+    "paragraph3": "On the other hand, the occupational therapist is in charge of assessing, prescribing, training and compensating a limitation of the elderly person, through the use of a support product, as well as adapting their immediate environment, and developing programmes for the elimination of architectural barriers, advising family members and users when necessary.",
+    "types": {
+      "title": "Types of therapies",
+      "avd": {
+        "title": "Activities of daily living (ADL)"
+      },
+      "sensorial": {
+        "title": "Sensory stimulation"
+      },
+      "psyco": {
+        "title": "Psychomotricity"
+      },
+      "labor": {
+        "title": "Labour-Therapy"
+      }
+    }
   }
 }
