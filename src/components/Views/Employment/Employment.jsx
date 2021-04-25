@@ -74,7 +74,7 @@ const Employment = () => {
                                 {...register("phoneNumber", {
                                     required: true ,
                                     validate: {
-                                    numberLength: (value) => value.length === 9,
+                                        numberLength: (value) => value.length === 9,
                                     }
                                 })}/>
                             {errors.phoneNumber && errors.phoneNumber.type !=="numberLength" && <div className="invalid-feedback">{t('employ.phoneNumber.error')}</div>}
