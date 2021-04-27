@@ -53,7 +53,8 @@
         "required": "Introduzca la contraseña",
         "invalid": "Contraseña incorrecta"
       }
-    }
+    },
+    "autherror": "Contraseña o email incorrectos"
   },
 
   "specialities":{

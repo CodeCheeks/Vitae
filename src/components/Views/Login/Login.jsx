@@ -15,47 +15,39 @@ const Employment = () => {
     const { t } = useTranslation();
     const { push } = useHistory();
     const { getUser: doLogin } = useUser();
-
+    const [authError, setAuthError] = useState(false)
 
     const onSubmit = (data) => {
+        setAuthError(false)
         login(data)
         .then((response) => {
-          setAccessToken(response.access_token);
-          doLogin().then(() => push("/area-personal"));
+            setAccessToken(response.access_token);
+            doLogin().then(() => push("/area-personal"));
         })
         .catch(error => {
-          console.log("-------- Auth ERROR --------")
-          //TODO GENERATE ERROR
+            setAuthError(true)
         })
     }
     
     return (
         <div className="container">
             <div className="row justify-content-center">
-                <div className="col-4">
+                <div className="col-lg-4 col-md-5 col-sm-6 col-8">
                     <Form onSubmit={handleSubmit(onSubmit)}>
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
-                            <Form.Control className={errors.email && "is-invalid"} type="email" placeholder={t('employ.email.placeholder')} {...register("email", { required: true })}/>
-                            {errors.email && <div className="invalid-feedback">{t('employ.email.error')}</div>}
+                            <Form.Control className={(errors.email || authError) && "is-invalid"} type="email" placeholder={t('employ.email.placeholder')} {...register("email", { required: true })}/>
+                            {errors.email && <div className="invalid-feedback">{t('login.email.error.required')}</div>}
                         </Form.Group>
-
                         <Form.Group controlId="formBasicPassword">
                             <Form.Label>Password</Form.Label>
-                            <Form.Control className={errors.password && "is-invalid"} type="password" placeholder="Password" 
-                            {...register("password", { 
-                                required: true,
-                                validate: {
-                                    checkPass: () => true
-                                }
-                            })}/>
-                            {errors.password && <div className="invalid-feedback">Introduzca la contraseña</div>}
-                            {errors.password && errors.password.type ==="checkPass" && <div className="invalid-feedback">Contraseña o correo incorrectos</div>}
-                        </Form.Group>
+                            <Form.Control className={(errors.password || authError) && "is-invalid"} type="password" placeholder="Password" 
+                            {...register("password", { required: true })}/>
 
-                        <Button variant="primary" type="submit">
-                            Submit
-                        </Button>
+                            {errors.password && <div className="invalid-feedback">{t('login.pass.error.required')}</div>}
+                            {authError && !errors.password && <div className="invalid-feedback">{t('login.autherror')}</div>}
+                        </Form.Group>
+                        <Button variant="primary" type="submit">Submit</Button>
                     </Form>
                 </div>
             </div>
@@ -63,7 +55,6 @@ const Employment = () => {
        
     );
 };
-
 
 
 export default function App() {

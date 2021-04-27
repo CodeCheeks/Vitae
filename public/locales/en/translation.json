@@ -53,7 +53,8 @@
         "required": "Password is required",
         "invalid": "Incorrect password"
       }
-    }
+    },
+    "autherror": "Incorrect password or email address"
   },
 
   "specialities":{
