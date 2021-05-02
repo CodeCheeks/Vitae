@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from '../../Carousel/Carousel';
 import ContactForm from '../../Forms/ContactForm/ContactForm';
 import IconsBox from '../../IconsBox/IconsBox';
+import InteractiveCard from '../../InteractiveCard/InteractiveCard';
 import './Home.css'
 
 const Home = () => {
@@ -61,19 +62,22 @@ const Home = () => {
                         </div>
                     </div> 
                 </div>
-                <div className='container home__sec__4 my-4'>
-                    <div className="row d-flex justify-content-center ">
-                        <h2 className='my-5'>Nuestro equipo </h2>
-                    </div>
-                    <Carousel/>
-                </div>
                 
-                <div className="row grey__container home__sec__5 py-5 ">
-                    <div className="col text-center d-flex flex-column justify-content-center align-items-center ">
-                        <h2>Medidas COVID</h2>
-                        <h5>Cumplimos con rigurosas medidas higiénico-sanitarias para garantizar la seguridad de todos los usuarios.</h5>
+                <div className="row grey__container d-flex flex-column justify-content-center align-items-center home__sec__5 py-5 ">
+                    <div className="row">
+                        <div className="col text-center ">
+                            <h2>Medidas COVID</h2>
+                            <h5>Cumplimos con rigurosas medidas higiénico-sanitarias para garantizar la seguridad de todos los usuarios.</h5>
+                        </div>
+                    </div>
+                    <div className="row covid__gallery">
+                        <InteractiveCard/>
+                    </div>
+                    <div className="row text-center px-5">
+                        <button href='/contacto' className='btn-primary p-2'>Saber más</button>
                     </div>
                 </div>
+
             </div>
             
         </div>
