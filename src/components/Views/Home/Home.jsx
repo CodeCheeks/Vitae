@@ -74,7 +74,7 @@ const Home = () => {
                         <InteractiveCard/>
                     </div>
                     <div className="row text-center px-5">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium voluptate repudiandae. Assumenda suscipit autem eaque aliquid dolorum magni doloribus quae accusamus expedita fugiat, qui, numquam ipsam quis error unde.</p>
+                        <button href='/contacto' className='btn-primary p-2'>Saber más</button>
                     </div>
                 </div>
 
