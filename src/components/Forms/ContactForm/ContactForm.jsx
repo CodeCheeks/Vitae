@@ -10,7 +10,7 @@ const ContactForm = () => {
                 <Form.Label column sm={2}>
                 Nombre
                 </Form.Label>
-                <Col lg={10}>
+                <Col lg={10} md={12}>
                 <Form.Control type="email" placeholder="Nombre" />
                 </Col>
             </Form.Group>
