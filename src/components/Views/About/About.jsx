@@ -123,9 +123,10 @@ const About = () => {
                     <p>{t('about.paragraph6')}</p>
                 </div>
             </div>
-            
-            <h2 className="mb-5" >  <p>{t('about.title2')}</p></h2>
-            <Carousel/>
+            <div className='container '>
+                <h2 className="mb-5" >  <p>{t('about.title2')}</p></h2>
+                <Carousel/>
+            </div>
         </div>
     );
 };

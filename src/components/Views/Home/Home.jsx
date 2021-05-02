@@ -7,7 +7,7 @@ import './Home.css'
 const Home = () => {
     return (
         <div>
-            <div className="container-fluid ">
+            <div className="container-fluid body__background ">
                 <div className="row home__sec__1 ">
                     <div className=" col-5 home__title d-flex align-items-start justify-content-start ml-5 mt-3">
                         <h1>Vitae </h1>
@@ -33,7 +33,7 @@ const Home = () => {
                         </div>
                         
                     </div>
-                    <div className="col-6 px-5 py-5 d-flex flex-column justify-content-center align-content-center">
+                    <div className="col-6 px-5 py-5 d-flex flex-column justify-content-center align-content-center grey__container">
                         <h3>Contamos con un equipo multidisciplinar</h3>
                         <div className='mt-3'>
                             <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h5>
@@ -45,6 +45,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                
                 <div className="row home__sec__3 py-5">
                     <div className="col-12 d-flex flex-column align-items-center mt-5">
                         <div className="row my-3">
@@ -60,21 +61,17 @@ const Home = () => {
                         </div>
                     </div> 
                 </div>
-                <div className='container my-5'>
-                    <div className="row d-flex justify-content-center home__sec__4">
+                <div className='container home__sec__4 my-4'>
+                    <div className="row d-flex justify-content-center ">
                         <h2 className='my-5'>Nuestro equipo </h2>
                     </div>
                     <Carousel/>
                 </div>
-                <div className="row home__sec__5 py-5 ">
-                    <div className="col-10 col-lg-4 ">
-                        <h4>Preguntas frecuentes</h4>
-                    </div>
-                    <div className="col-10 col-lg-4 ">
-                        <h4>Consulta el programa de ayudas municipales</h4>
-                    </div>
-                    <div className="col-10 col-lg-4 ">
-                        <h4>Conoce más sobre nosotros</h4>
+                
+                <div className="row grey__container home__sec__5 py-5 ">
+                    <div className="col text-center d-flex flex-column justify-content-center align-items-center ">
+                        <h2>Medidas COVID</h2>
+                        <h5>Cumplimos con rigurosas medidas higiénico-sanitarias para garantizar la seguridad de todos los usuarios.</h5>
                     </div>
                 </div>
             </div>

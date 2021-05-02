@@ -1,29 +1,42 @@
-.home__sec__1{
-    background-image: url('https://res.cloudinary.com/dv7hswrot/image/upload/v1619948579/Vitae/imagenes/Home%20Pictures/cristina-seri-dRu3zxFb6uE-unsplash_udkdrd.jpg');
+.body__background{
+    background-image: url('https://res.cloudinary.com/dv7hswrot/image/upload/v1619982787/Vitae/imagenes/Home%20Pictures/cristina-seri-dRu3zxFb6uE-unsplash_2_xkuehv.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+}
+
+.home__sec__1{
+    
     height: 600px;
     width: 100%;
 }
 
+.home__sec__2{
+    background-color: var(--transparent-grey-color);
+    height: 700px;
+}
 .contactForm{
     width: 50%;
 }
 
-.home__sec__3{
-    background-color: var(--aqua-blue-color);
+.home__sec__4{
+    background-color: var(--transparent-grey-color);
     color:var(--dark-blue-color);
+    padding-left: 30px !important;
+    padding-right: 30px !important;
 }
 
-.home__sec__3 h5{
+.home__sec__4 h5{
     color:var(--medium-blue-color);
 }
 
-.home__sec__4{
-    color: var(--dark-blue-color)
+.home__sec__3{
+    
+    color: var(--dark-blue-color);
+    background-color:white;
 }
 
 .home__sec__5{
+    background-color: var(--transparent-grey-color) ;
     background-color: var(--transparent-grey-color);
 }
 .home__title{
@@ -43,9 +56,11 @@
 }
 
 .home__subsec__1{
-    background-color: var(--transparent-grey-color);
-    height: 600px;
+    background-color: var(--transparent-grey-color) 
 }
 
+.home__subsec__2{
+    background-color: white; 
+}
 
 
