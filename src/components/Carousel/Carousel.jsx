@@ -18,7 +18,7 @@ export default class Carousel extends Component {
     var settings = {
       autoplay:true,
       autoplaySpeed: 10000,
-      dots: true,
+      dots: false,
       focusOnSelect:true,
       infinite: true,
       speed: 1000,
@@ -49,7 +49,7 @@ export default class Carousel extends Component {
     };
     return (
         <Slider {...settings}>
-            <div className="container">
+            <div className="container ">
               <div className="col custom__border">
                 <img src="http://via.placeholder.com/320x250" className="figure-img img-fluid rounded" alt="A generic square placeholder."/>
                 <h4 className="text-center" >Olaya del Castillo</h4>
