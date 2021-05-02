@@ -6,8 +6,12 @@
     width: 100%;
 }
 
+.contactForm{
+    width: 50%;
+}
+
 .home__sec__3{
-    background-color: rgba(212, 209, 209, 0.7);
+    background-color: var(--aqua-blue-color);
     color:var(--dark-blue-color);
 }
 
@@ -15,32 +19,33 @@
     color:var(--medium-blue-color);
 }
 
+.home__sec__4{
+    color: var(--dark-blue-color)
+}
 
-
+.home__sec__5{
+    background-color: var(--transparent-grey-color);
+}
 .home__title{
     color:white;
     display: flex;
     flex-direction: column;
-
     justify-content: start;
     align-items: center;
 
 }
 
-.contact__form{
-    
-}
 
 .home__title h1{
-    font-size: 10rem !important;
+    font-size: 8rem !important;
     color:white;
 
 }
 
 .home__subsec__1{
-    background-image: url('https://res.cloudinary.com/dv7hswrot/image/upload/v1619948579/Vitae/imagenes/Home%20Pictures/pexels-matthias-zomer-618158_stutqq.jpg');
-    background-repeat: no-repeat;
-    background-size: cover; 
+    background-color: var(--transparent-grey-color);
     height: 600px;
 }
+
+
 

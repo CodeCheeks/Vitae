@@ -9,7 +9,7 @@ const About = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="container">
+        <div className="container grey__container">
             <div className="row mb-3">
                 <div className="col">
                 <h2 className="mb-3" >  <p>{t('about.title1')}</p></h2>

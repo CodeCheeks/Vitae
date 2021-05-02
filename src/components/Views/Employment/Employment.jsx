@@ -32,8 +32,8 @@ const Employment = () => {
     }
     
     return (
-        <div className="container">
-            <div className="row justify-content-center">
+        <div className="container grey__container">
+            <div className="row  justify-content-center">
                 <div className="col my-2">
                     <h1 className="col mb-4">{t('employ.intro.title')}</h1>
                     <h4 className="col mb-4">{t('employ.intro.phrase')}</h4>
@@ -43,7 +43,7 @@ const Employment = () => {
             </div>
 
             <h1 className="col mb-4 text-center">{t('employ.intro.title2')}</h1>
-            <div className="row justify-content-center mt-5">
+            <div className="row  justify-content-center mt-5">
                 
                 <div className="col-lg-8 mt-5">
                 <Form onSubmit={handleSubmit(onSubmit)}>

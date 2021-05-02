@@ -7,7 +7,7 @@ const TerapiaOcupacional = () => {
     const { t } = useTranslation();
     return (
         <div className="container">
-            <div className="row">
+            <div className="row grey__container">
                 <h1>{t('therapy.title1')}</h1>
                 <p>{t('therapy.paragraph1')}</p>
                 <p>{t('therapy.paragraph1')}</p>

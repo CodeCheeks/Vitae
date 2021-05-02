@@ -11,7 +11,7 @@ const Depresion = () => {
 
     return (
         <div className="container">
-            <div className="row m-2">
+            <div className="row grey__container m-2">
                 <div className="row">
                     <div className="col">
                         <h2>{t('specialities.depression.definition.title')}</h2>
@@ -21,7 +21,7 @@ const Depresion = () => {
                 </div>
                 <div className="row">
                 <div className="col d-none d-sm-none d-md-block">
-                        <img src="http://via.placeholder.com/1280x720" className="figure-img img-fluid rounded" alt="A generic square placeholder."/>
+                        <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619948579/Vitae/imagenes/Home%20Pictures/pexels-matthias-zomer-618158_stutqq.jpg" className="figure-img img-fluid rounded" width='1280' alt="A generic square placeholder."/>
                     </div>
                 </div>
                 <div className="row">
@@ -43,7 +43,7 @@ const Depresion = () => {
                         <div className="col"> 
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978855/Vitae/iconos/clock_hmnyih.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                     <h5>{t('specialities.depression.symptoms.low')}</h5>
@@ -53,7 +53,7 @@ const Depresion = () => {
                         <div className="col"> 
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619981849/Vitae/iconos/thinking_dvftic.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                 <h5>{t('specialities.depression.symptoms.pessimism')}</h5>
@@ -63,7 +63,7 @@ const Depresion = () => {
                         <div className="col">
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978857/Vitae/iconos/view_onsvks.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                     <h5>{t('specialities.depression.symptoms.interest')}</h5>
@@ -73,7 +73,7 @@ const Depresion = () => {
                         <div className="col">
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619979142/Vitae/iconos/muscle_fd5ahc.png" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                 <h5>{t('specialities.depression.symptoms.fatigue')}</h5>

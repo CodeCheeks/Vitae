@@ -8,8 +8,8 @@ const Fisioterapia = () => {
     const { t } = useTranslation();
 
     return (
-        <div className="container">
-            <div className="row">
+        <div className="container ">
+            <div className="row grey__container my-3">
                 <div className="col">
                     <h1 className="mb-3">{t('physiotherapy.title')}</h1>
                     <p>{t('physiotherapy.paragraph1')}</p>
