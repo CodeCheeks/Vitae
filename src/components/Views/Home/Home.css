@@ -1,0 +1,35 @@
+.home__sec__1{
+    background-image: url('https://res.cloudinary.com/dv7hswrot/image/upload/v1619948579/Vitae/imagenes/Home%20Pictures/cristina-seri-dRu3zxFb6uE-unsplash_udkdrd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.home__title{
+    color:white;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+    align-items: center;
+
+}
+
+.contact__form{
+    
+}
+
+.home__title h1{
+    font-size: 10rem !important;
+    color:white;
+
+}
+
+.home__subsec__1{
+    background-image: url('https://res.cloudinary.com/dv7hswrot/image/upload/v1619948579/Vitae/imagenes/Home%20Pictures/pexels-matthias-zomer-618158_stutqq.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 600px;
+}
+

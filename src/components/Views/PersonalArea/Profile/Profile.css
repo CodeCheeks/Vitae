@@ -1,0 +1,14 @@
+.personal__box{
+    padding: 20px;
+    margin: 20px;
+    color:white;
+   
+}
+
+.color__1{
+    background-color: var(--dark-blue-color);
+}
+
+.color__2{
+    background-color: var(--light-grey-color);
+}
