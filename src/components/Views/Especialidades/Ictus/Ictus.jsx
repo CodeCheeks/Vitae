@@ -9,14 +9,14 @@ const Ictus = () => {
 
     return (
         <div className="container">
-            <div className="row  mx-2">
+            <div className="row  grey__container mx-2">
                 <div className="row  m-2">
                     <h2>{t('specialities.ictus.definition.title')}</h2>
                     <p>{t('specialities.ictus.definition.paragraph')}</p>
                 </div>
                 <div className="row">
                     <div className="col d-none d-sm-none d-md-block">
-                        <img src="http://via.placeholder.com/1280x720" className="figure-img img-fluid rounded" alt="A generic square placeholder."/>
+                        <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619948579/Vitae/imagenes/Home%20Pictures/pexels-matthias-zomer-339620_puzzyr.jpg"  widht='1280' className="figure-img img-fluid rounded" alt="A generic square placeholder."/>
                     </div>
                     <div className="col">
                         <h2>{t('specialities.ictus.types.title')}</h2>
@@ -34,7 +34,7 @@ const Ictus = () => {
                         <div className="col">
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978670/Vitae/iconos/musculo_dnwgla.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                     <h5>{t('specialities.ictus.symptoms.strength')}</h5>
@@ -42,7 +42,7 @@ const Ictus = () => {
                             </div>
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978858/Vitae/iconos/confusion_xd44kr.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                     <h5>{t('specialities.ictus.symptoms.confusion')}</h5>
@@ -52,7 +52,7 @@ const Ictus = () => {
                         <div className="col">
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978757/Vitae/iconos/walk_x0kfec.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                 <h5>{t('specialities.ictus.symptoms.walking')}</h5>
@@ -60,7 +60,7 @@ const Ictus = () => {
                             </div>
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978932/Vitae/iconos/speech-bubble_xb2z91.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                 <h5>{t('specialities.ictus.symptoms.speech')}</h5>
@@ -70,7 +70,7 @@ const Ictus = () => {
                         <div className="col">
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978855/Vitae/iconos/clock_hmnyih.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                     <h5>{t('specialities.ictus.symptoms.numbness')}</h5>
@@ -78,7 +78,7 @@ const Ictus = () => {
                             </div>
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978857/Vitae/iconos/view_onsvks.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                     <h5>{t('specialities.ictus.symptoms.vision')}</h5>

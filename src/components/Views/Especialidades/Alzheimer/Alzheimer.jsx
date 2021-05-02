@@ -12,14 +12,14 @@ const Alzheimer = () => {
 
     return (
         <div className="container">
-            <div className="row  mx-2">
+            <div className="row  grey__container mx-2">
                 <div className="row  m-2">
                     <h2>{t('specialities.alzheimer.definition.title')}</h2>
                     <p>{t('specialities.alzheimer.definition.paragraph')}</p>
                 </div>
                 <div className="row">
                     <div className="col d-none d-sm-none d-md-block">
-                        <img src="http://via.placeholder.com/1280x720" className="figure-img img-fluid rounded" alt="A generic square placeholder."/>
+                        <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619193404/Vitae/imagenes/Servicios/Psicolog%C3%ADa/psicologo-tercera-edad_k3gvds.jpg" className="figure-img img-fluid rounded" width='1280' alt="A generic square placeholder."/>
                     </div>
                     <div className="col">
                         <h2>{t('specialities.alzheimer.types.title')}</h2>
@@ -37,7 +37,7 @@ const Alzheimer = () => {
                         <div className="col">
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619979140/Vitae/iconos/speech-bubble_ap782m.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                     <h5>{t('specialities.alzheimer.symptoms.memory')}</h5>
@@ -45,7 +45,7 @@ const Alzheimer = () => {
                             </div>
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978858/Vitae/iconos/confusion_xd44kr.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                     <h5>{t('specialities.alzheimer.symptoms.concentrate')}</h5>
@@ -55,7 +55,7 @@ const Alzheimer = () => {
                         <div className="col">
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978855/Vitae/iconos/clock_hmnyih.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                 <h5>{t('specialities.alzheimer.symptoms.hours')}</h5>
@@ -63,7 +63,7 @@ const Alzheimer = () => {
                             </div>
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978857/Vitae/iconos/view_onsvks.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                 <h5>{t('specialities.alzheimer.symptoms.task')}</h5>
@@ -73,7 +73,7 @@ const Alzheimer = () => {
                         <div className="col">
                             <div className="row d-flex align-items-center">
                                 <div className="col-3">
-                                    <img src="http://via.placeholder.com/50x50" className="figure-img img-fluid rounded d-inline" alt="A generic square placeholder."/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978757/Vitae/iconos/walk_x0kfec.png" className="figure-img img-fluid rounded d-inline" width='50' alt="A generic square placeholder."/>
                                 </div>
                                 <div className="col-9">
                                     <h5>{t('specialities.alzheimer.symptoms.places')}</h5>

@@ -3,9 +3,11 @@ import { Form,Row,Col,Button } from 'react-bootstrap'
 import './ContactForm.css'
 const ContactForm = () => {
     return (
-        <div className='ContactForm container'>
+        <div className='ContactForm'>
            <Form>
-               <h2>Contacta. Te llamamos</h2>
+               <div className='mb-4'>
+               <h2>Contacta con nosotros</h2>
+               </div>
             <Form.Group as={Row} controlId="formHorizontalEmail">
                 <Form.Label column sm={2}>
                 Nombre

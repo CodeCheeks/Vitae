@@ -2,5 +2,14 @@
     background-color: rgba(212, 209, 209, 0.7);
     padding: 20px;
     border-radius: 5px;
+    color: var(--dark-blue-color);
+    
+}
+
+.ContactForm Button{
+    background-color:var(--dark-blue-color);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
     
 }

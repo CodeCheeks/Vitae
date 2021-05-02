@@ -6,10 +6,10 @@ const Psicologia = () => {
     const { t } = useTranslation();
     return (
         <div className="container">
-            <div className="row">
+            <div className="row grey__container">
                 <h1>{t('psychology.title1')}</h1>
             </div>
-            <div className="row align-items-center">
+            <div className="row align-items-center grey__container">
                 <div className="col">
                     <p>{t('psychology.paragraph1')}</p>
                     <p>{t('psychology.paragraph2')}</p>
@@ -20,12 +20,12 @@ const Psicologia = () => {
                 </div>
 
             </div>
-            <div className="row">
+            <div className="row grey__container">
                 <h1>{t('psychology.title2')}</h1>
                 <p>{t('psychology.paragraph4')}</p>
             </div>
-            <div className="row">
-                <div className="col">
+            <div className="row ">
+                <div className="col grey__container">
                         <ul>
                             <li>{t('psychology.types.depression')}</li>
                             <li>{t('psychology.types.anxiety')}</li>
@@ -36,7 +36,7 @@ const Psicologia = () => {
                         </ul>
                 </div>
             </div>
-            <div className="row">
+            <div className="row grey__container">
                 <h1>{t('psychology.title3')}</h1>
                 <p>{t('psychology.paragraph5')}</p>
                 <p>{t('psychology.paragraph6')}</p>
