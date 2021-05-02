@@ -1,6 +1,5 @@
 import React from 'react';
 import './IconsBox.css'
-
 const IconsBox = () => {
     return (
         <div>
