@@ -6,13 +6,13 @@
 
 .home__sec__1{
     
-    height: 600px;
+    height: 700px;
     width: 100%;
 }
 
 .home__sec__2{
     background-color: var(--transparent-grey-color);
-    height: 700px;
+    height: 30%;
 }
 .contactForm{
     width: 50%;
@@ -67,4 +67,17 @@
     
 }
 
+@media (max-width: 768px) { 
+    .home__sec__1{
+    
+        height: 800px;
+        width: 100%;
+        
+    }
+
+    .body__background{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+ }
 
