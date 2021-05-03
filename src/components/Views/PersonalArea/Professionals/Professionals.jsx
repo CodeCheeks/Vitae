@@ -17,7 +17,7 @@ const Professionals = () => {
                     </h1>
                 </div>
             </div>
-            <div className="row">
+            <div className="row my-5">
                 <ProfessionalSection/>
             </div>
         </div>
