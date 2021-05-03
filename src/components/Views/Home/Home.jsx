@@ -1,5 +1,4 @@
 import React from 'react';
-import Carousel from '../../Carousel/Carousel';
 import ContactForm from '../../Forms/ContactForm/ContactForm';
 import IconsBox from '../../IconsBox/IconsBox';
 import InteractiveCard from '../../InteractiveCard/InteractiveCard';
@@ -24,25 +23,25 @@ const Home = () => {
                     <div className="col-6 d-flex align-items-center home__subsec__1">
                         <div className='container d-none d-xl-block'>
                             <div className='row d-flex  flex-wrap justify-content-around my-5 py-5'>
-                                <div className="col">
-                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974963/Vitae/iconos/kit-de-primeros-auxilios_rq3jqf.png" alt="" width='150'/>
+                                <div className="col ">
+                                    <img  src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974963/Vitae/iconos/kit-de-primeros-auxilios_rq3jqf.png" className='interactive__item' alt="" width='150'/>
                                 </div>
                                 <div className="col">
-                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/enfermero_danavq.png" alt="" width='150'/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/enfermero_danavq.png" className='interactive__item' alt="" width='150'/>
                                 </div>
                                 <div className="col">
-                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/caminante_uz1aug.png" alt="" width='150'/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/caminante_uz1aug.png" className='interactive__item' alt="" width='150'/>
                                 </div>
                             </div>
                             <div className='row d-flex flex-wrap justify-content-around align-items-center my-5 py-5'>
                                 <div className="col">
-                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/piezas-de-ajedrez_ae15hb.png" alt="" width='150'/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/piezas-de-ajedrez_ae15hb.png" className='interactive__item' alt="" width='150'/>
                                 </div>
                                 <div className="col">
-                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/bingo_mibfla.png" alt="" width='150'/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/bingo_mibfla.png" className='interactive__item' alt="" width='150'/>
                                 </div>
                                 <div className="col">
-                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974963/Vitae/iconos/inodoro_ekjixy.png" alt="" width='150'/>
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974963/Vitae/iconos/inodoro_ekjixy.png" className='interactive__item' alt="" width='150'/>
                                 </div>
                             </div>
                         </div>

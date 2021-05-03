@@ -15,7 +15,7 @@ const Reports = () => {
         getReports(elder.id)
         .then(res => setReports(res))
         .catch(error => console.log(error))
-    }, []);
+    }, [elder.id]);
 
 
     return (

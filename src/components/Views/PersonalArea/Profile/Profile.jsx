@@ -17,7 +17,7 @@ const Profile = () => {
                         <div><p>Apellidos: {lastname}</p></div>
                         <div><p>Teléfono de contacto: {phonenumber}</p></div>
                         <div><p>Dirección: {address}</p></div>
-                        <div><p>Email: {lastname}</p></div>
+                        <div><p>Email: {email}</p></div>
                     </div>
                 </div>
                 <div className="col-5 border personal__box color__2">
