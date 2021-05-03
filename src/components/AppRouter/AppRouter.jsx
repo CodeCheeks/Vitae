@@ -37,7 +37,7 @@ import Login from '../Views/Login/Login'
 import PersonalArea from '../Views/PersonalArea/PersonalArea'
 import NotFound from '../Views/NotFound/NotFound'
 import Profile from '../Views/PersonalArea/Profile/Profile';
-import Relative from '../Views/PersonalArea/Relative/Relative';
+import Messages from '../Views/PersonalArea/Messages/Messages';
 import Professionals from '../Views/PersonalArea/Professionals/Professionals';
 import Activities from '../Views/PersonalArea/Activities/Activities';
 import Reports from '../Views/PersonalArea/Reports/Reports';
@@ -91,8 +91,8 @@ const AppRouter = () => {
             <Route exact path="/area-personal/perfil">
                 {!user ? <Redirect to="/iniciar-sesion" /> : <Profile/>}
             </Route>
-            <Route exact path="/area-personal/familiar">
-                {!user ? <Redirect to="/iniciar-sesion" /> : <Relative/>}
+            <Route exact path="/area-personal/mensajes">
+                {!user ? <Redirect to="/iniciar-sesion" /> : <Messages/>}
             </Route>
             <Route exact path="/area-personal/profesionales">
                 {!user ? <Redirect to="/iniciar-sesion" /> : <Professionals/>}
