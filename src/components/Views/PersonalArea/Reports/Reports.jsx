@@ -2,7 +2,7 @@ import React, { useEffect, useContext, useState } from 'react';
 import './Reports.css'
 import { UserContext } from "../../../../contexts/UserContext";
 import { getReports } from "../../../../services/ElderService";
-
+import {  Spinner } from 'react-bootstrap'
 
 const Reports = () => {
 
@@ -53,7 +53,9 @@ const Reports = () => {
                         </div>
                     )
                 })) 
-                : "loading..."
+                : (<Spinner className="m-5" animation="border" role="status" variant="info">
+                    <span className="sr-only">Loading...</span>
+                    </Spinner>)
             }
         </div>
     );

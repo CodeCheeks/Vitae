@@ -20,4 +20,10 @@ export const deleteMessage = (message_id) => {
   return http.delete(`/messages/${message_id}` )
 }
   
-  
+export const userReceivedMessages = (user_id) => {
+  return http.get(`/userReceivedMessages/${user_id}`)
+}
+
+export const userSentMessages = (user_id) => {
+  return http.get(`/userSentMessages/${user_id}`)
+}
