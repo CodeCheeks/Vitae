@@ -9,32 +9,46 @@ const Home = () => {
     return (
         <div>
             <div className="container-fluid body__background ">
-                <div className="row home__sec__1 ">
-                    <div className=" col-5 home__title d-flex align-items-start justify-content-start ml-5 mt-3">
-                        <h1>Vitae </h1>
-                        <h6>Tu centro de día de confianza</h6>
-                    </div>
-                    <div className=" col-6 contact__form d-flex align-items-center justify-content-center">
-                        <ContactForm/>
+                <div className="container-fluid">
+                    <div className="row home__sec__1 ">
+                        <div className=" col-12 col-md-5 home__title d-flex align-items-start justify-content-start ml-5 mt-3">
+                            <h1>Vitae </h1>
+                            <h6>Tu centro de día de confianza</h6>
+                        </div>
+                        <div className=" col-12 col-md-6 contact__form d-flex align-items-center justify-content-center">
+                            <ContactForm/>
+                        </div>
                     </div>
                 </div>
                 <div className="row home__sec__2">
                     <div className="col-6 d-flex align-items-center home__subsec__1">
-                        <div className='container'>
-                            <div className='row d-flex flex-wrap justify-content-around my-5 py-5'>
-                                <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974963/Vitae/iconos/kit-de-primeros-auxilios_rq3jqf.png" alt="" width='150'/>
-                                <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/enfermero_danavq.png" alt="" width='150'/>
-                                <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/caminante_uz1aug.png" alt="" width='150'/>
+                        <div className='container d-none d-xl-block'>
+                            <div className='row d-flex  flex-wrap justify-content-around my-5 py-5'>
+                                <div className="col">
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974963/Vitae/iconos/kit-de-primeros-auxilios_rq3jqf.png" alt="" width='150'/>
+                                </div>
+                                <div className="col">
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/enfermero_danavq.png" alt="" width='150'/>
+                                </div>
+                                <div className="col">
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/caminante_uz1aug.png" alt="" width='150'/>
+                                </div>
                             </div>
                             <div className='row d-flex flex-wrap justify-content-around align-items-center my-5 py-5'>
-                                <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/piezas-de-ajedrez_ae15hb.png" alt="" width='150'/>
-                                <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/bingo_mibfla.png" alt="" width='150'/>
-                                <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974963/Vitae/iconos/inodoro_ekjixy.png" alt="" width='150'/>
+                                <div className="col">
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/piezas-de-ajedrez_ae15hb.png" alt="" width='150'/>
+                                </div>
+                                <div className="col">
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974867/Vitae/iconos/bingo_mibfla.png" alt="" width='150'/>
+                                </div>
+                                <div className="col">
+                                    <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619974963/Vitae/iconos/inodoro_ekjixy.png" alt="" width='150'/>
+                                </div>
                             </div>
                         </div>
                         
                     </div>
-                    <div className="col-6 px-5 py-5 d-flex flex-column justify-content-center align-content-center grey__container">
+                    <div className="col-12 col-lg-6 px-5 py-5 d-flex flex-column justify-content-center align-content-center grey__container">
                         <h3>Contamos con un equipo multidisciplinar</h3>
                         <div className='mt-3'>
                             <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h5>
@@ -49,11 +63,15 @@ const Home = () => {
                 
                 <div className="row home__sec__3 py-5">
                     <div className="col-12 d-flex flex-column align-items-center mt-5">
-                        <div className="row my-3">
-                            <h2>Por qué elegir vitae</h2>
+                        <div className="row my-3 px-5">
+                            <div className="col ">
+                                <h2>Por qué elegir vitae</h2>
+                            </div>
                         </div>
-                        <div className="row">
-                            <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus voluptatem distinctio at molestiae exercitationem vel sint vero iste praesentium officia consectetur blanditiis ipsam nemo laboriosam, earum culpa amet dolore nobis!</h6>
+                        <div className="row px-5">
+                            <div className="col">
+                                <h6>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus voluptatem distinctio at molestiae exercitationem vel sint vero iste praesentium officia consectetur blanditiis ipsam nemo laboriosam, earum culpa amet dolore nobis!</h6>
+                            </div>
                         </div>
                         <div className="row">
                             <div className="col-12">
@@ -74,7 +92,9 @@ const Home = () => {
                         <InteractiveCard/>
                     </div>
                     <div className="row text-center px-5">
-                        <button href='/contacto' className='btn-primary p-2'>Saber más</button>
+                        <div className="col d-none d-sm-block">
+                            <button href='/contacto' className='btn-primary p-2'>Saber más</button>
+                        </div>
                     </div>
                 </div>
 

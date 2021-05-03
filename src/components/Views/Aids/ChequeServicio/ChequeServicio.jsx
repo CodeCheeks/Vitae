@@ -8,7 +8,7 @@ const ChequeServicio = () => {
     
     const { t } = useTranslation();
     return (
-        <div className="container">
+        <div className="container grey__container p-5">
             <div className="row ">
                 <div className="col">
                     <div className="h1">{t('aids.service.what.title')}</div>
@@ -33,7 +33,7 @@ const ChequeServicio = () => {
                     <h1>{t('aids.service.how.title')}</h1>
                     <p>{t('aids.service.how.paragraph')}</p>
                     <div className="row">
-                        <div className="col-lg-4 d-none d-sm-none d-lg-block">
+                        <div className="col-lg-4 d-none d-sm-none d-xl-block">
                             <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1618993968/Vitae/imagenes/ayudas/documentation-aids_wmv3em.png" alt="documentation"/>
                         </div>
                         <div className="col-12 col-lg-8">
@@ -56,7 +56,7 @@ const ChequeServicio = () => {
                 </div>
             </div>
             <div className="row">
-                <div className="col-6">
+                <div className="col-12 col-lg-6">
                     <ul>
                         <li><b>{t('aids.service.grades.1.title')}</b> {t('aids.service.grades.1.paragraph')}</li>
                         <li><b>{t('aids.service.grades.2.title')}</b> {t('aids.service.grades.2.paragraph')}</li>
@@ -85,7 +85,7 @@ const ChequeServicio = () => {
                     <div className="col-4 d-none d-sm-none d-lg-block">
                         <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1618995706/Vitae/imagenes/ayudas/money-aids_oqhukw.jpg" alt="money-aid"/>
                     </div>
-                    <div className="col-8">
+                    <div className="col-lg-8 col-12">
                         <p>{t('aids.service.pia.paragraph')}</p>
                         <ul>
                             <li>{t('aids.service.money.paragraph1')}</li>

@@ -3,7 +3,7 @@ import { Form,Row,Col,Button } from 'react-bootstrap'
 import './ContactForm.css'
 const ContactForm = () => {
     return (
-        <div className='ContactForm'>
+        <div className='ContactForm d-flex justify-content-center'>
            <Form>
                <div className='mb-4'>
                <h2>Contacta con nosotros</h2>

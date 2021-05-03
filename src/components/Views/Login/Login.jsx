@@ -5,10 +5,11 @@ import { useForm } from "react-hook-form";
 
 import { useTranslation } from 'react-i18next';
 import { useHistory } from 'react-router';
+import { Link } from 'react-router-dom';
 import { useUser } from '../../../hooks/useUser';
 import { login } from '../../../services/AuthService';
 import { setAccessToken } from '../../../store/AccessTokenStore';
-
+import './Login.css'
 
 const Employment = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
@@ -46,7 +47,11 @@ const Employment = () => {
 
                             {errors.password && <div className="invalid-feedback">{t('login.pass.error.required')}</div>}
                             {authError && !errors.password && <div className="invalid-feedback">{t('login.autherror')}</div>}
+                            <Form.Text className="text-muted my-2 ">
+                                <Link to='/' className='link__style '>He olvidado mi contraseña</Link>
+                            </Form.Text>
                         </Form.Group>
+                        
                         <Button variant="primary" type="submit">Submit</Button>
                     </Form>
                 </div>
