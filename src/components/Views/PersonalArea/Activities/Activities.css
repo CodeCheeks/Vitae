@@ -1,0 +1,11 @@
+.main__title{
+    color: var(--dark-blue-color)
+}
+
+.act__grey__container{
+    background-color: rgba(212, 209, 209, 0.7);
+    padding:5px;
+    border-radius: 5px;
+    color: var(--dark-blue-color);
+      
+}
