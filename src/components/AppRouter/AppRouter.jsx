@@ -41,7 +41,7 @@ import Messages from '../Views/PersonalArea/Messages/Messages';
 import Professionals from '../Views/PersonalArea/Professionals/Professionals';
 import Activities from '../Views/PersonalArea/Activities/Activities';
 import Reports from '../Views/PersonalArea/Reports/Reports';
-import Schedule from '../Views/PersonalArea/Schedule/Schedule';
+import Gallery from '../Views/PersonalArea/Gallery/Gallery';
 
 
 const AppRouter = () => {
@@ -103,8 +103,8 @@ const AppRouter = () => {
             <Route exact path="/area-personal/informes">
                 {!user ? <Redirect to="/iniciar-sesion" /> : <Reports/>}
             </Route>
-            <Route exact path="/area-personal/horario">
-                {!user ? <Redirect to="/iniciar-sesion" /> : <Schedule/>}
+            <Route exact path="/area-personal/galeria">
+                {!user ? <Redirect to="/iniciar-sesion" /> : <Gallery/>}
             </Route>
 
             <Route component={NotFound} />
