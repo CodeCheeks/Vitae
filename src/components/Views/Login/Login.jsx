@@ -17,6 +17,7 @@ const Employment = () => {
     const { push } = useHistory();
     const { getUser: doLogin } = useUser();
     const [authError, setAuthError] = useState(false)
+    const [activationError, setactivationError] = useState(false)
 
     const onSubmit = (data) => {
         setAuthError(false)
@@ -25,7 +26,9 @@ const Employment = () => {
             setAccessToken(response.access_token);
             doLogin().then(() => push("/area-personal"));
         })
-        .catch(error => {
+        .catch((error) => { //TODO SHOW ACTIVATION ERROR
+            console.log(error.Status)
+            console.log(error.message)
             setAuthError(true)
         })
     }

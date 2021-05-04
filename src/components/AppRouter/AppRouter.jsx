@@ -42,6 +42,7 @@ import Professionals from '../Views/PersonalArea/Professionals/Professionals';
 import Activities from '../Views/PersonalArea/Activities/Activities';
 import Reports from '../Views/PersonalArea/Reports/Reports';
 import Gallery from '../Views/PersonalArea/Gallery/Gallery';
+import Activate from '../Views/Activate/Activate';
 
 
 const AppRouter = () => {
@@ -80,6 +81,7 @@ const AppRouter = () => {
             <Route exact path="/sobre-nosotros" component={About} />
             <Route exact path="/empleo" component={Employment} />
             <Route exact path="/contacto" component={Contacto} />
+            <Route exact path="/activate/:token" component={Activate} />
 
 
             <Route exact path="/iniciar-sesion"  >

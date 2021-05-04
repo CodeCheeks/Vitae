@@ -8,3 +8,11 @@ const http = create({
 export const login = (body) => {
   return http.post('/login', body)
 }
+
+export const getToken = (token) => {
+  return http.post(`/getToken/${token}`)
+}
+
+export const activate = (token, body) => {
+  return http.post(`/activate/${token}`, body)
+}
