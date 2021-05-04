@@ -1,8 +1,9 @@
 import './Messages.css'
 import React, { useEffect, useContext, useState } from 'react';
 import { UserContext } from "../../../../contexts/UserContext"; 
-import { Spinner, Table } from 'react-bootstrap';
+import { Spinner, Table, Modal, Button } from 'react-bootstrap';
 import { userReceivedMessages, userSentMessages } from "../../../../services/messageService";
+
 
 const Messages = () => {
 
@@ -11,6 +12,18 @@ const Messages = () => {
 
     const [messages, setMessages] = useState(null);
     const [sentmessages, setSentMessages] = useState(null);
+    const [messageBody, setMessageBody] = useState(null);
+    const [messageTitle, setMessageTitle] = useState(null);
+
+    //modal
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = (e) => {
+        setShow(true)
+        setMessageBody(e.target.name)
+        setMessageTitle(e.target.title)
+    
+    };
 
     useEffect(() => {
         userReceivedMessages(user.id)
@@ -29,9 +42,10 @@ const Messages = () => {
         messages.forEach(message => {
             
             messagesRow.push(<tr key={message.id}>
-                <td>{message.title}</td>
-                <td>{message.message}</td>
                 <td>{message.sender.firstname}</td>
+                <td>{message.title}</td>
+                <td>{message.createdAt.split('T').join(' a las ').split('.',1)}</td>
+                <td><img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978131/Vitae/iconos/mesasge_cpbni4.png" name={message.message} title={message.title} alt="delete" className="mx-3 custom__hover" width="20px" onClick={handleShow}/></td>
     
             </tr>)
             
@@ -46,8 +60,8 @@ const Messages = () => {
             sentMessagesRow.push(<tr key={message.id}>
                 <td>{message.receiver.firstname}</td>
                 <td>{message.title}</td>
-                <td>{message.message}</td>
-                <td>x</td>
+                <td>{message.createdAt.split('T').join(' a las ').split('.',1)}</td>
+                <td><img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978131/Vitae/iconos/mesasge_cpbni4.png"  name={message.message} title={message.title} alt="delete" className="mx-3 custom__hover" width="20px" onClick={handleShow}/></td>
     
             </tr>)
             
@@ -58,10 +72,21 @@ const Messages = () => {
 
     return (
         <div className="container Messages">
+             <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                <Modal.Title>{messageTitle}</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>{messageBody}</Modal.Body>
+                <Modal.Footer>
+                <Button variant="secondary" onClick={handleClose}>
+                    Close
+                </Button>
+                </Modal.Footer>
+            </Modal>
            <div className="row">
                 <div className="col-12">
                     <h1 className='text-center main__title'>
-                        <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1620034723/Vitae/iconos/charla_ufydrz.png" className='mx-2  ' alt="reports" width='80'/>
+                        <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1620120426/Vitae/iconos/see-messsage_s7zqrj.svg" className='mx-2  ' alt="reports" width='80'/>
                         Mensajes Recibidos
                     </h1>
                 </div>
@@ -73,16 +98,16 @@ const Messages = () => {
                     <thead className="custom__style">
                         <tr>
                             <th>Enviado por:</th>
-                            <th>Título</th>
-                            <th>Fecha</th>
-                            <th>Eliminar</th>
+                            <th className='mw-100'>Título</th>
+                            <th className='mw-100'>Fecha</th>
+                            <th>Ver</th>
                         </tr>
                     </thead>
                     <tbody>
                     {getMessages()}
                     </tbody>
                 </Table>
-                : (<Spinner className="m-5" animation="border" role="status" variant="info">
+                : (<Spinner className="m-5 text-center" animation="border" role="status" variant="info">
                         <span className="sr-only">Loading...</span>
                     </Spinner>)
                 }
@@ -98,11 +123,10 @@ const Messages = () => {
                 <Table size="sm" bordered hover >
                     <thead className="custom__style">
                         <tr>
-                    
-                            <th>Enviado a:</th>
+                            <th>Enviado por:</th>
                             <th>Título</th>
-                            <th>Mensaje</th>
-                            <th>Eliminar</th>
+                            <th>Fecha</th>
+                            <th>Ver</th>
                         </tr>
                     </thead>
                     <tbody>
