@@ -6,9 +6,15 @@
 }
 
 .color__1{
-    background-color: var(--dark-blue-color);
+    background-color: var(--dark-blue-color) !important;
 }
 
 .color__2{
-    background-color: var(--light-grey-color);
+    background-color: var(--light-grey-color) !important;
 }
+
+
+.personal__box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }

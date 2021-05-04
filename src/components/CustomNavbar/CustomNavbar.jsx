@@ -1,4 +1,5 @@
-import React, { Suspense, useContext } from 'react'
+import React, { Suspense, useContext , useState} from 'react'
+
 import './CustomNavbar.css'
 //components
 import {NavLink} from 'react-router-dom'
@@ -11,6 +12,37 @@ const CustomNavbar = () => {
   const { user } = useContext(UserContext);
   const { t } = useTranslation();
 
+   const [show, setShow] = useState(false);
+    const showDropdown = (e)=>{
+        setShow(!show);
+    }
+    const hideDropdown = e => {
+        setShow(false);
+    }
+
+    const [show2, setShow2] = useState(false);
+    const showDropdown2 = (e)=>{
+        setShow2(!show2);
+    }
+    const hideDropdown2 = e => {
+        setShow2(false);
+    }
+
+    const [show3, setShow3] = useState(false);
+    const showDropdown3 = (e)=>{
+        setShow3(!show3);
+    }
+    const hideDropdown3 = e => {
+        setShow3(false);
+    }
+
+    const [show4, setShow4] = useState(false);
+    const showDropdown4 = (e)=>{
+        setShow4(!show4);
+    }
+    const hideDropdown4 = e => {
+        setShow4(false);
+    }
       
     return (
       <Navbar bg="light" expand="lg" fixed="top" >
@@ -25,22 +57,22 @@ const CustomNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto container d-flex justify-content-center">
           
-            <NavDropdown className='link__style text__style' title={<span className=" text__style">{t('navbar.services.title')}</span>} id="Servicios">
-                <NavDropdown title={<span className="link__style text__style__sm ">{t('navbar.services.terapeutics.title')}</span>} id="terapeuticos" className='dropdown__content'>
-                  <NavDropdown.Item><NavLink to="/servicios/terapias/fisioterapia" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.physiotherapy')}</NavLink></NavDropdown.Item>
-                  <NavDropdown.Item><NavLink to="/servicios/terapias/psicologia" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.psychology')}</NavLink></NavDropdown.Item>
-                  <NavDropdown.Item><NavLink to="/servicios/terapias/terapia-ocupacional" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.ot')}</NavLink></NavDropdown.Item>
-                  <NavDropdown.Item><NavLink to="/servicios/terapias/animacion" className='link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.recreation')}</NavLink></NavDropdown.Item>
+            <NavDropdown className='link__style text__style'  title={<span className=" text__style">{t('navbar.services.title')}</span>} id="servicios" show={show} onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
+                <NavDropdown drop='right'title={<span className="link__style text__style__sm ">{t('navbar.services.terapeutics.title')}</span>} id="terapeuticos" className='dropdown__content' show={show2} onMouseEnter={showDropdown2} onMouseLeave={hideDropdown2}>
+                  <NavDropdown.Item><NavLink to="/servicios/terapias/fisioterapia" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.physiotherapy')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/terapias/psicologia" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.psychology')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/terapias/terapia-ocupacional" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.ot')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/terapias/animacion" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.recreation')}</NavLink></NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown className='link__style' title={<span className=" text__style__sm ">{t('navbar.services.assistance.title')}</span>} id="asistenciales">
-                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/medicina-enfermeria" className='link__style__sm' activeClassName="selected">{t('navbar.services.assistance.medicine')}</NavLink></NavDropdown.Item>
-                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/ayuda-domicilio" className='link__style__sm' activeClassName="selected">{t('navbar.services.assistance.home')}</NavLink></NavDropdown.Item>
-                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/transporte" className='link__style__sm' activeClassName="selected">{t('navbar.services.assistance.transport')}</NavLink></NavDropdown.Item>
-                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/comedor" className='link__style__sm' activeClassName="selected">{t('navbar.services.assistance.catering')}</NavLink></NavDropdown.Item>
+                <NavDropdown drop='right' className='link__style' title={<span className=" link__style text__style__sm ">{t('navbar.services.assistance.title')}</span>} id="asistenciales" show={show3} onMouseEnter={showDropdown3} onMouseLeave={hideDropdown3}>
+                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/medicina-enfermeria" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.assistance.medicine')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/ayuda-domicilio" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.assistance.home')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/transporte" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.assistance.transport')}</NavLink></NavDropdown.Item>
+                  <NavDropdown.Item><NavLink to="/servicios/asistenciales/comedor" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.assistance.catering')}</NavLink></NavDropdown.Item>
                 </NavDropdown>
             </NavDropdown>
 
-            <NavDropdown title={<span className="link__style text__style">{t('navbar.specialities.title')}</span>} id="Especialidades" className='link__style text__style'>
+            <NavDropdown title={<span className="link__style text__style">{t('navbar.specialities.title')}</span>}  className='link__style text__style' id="collasible-nav-dropdown" show={show4} onMouseEnter={showDropdown4} onMouseLeave={hideDropdown4}>
               <NavDropdown.Item><NavLink to="/especialidades/ictus" className='link__style text__style__sm' activeClassName="selected">{t('navbar.specialities.ictus')}</NavLink></NavDropdown.Item>
               <NavDropdown.Item><NavLink to="/especialidades/fracturas" className='link__style text__style__sm' activeClassName="selected">{t('navbar.specialities.fractures')}</NavLink></NavDropdown.Item>
               <NavDropdown.Item><NavLink to="/especialidades/alzheimer" className='link__style text__style__sm' activeClassName="selected">{t('navbar.specialities.alzheimer')}</NavLink></NavDropdown.Item>
@@ -49,15 +81,12 @@ const CustomNavbar = () => {
               <NavDropdown.Item><NavLink to="/especialidades/depresion" className='link__style text__style__sm' activeClassName="selected">{t('navbar.specialities.depression')}</NavLink></NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title={<span className="link__style text__style">{t('navbar.aids.title')}</span>} id="Aids" className='link__style text__style'>
-              <NavDropdown.Item><NavLink to="/ayudas/cheque-vitae" className='link__style text__style__sm' activeClassName="selected">{t('navbar.aids.vitae')}</NavLink></NavDropdown.Item>
-              <NavDropdown.Item><NavLink to="/ayudas/cheque-servicio" className='link__style text__style__sm' activeClassName="selected">{t('navbar.aids.dependence')}</NavLink></NavDropdown.Item>
-            </NavDropdown>
-
+        
+            <NavLink to="/ayudas/cheque-servicio" className='link__style text__style' activeClassName="selected">{t('navbar.aids.title')}</NavLink>
             <NavLink to="/preguntas-frecuentes" className='link__style text__style' activeClassName="selected">{t('navbar.faq')}</NavLink>
             <NavLink to="/sobre-nosotros" className='link__style text__style' activeClassName="selected">{t('navbar.about')}</NavLink>
             <NavLink to="/empleo" className='link__style text__style' activeClassName="selected">{t('navbar.jobs')}</NavLink>
-            <NavLink to="/contacto" className='link__style text__style' activeClassName="selected">{t('navbar.contact')}</NavLink>
+            
 
           </Nav>
           {user && (<NavLink to="/area-personal" className='link__style text__style'>{t('navbar.area')}</NavLink>)}
