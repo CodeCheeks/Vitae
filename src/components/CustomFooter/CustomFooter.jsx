@@ -30,7 +30,7 @@ import './CustomFooter.css'
                     </div>
                     
                     <div className=" justify-content-center align-items-center col mt-4 footer__list">
-                        <Link to="/ayudas" className="text-light h5 mx-2">Ayudas</Link>
+                        <Link to="/ayudas/cheque-servicio" className="text-light h5 mx-2">Ayudas</Link>
                         <Link to="/preguntas-frecuentes" className="text-light h5 mx-2">FAQs</Link>
                         <Link to="/sobre-nosotros" className="text-light h5 mx-2">Nosotros</Link>
                         <Link to="/empleo" className="text-light h5 mx-2">Empleo</Link>
