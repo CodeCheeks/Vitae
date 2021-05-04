@@ -5,7 +5,7 @@ const InteractiveCard = () => {
     <div classNameName='InteractiveCard'>
             
                 <div className="d-flex justify-content-center cards__wrapper">
-                    <div class=" card ">
+                    <div className=" card ">
                         <img src='https://res.cloudinary.com/dv7hswrot/image/upload/v1619948578/Vitae/imagenes/Home%20Pictures/pexels-karolina-grabowska-4197564_syh89z.jpg' alt='masks' width='300'/>
                         <h6 className='my-3 text-center'>Uso obligatorio de mascarilla</h6>  
                     </div>
