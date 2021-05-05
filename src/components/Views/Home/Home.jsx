@@ -96,7 +96,7 @@ const Home = () => {
                     </div>
                     <div className="row text-center px-5">
                         <div className="col d-none d-sm-block">
-                            <button href='/contacto' className='btn-primary p-2'>{t('home.section4.button')}</button>
+                            <button href='/contacto' className='btn-info p-2'>{t('home.section4.button')}</button>
                         </div>
                     </div>
                 </div>

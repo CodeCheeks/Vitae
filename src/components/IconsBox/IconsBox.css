@@ -1,3 +1,8 @@
 .box__item{
     padding: 10px 50px; 
 }
+
+.title__color{
+    color: var(--light-blue-color) !important;
+    padding-top:5px;
+}
