@@ -699,6 +699,17 @@
         "title": "Laborterapia"
       }
     }
+  },
+  "animation": {
+    "title1": "¿Qué son y para qué sirven las terapias lúdicas?",
+    "paragraph1": "Son actividades recreativas que los mayores realizan durante su tiempo de ocio. Favorecen su integración y participación en actividades tanto dentro como fuera de su entorno, y les ayuda a mejorar las habilidades sociales, autoestima y autonomía.",
+    "paragraph2": "En algunas de las actividades lúdicas se utiliza el juego como herramienta terapéutica. Conociendo los intereses de los mayores, se crean talleres enfocados a ellos, trabajando con ello diferentes aspectos cognitivos, funcionales y sociales. ",
+    "types": {
+      "title1": "Estimulación con animales",
+      "title2": "Excursiones culturales",
+      "title3": "Arterapia",
+      "title4": "Relajación"
+    }
   }
 }
 
