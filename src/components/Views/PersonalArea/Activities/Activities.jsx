@@ -32,7 +32,8 @@ const Activities = () => {
             {
                 activities ? 
                 
-                (activities.map(activity => {
+                (activities.sort(function(a,b){return new Date(a.startDate) - new Date(b.startDate);})
+                .map(activity => {
                     return(
                         
                         <div key={activity.id} className="container act__grey__container my-1">

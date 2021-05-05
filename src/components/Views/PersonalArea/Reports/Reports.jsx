@@ -32,7 +32,7 @@ const Reports = () => {
             {
                 reports ? 
                 
-                (reports.map(report => {
+                (reports.sort(function(a,b){return new Date(b.createdAt) - new Date(a.createdAt);}).map(report => {
                     return(
                         
                         <div key={report.id} className="container grey__container my-5">
