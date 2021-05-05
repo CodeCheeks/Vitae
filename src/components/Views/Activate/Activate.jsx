@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Button, Form, Modal } from 'react-bootstrap';
 import { activate } from '../../../services/AuthService';
 import { useForm } from "react-hook-form";
-import { useHistory, useParams } from 'react-router';
-
+import { useParams } from 'react-router';
+import { PASSWORD_PATTERN } from '../../../constants/regex'
 const Activate = () => {
     const {token} = useParams()
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, reset, formState: { errors } } = useForm({ defaultValues: { password: "", password2: "" } });
     const [samePassError, setSamePassError] = useState(false)
-    const { push } = useHistory();
+
+
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    //const handleShow = () => setShow(true);
 
     const onSubmit = (data) => {
         setSamePassError(false)
@@ -19,21 +23,54 @@ const Activate = () => {
         else{
             activate(token, data)
             .then(res => {
-                console.log("activación completada, redirigiendo")
-                push("/iniciar-sesion")
+                setShow(true)
+                reset({ password: "", password2: "" })
             })
             .catch(e => console.log(e))
         }
     }
+
+     
     
     return (
         <div className="container">
+             <Modal show={show} onHide={handleClose}>
+                <Modal.Header className="modal__header" closeButton>
+                    <Modal.Title>Cuenta Activada</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <div className="container">
+                    <div className="row">
+                            <p>Bienvenido a Vitae,</p>
+                        </div>
+                        <div className="row">
+                            <p>Su cuenta ha sido activada con éxito. Para acceder a su perfil vaya a iniciar sesión e introduzca sus nuevas credenciales</p>
+                        </div>
+                        <div className="row">
+                            <p>Atentamente, nuestro equipo.</p>
+                        </div>
+                    </div>
+                    
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button variant="info" onClick={handleClose}>
+                        Close
+                    </Button>
+                </Modal.Footer>
+            </Modal>
             <div className="row justify-content-center">
                 <div className="col-4">
                     <Form onSubmit={handleSubmit(onSubmit)}>
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Control className={(errors.password || samePassError) && "is-invalid"} type="password" placeholder="Introduzca su nueva contraseña" {...register("password", { required: true })}/>
-                            {errors.password && <div className="invalid-feedback">Rellene este campo</div>}
+                            <Form.Control className={(errors.password || samePassError) && "is-invalid"} type="password" placeholder="Introduzca su nueva contraseña" 
+                            {...register("password", { 
+                                required: true, 
+                                validate: {
+                                    checkPass: (value) => value.match(PASSWORD_PATTERN) ? true : false,
+                                }  
+                                })}/>
+                            {errors.password && errors.password.type !=="checkPass" && <div className="invalid-feedback">Rellene este campo</div>}
+                            {errors.password && errors.password.type ==="checkPass" && <div className="invalid-feedback">La contraseña debe de incluir al menos 1 número, 1 mayúscula, 1 minúscula y 8 caractéres</div>}
                         </Form.Group>
                         <Form.Group controlId="formBasicPassword2">
                             <Form.Control className={(errors.password2 || samePassError)&& "is-invalid"} type="password" placeholder="Repita su contraseña" {...register("password2", { required: true })}/>
