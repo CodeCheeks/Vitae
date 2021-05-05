@@ -39,7 +39,7 @@ const Messages = () => {
 
     const getMessages =() => {
         let messagesRow = []
-        messages.forEach(message => {
+        messages.sort(function(a,b){return new Date(b.createdAt) - new Date(a.createdAt)}).map(message => {
             
             messagesRow.push(<tr key={message.id}>
                 <td>{message.sender.firstname}</td>
@@ -55,7 +55,7 @@ const Messages = () => {
 
     const getSentMessages =() => {
         let sentMessagesRow = []
-        sentmessages.forEach(message => {
+        sentmessages.sort(function(a,b){return new Date(b.createdAt) - new Date(a.createdAt)}).map(message => {
             
             sentMessagesRow.push(<tr key={message.id}>
                 <td>{message.receiver.firstname}</td>
