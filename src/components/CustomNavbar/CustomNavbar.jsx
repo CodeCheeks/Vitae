@@ -1,5 +1,7 @@
 import React, { Suspense, useContext , useState} from 'react'
 
+import {Link} from 'react-router-dom'
+
 import './CustomNavbar.css'
 //components
 import {NavLink} from 'react-router-dom'
@@ -11,7 +13,14 @@ import { logout } from "../../store/AccessTokenStore";
 const CustomNavbar = () => { 
   const { user } = useContext(UserContext);
   const { t } = useTranslation();
+  const { i18n } = useTranslation()
+  const [language, setLanguage] = useState(false);
 
+  const changeLang = ()=>{
+    language ? i18n.changeLanguage('es') : i18n.changeLanguage('en')
+    
+    setLanguage(!language);
+}
    const [show, setShow] = useState(false);
     const showDropdown = (e)=>{
         setShow(!show);
@@ -89,7 +98,10 @@ const CustomNavbar = () => {
             
 
           </Nav>
-          {user && (<NavLink to="/area-personal" className='link__style text__style'>{t('navbar.area')}</NavLink>)}
+            <div >
+              {language  ? <Link to="#" onClick={ changeLang} className=" link__style text__style  ">EN</Link> : <Link to="#" onClick={changeLang} className=" link__style text__style ">ES</Link>}
+            </div>
+          {user && (<NavLink to="/area-personal" className='link__style text__style ml-4'>{t('navbar.area')}</NavLink>)}
           {!user ? 
             (<NavLink to="/iniciar-sesion" activeClassName="selected" className='link__style text__style'>{t('navbar.login')}</NavLink>)
           :
