@@ -20,7 +20,7 @@ const ProfessionalSection = (props) => {
    
     const [professionalId, setProfessionalId] = useState(null);
     const [professionalName, setProfessionalName] = useState(null);
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, reset, formState: { errors } } = useForm({ defaultValues: { title: "", message:""} });
     
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -40,7 +40,10 @@ const ProfessionalSection = (props) => {
 
         setShow(false)
         addMessage(professionalId, data)
-        .then(mes => console.log("mensaje enviado"))
+        .then(mes => {
+            reset({title:"", message:""})
+            
+        })
         .catch(e => console.log(e))
     }
 
