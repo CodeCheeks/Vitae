@@ -43,6 +43,9 @@ import Activities from '../Views/PersonalArea/Activities/Activities';
 import Reports from '../Views/PersonalArea/Reports/Reports';
 import Gallery from '../Views/PersonalArea/Gallery/Gallery';
 import Activate from '../Views/Activate/Activate';
+import RecoverPass from '../Views/RecoverPass/RecoverPass';
+import DoRecoverPass from '../Views/RecoverPass/DoRecoverPass';
+
 
 
 const AppRouter = () => {
@@ -82,6 +85,10 @@ const AppRouter = () => {
             <Route exact path="/empleo" component={Employment} />
             <Route exact path="/contacto" component={Contacto} />
             <Route exact path="/activate/:token" component={Activate} />
+            <Route exact path="/recuperar-contraseña/:token" component={DoRecoverPass} />
+            <Route exact path="/recuperar-contraseña" component={RecoverPass} />
+
+
 
 
             <Route exact path="/iniciar-sesion"  >

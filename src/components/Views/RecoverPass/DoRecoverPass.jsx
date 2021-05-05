@@ -1,33 +1,59 @@
 import React, { useState } from 'react';
-import { Button, Form } from 'react-bootstrap';
-import { activate } from '../../../services/AuthService';
+import { Button, Form, Modal } from 'react-bootstrap';
+import { doRecoverPass } from '../../../services/AuthService';
 import { useForm } from "react-hook-form";
-import { useHistory, useParams } from 'react-router';
+import { useParams } from 'react-router';
+import './RecoverPass.css'
 
 const Activate = () => {
     const {token} = useParams()
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, reset, formState: { errors } } = useForm({ defaultValues: { password: "", password2:"" } });
     const [samePassError, setSamePassError] = useState(false)
-    const { push } = useHistory();
+
+    
+        const [show, setShow] = useState(false);
+        const handleClose = () => setShow(false);
+        //const handleShow = () => setShow(true);
 
     const onSubmit = (data) => {
         setSamePassError(false)
         if(data.password !== data.password2){
             setSamePassError(true)
-            console.log("Las contraseñas no coinciden")
         }
         else{
-            activate(token, data)
+            doRecoverPass(token, data)
             .then(res => {
-                console.log("activación completada, redirigiendo")
-                push("/iniciar-sesion")
+                setShow(true)
+                reset({password: "", password2:""} )
             })
             .catch(e => console.log(e))
         }
     }
+
     
     return (
         <div className="container">
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header className="modal__header" closeButton>
+                    <Modal.Title>Contraseña Modificada</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <div className="container">
+                        <div className="row">
+                            <p>Su contraseña ha sido modificada con éxito. Para acceder a su perfil vaya a iniciar sesión e introduzca sus nuevas credenciales</p>
+                        </div>
+                        <div className="row">
+                            <p>Atentamente, equipo Vitae</p>
+                        </div>
+                    </div>
+                    
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button variant="info" onClick={handleClose}>
+                        Close
+                    </Button>
+                </Modal.Footer>
+            </Modal>
             <div className="row justify-content-center">
                 <div className="col-4">
                     <Form onSubmit={handleSubmit(onSubmit)}>
@@ -40,7 +66,7 @@ const Activate = () => {
                             {errors.password2 && <div className="invalid-feedback">Rellene este campo</div>}
                             {samePassError && !errors.password2 && <div className="invalid-feedback">Las contraseñas no coinciden</div>}
                         </Form.Group>
-                        <Button variant="primary" type="submit">Activar</Button>
+                        <Button variant="primary" type="submit">Enviar</Button>
                     </Form>
                 </div>
             </div>

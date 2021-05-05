@@ -16,3 +16,15 @@ export const getToken = (token) => {
 export const activate = (token, body) => {
   return http.post(`/activate/${token}`, body)
 }
+
+export const recoverPass = (body) => {
+  return http.post(`/recoverPass`, body)
+}
+
+export const doRecoverPass = (token, body) => {
+  return http.post(`/recoverPass/${token}`, body)
+}
+
+
+
+
