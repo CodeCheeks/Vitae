@@ -17,7 +17,7 @@ const CustomNavbar = () => {
   const [language, setLanguage] = useState(false);
 
   const changeLang = ()=>{
-    language ? i18n.changeLanguage('en') : i18n.changeLanguage('es')
+    language ? i18n.changeLanguage('es') : i18n.changeLanguage('en')
     
     setLanguage(!language);
 }
@@ -99,7 +99,7 @@ const CustomNavbar = () => {
 
           </Nav>
             <div >
-              {language  ? <Link to="#" onClick={ changeLang} className=" link__style text__style  ">ES</Link> : <Link to="#" onClick={changeLang} className=" link__style text__style ">EN</Link>}
+              {language  ? <Link to="#" onClick={ changeLang} className=" link__style text__style  ">EN</Link> : <Link to="#" onClick={changeLang} className=" link__style text__style ">ES</Link>}
             </div>
           {user && (<NavLink to="/area-personal" className='link__style text__style ml-4'>{t('navbar.area')}</NavLink>)}
           {!user ? 

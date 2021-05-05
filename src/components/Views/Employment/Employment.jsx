@@ -19,7 +19,7 @@ import { useHistory } from 'react-router';
 const Employment = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm({ defaultValues: {  firstName:"", lastName:"", email:"", phoneNumber:"", street:"", city:"", zip:"", vacancy:"", cv:"", comments:"" } });
     const { t } = useTranslation();
-    const { push } = useHistory();
+    //const { push } = useHistory();
     
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
