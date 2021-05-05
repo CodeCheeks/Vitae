@@ -18,7 +18,10 @@ const Activate = () => {
         }
         else{
             activate(token, data)
-            .then(res => push("/iniciar-sesion")) //TODO NO REDIRIGE
+            .then(res => {
+                console.log("activación completada, redirigiendo")
+                push("/iniciar-sesion")
+            })
             .catch(e => console.log(e))
         }
     }

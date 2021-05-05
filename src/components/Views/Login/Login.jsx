@@ -16,20 +16,18 @@ const Employment = () => {
     const { t } = useTranslation();
     const { push } = useHistory();
     const { getUser: doLogin } = useUser();
-    const [authError, setAuthError] = useState(false)
-    const [activationError, setactivationError] = useState(false)
+    const [authError, setAuthError] = useState(null)
+
 
     const onSubmit = (data) => {
-        setAuthError(false)
+        setAuthError(null)
         login(data)
         .then((response) => {
             setAccessToken(response.access_token);
             doLogin().then(() => push("/area-personal"));
         })
-        .catch((error) => { //TODO SHOW ACTIVATION ERROR
-            console.log(error.Status)
-            console.log(error.message)
-            setAuthError(true)
+        .catch((error) => { 
+            error.response.status === 401 ? setAuthError("activation") : setAuthError("auth")
         })
     }
     
@@ -49,7 +47,8 @@ const Employment = () => {
                             {...register("password", { required: true })}/>
 
                             {errors.password && <div className="invalid-feedback">{t('login.pass.error.required')}</div>}
-                            {authError && !errors.password && <div className="invalid-feedback">{t('login.autherror')}</div>}
+                            {authError==="auth" && !errors.password && <div className="invalid-feedback">{t('login.autherror')}</div>}
+                            {authError==="activation" && !errors.password && <div className="invalid-feedback">Active su cuenta</div>}
                             <Form.Text className="text-muted my-2 ">
                                 <Link to='/' className='link__style '>He olvidado mi contraseña</Link>
                             </Form.Text>
