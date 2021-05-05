@@ -50,11 +50,11 @@ const Employment = () => {
                             {authError==="auth" && !errors.password && <div className="invalid-feedback">{t('login.autherror')}</div>}
                             {authError==="activation" && !errors.password && <div className="invalid-feedback">Active su cuenta</div>}
                             <Form.Text className="text-muted my-2 ">
-                                <Link to='/' className='link__style '>He olvidado mi contraseña</Link>
+                                <Link to='/recuperar-contraseña' className='link__style '>He olvidado mi contraseña</Link>
                             </Form.Text>
                         </Form.Group>
                         
-                        <Button variant="primary" type="submit">Submit</Button>
+                        <Button variant="info" type="submit">Submit</Button>
                     </Form>
                 </div>
             </div>
