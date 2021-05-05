@@ -7,17 +7,17 @@ import './ContactForm.css'
 const ContactForm = () => {
     const { t } = useTranslation();
     return (
-        <div className='ContactForm d-flex justify-content-center'>
+        <div className='ContactForm d-flex justify-content-center '>
            <Form>
-               <div className='mb-4'>
+               <div className='mb-4 '>
                <h2>{t('home.section1.contactform.title')}</h2>
                </div>
             <Form.Group as={Row} controlId="formHorizontalEmail">
                 <Form.Label column sm={2}>
                 {t('home.section1.contactform.name')}
                 </Form.Label>
-                <Col lg={10} md={12}>
-                <Form.Control type="email" placeholder="Nombre" />
+                <Col lg={10} md={12} className="pl-5">
+                <Form.Control type="String" placeholder="Nombre"  />
                 </Col>
             </Form.Group>
 
@@ -25,13 +25,13 @@ const ContactForm = () => {
                 <Form.Label column sm={2}>
                 {t('home.section1.contactform.phone')}
                 </Form.Label>
-                <Col lg={10}>
+                <Col lg={10} className="pl-5">
                 <Form.Control type="String" placeholder={t('home.section1.contactform.phone')} />
                 </Col>
             </Form.Group>
             <Form.Group as={Row} controlId="exampleForm.ControlSelect1">
                 <Form.Label column sm={2}>{t('home.section1.contactform.timetable')}</Form.Label>
-                <Col lg={10}>
+                <Col lg={10} className="pl-5">
                     <Form.Control as="select">
                     <option>{t('home.section1.contactform.option1')}</option>
                     <option>{t('home.section1.contactform.option2')}</option>
