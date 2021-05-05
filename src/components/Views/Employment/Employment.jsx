@@ -6,26 +6,18 @@ import './Employment.css'
 import '../RecoverPass/RecoverPass.css'
 import { employ } from '../../../services/UserService';
 import { useTranslation } from 'react-i18next';
-import { useHistory } from 'react-router';
+
 
 
     
-    
-
-
-
 
 
 const Employment = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm({ defaultValues: {  firstName:"", lastName:"", email:"", phoneNumber:"", street:"", city:"", zip:"", vacancy:"", cv:"", comments:"" } });
     const { t } = useTranslation();
-    const { push } = useHistory();
     
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
-    //const handleShow = () => setShow(true);
-
-   
 
 
     const onSubmit = (data) => {
