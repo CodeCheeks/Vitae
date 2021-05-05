@@ -697,5 +697,16 @@
         "title": "Labour-Therapy"
       }
     }
+  },
+  "animation": {
+    "title1": "What are play therapies and what are they for?",
+    "paragraph1": "These are recreational activities that the elderly take part in during their leisure time. They favour their integration and participation in activities both inside and outside their environment, and help them to improve their social skills, self-esteem and autonomy.",
+    "paragraph2": "In some of the recreational activities, play is used as a therapeutic tool. Knowing the interests of the elderly, workshops are created for them, working on different cognitive, functional and social aspects.",
+    "types": {
+      "title1": "Stimulation with animals",
+      "title2": "Cultural excursions",
+      "title3": "Artherapy",
+      "title4": "Relaxation"
+    }
   }
 }
