@@ -55,6 +55,59 @@
       }
     },
     "autherror": "Incorrect password or email address"
+  },"home" :{
+    "section1": {
+      "title":"Vitae",
+      "subtitle":"Your trusted day care centre",
+      "contactform": {
+          "title": "Contact us",
+          "name": "Name",
+          "phone": "Telephone",
+          "timetable": "Timetable",
+          "checkbox": "I accept the terms of use and privacy policy",
+          "option1": "Mornings 09-14h",
+          "option2": "Afternoon 15-20h",
+          "option3": "Any time",
+          "option4": "In the next hour",
+          "button": "We'll call you back"
+      }
+    },
+    "section2": {
+      "title":"We have a multidisciplinary team",
+      "subtitle1":"Multidisciplinary team",
+      "subtitle2":"We have adapted spaces",
+      "subtitle3":"We carry out activities and therapies",
+      "paragraph1":"A multidisciplinary team can be defined as a group of people, with different academic backgrounds and professional experiences, who work together for a certain period of time to solve a complex problem, i.e. they have a common goal. Each individual is aware of his or her role and the role of the others, working together under the direction of a coordinator",
+      "paragraph2":"Technical aids or assistive technologies are products specifically manufactured or available on the market, whose function is to enable or facilitate the performance of certain actions, in such a way that without their use, these tasks would be impossible or very difficult for an individual in a given situation to perform.",
+      "paragraph3":"Gerontogymnastics is a physical activity aimed at elderly people. The aim of this type of exercise for older people is to promote sporting activity and to maintain their physical and mental health, as well as to improve social relations."
+      
+    },
+    "section3": {
+      "title":"Why choose vitae",
+      "subtitle":"In general, day centres allow the elderly to remain at home for a longer period of time, thus combining their benefits with those of family relationships, and avoiding the disorientation that sometimes results from a sudden change of home.",
+      "box1t":"Cognitive training",
+      "box1p":"We carry out activities and therapies",
+      "box2t":"Delays cognitive decline",
+      "box2p":"Encourages socialisation in the community",
+      "box3t":"Establishment of routines",
+      "box3p":"Improves rest and concentration during the day",
+      "box4t":"Daily physical activity",
+      "box4p":"Reduces the risk of falls and injuries and promotes autonomy",
+      "box5t":"Psychological care",
+      "box5p":"Supports the resolution of personal and interpersonal conflicts",
+      "box6t":"Health care",
+      "box6p":"Ensures good use of medication and health monitoring"
+    },
+    "section4": {
+      "title":"COVID measures",
+      "subtitle":"We comply with rigorous health and hygiene measures to ensure the safety of all users.",
+      "box1":"Mandatory use of masks",
+      "box2":"Use of hydroalcoholic gel",
+      "box3":"Antibody tests",
+      "button":"Learn more"
+      
+    }
+
   },
 
   "specialities":{

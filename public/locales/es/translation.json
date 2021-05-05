@@ -56,6 +56,60 @@
     },
     "autherror": "Contraseña o email incorrectos"
   },
+  "home" :{
+    "section1": {
+      "title":"Vitae",
+      "subtitle":"Tu centro de día de confianza",
+      "contactform": {
+          "title": "Contacta con nosotros",
+          "name": "Nombre",
+          "phone": "Teléfono",
+          "timetable": "Horario",
+          "checkbox": "Acepto las condiciones de uso y política de privacidad",
+          "option1": "Mañanas 09-14h",
+          "option2": "Tarde 15-20h",
+          "option3": "A cualquier hora",
+          "option4": "En la próxima hora",
+          "button": "Te llamamos"
+      }
+    },
+    "section2": {
+      "title":"Contamos con un equipo multidisciplinar",
+      "subtitle1":"Equipo multidisciplinar",
+      "subtitle2":"Contamos con espacios adaptados",
+      "subtitle3":"Realizamos actividades y terapias",
+      "paragraph1":"Se puede definir un equipo multidisciplinar como un conjunto de personas, con diferentes formaciones académicas y experiencias profesionales, que operan en conjunto, durante un tiempo determinado, abocados a resolver un problema complejo, es decir tienen un objetivo común. Cada individuo es consciente de su papel y del papel de los demás, trabajan en conjunto bajo la dirección de un coordinador.",
+      "paragraph2":"Las ayudas técnicas o tecnologías de apoyo, son los productos fabricados específicamente o disponibles en el mercado, cuya función es la de permitir o facilitar la realización de determinadas acciones, de tal manera que sin su uso, estas tareas serían imposibles o muy difíciles de realizar para un individuo en una situación determinada.",
+      "paragraph3":"La gerontogimnasia es actividad física dirigida a personas de la tercera edad. El objetivo de este tipo de estos ejercicios para personas mayores es promover la actividad deportiva y mantener en buen estado su salud física y mental, y a la vez, mejorar las relaciones sociales."
+      
+    },
+    "section3": {
+      "title":"Por qué elegir vitae",
+      "subtitle":"En general los centros de día permiten al mayor permanecer en su domicilio durante más tiempo, combinando así sus beneficios con los que aportan las relaciones familiares, y evitando la desorientación que a veces produce un cambio repentino de vivienda",
+      "box1t":"Entrenamiento cognitivo",
+      "box1p":"Realizamos actividades y terapias",
+      "box2t":"Retrasa el deterioro coginitivo.",
+      "box2p":"Favorece la socialización en la comunidad.",
+      "box3t":"Establecimiento de rutinas",
+      "box3p":"Mejora el descanso y la concentración durante el día.",
+      "box4t":"Actividad física diaria",
+      "box4p":"Disminuye el riesgo de caídas y lesiones y favorece la autonomía.",
+      "box5t":"Atención psicológica",
+      "box5p":"Apoya la resolución de conflictos personales e interpersonales.",
+      "box6t":"Cuidado de la salud",
+      "box6p":"Garantiza un buen uso de la medicación y un control de salud."
+    },
+    "section4": {
+      "title":"Medidas COVID",
+      "subtitle":"Cumplimos con rigurosas medidas higiénico-sanitarias para garantizar la seguridad de todos los usuarios.",
+      "box1":"Uso obligatorio de mascarilla",
+      "box2":"Uso de gel hidroalcohólico",
+      "box3":"Tests de anticuerpos",
+      "button":"Saber más"
+      
+    }
+
+  },
 
   "specialities":{
     "ictus":{
