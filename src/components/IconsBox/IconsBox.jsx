@@ -1,6 +1,10 @@
-import React from 'react';
+
 import './IconsBox.css'
+import React, { Suspense } from 'react';
+import { useTranslation } from 'react-i18next';
+
 const IconsBox = () => {
+    const { t } = useTranslation();
     return (
         <div>
             <div className="container">
@@ -8,22 +12,22 @@ const IconsBox = () => {
                     <div className="col-12 col-md-4">
                         <div className='d-flex flex-column align-items-center box__item'>
                             <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619981849/Vitae/iconos/thinking_dvftic.png"  width='60' alt="icon"/>
-                            <h5>Entrenamiento cognitivo</h5>
-                            <p>Retrasa el deterioro coginitivo y favorece la memoria.</p>
+                            <h5>{t('home.section3.box1t')}</h5>
+                            <p>{t('home.section3.box1p')}</p>
                         </div>
                     </div>
                     <div className="col-12 col-md-4">
                         <div className='d-flex flex-column align-items-center box__item'>
-                            <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619979140/Vitae/iconos/speech-bubble_ap782m.png" width='60' alt="icon"/>
-                            <h5>Comunicación social</h5>
-                            <p>Fvorece la socialización en la comunidad.</p>
+                            <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619979140/Vitae/iconos/speech-bubble_ap782m.png" width='55' alt="icon"/>
+                            <h5>{t('home.section3.box2t')}</h5>
+                            <p>{t('home.section3.box2p')}</p>
                         </div>
                     </div>
                     <div className="col-12 col-md-4">
                         <div className='d-flex flex-column align-items-center box__item'>
                             <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978855/Vitae/iconos/clock_hmnyih.png" width='60' alt="icon"/>
-                            <h5>Establecimiento de rutinas</h5>
-                            <p>Mejora el descanso y la concentración durante el día.</p>
+                            <h5>{t('home.section3.box3t')}</h5>
+                            <p>{t('home.section3.box3p')}</p>
                         </div>
                     </div>
                 </div>
@@ -32,22 +36,22 @@ const IconsBox = () => {
                     <div className="col-12 col-md-4">
                         <div className='d-flex flex-column align-items-center box__item'>
                             <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978670/Vitae/iconos/musculo_dnwgla.png" width='60' alt="icon"/>
-                            <h5>Actividad física diaria</h5>
-                            <p>Disminuye el riesgo de caídas y lesiones y favorece la autonomía.</p>
+                            <h5>{t('home.section3.box4t')}</h5>
+                            <p>{t('home.section3.box4p')}</p>
                         </div>
                     </div>
                     <div className="col-12 col-md-4">
                         <div className='d-flex flex-column align-items-center box__item'>
                             <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978858/Vitae/iconos/confusion_xd44kr.png" width='60' alt="icon"/>
-                            <h5>Atención psicológica</h5>
-                            <p>Apoya la resolución de conflictos personales e interpersonales.</p>
+                            <h5>{t('home.section3.box5t')}</h5>
+                            <p>{t('home.section3.box5p')}</p>
                         </div>
                     </div>
                     <div className="col-12 col-md-4">
                         <div className='d-flex flex-column align-items-center box__item'>
                             <img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619979199/Vitae/iconos/hueso_w5gn8b.png" width='60' alt="icon"/>
-                            <h5>Cuidado de la salud</h5>
-                            <p>Garantiza un buen uso de la medicación y un control de salud.</p>
+                            <h5>{t('home.section3.box6t')}</h5>
+                            <p>{t('home.section3.box6p')}</p>
                         </div>
                     </div>
                 </div>
@@ -56,4 +60,10 @@ const IconsBox = () => {
     );
 };
 
-export default IconsBox;
+export default function App() {
+    return (
+      <Suspense fallback="loading">
+        <IconsBox />
+      </Suspense>
+    );
+  };
