@@ -1,22 +1,31 @@
 
-import React, { Suspense } from 'react';
-import { Col, Form, Button } from 'react-bootstrap';
+import React, { Suspense, useState } from 'react';
+import { Col, Form, Button, Modal } from 'react-bootstrap';
 import { useForm } from "react-hook-form";
 import './Employment.css'
-
-
+import '../RecoverPass/RecoverPass.css'
 import { employ } from '../../../services/UserService';
 import { useTranslation } from 'react-i18next';
 import { useHistory } from 'react-router';
 
 
+    
+    
+
+
+
 
 
 const Employment = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
+    const { register, handleSubmit, reset, formState: { errors } } = useForm({ defaultValues: {  firstName:"", lastName:"", email:"", phoneNumber:"", street:"", city:"", zip:"", vacancy:"", cv:"", comments:"" } });
     const { t } = useTranslation();
     const { push } = useHistory();
+    
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    //const handleShow = () => setShow(true);
 
+   
 
 
     const onSubmit = (data) => {
@@ -27,12 +36,34 @@ const Employment = () => {
           });
         
         employ(formData).then((response) => {
-            push("/")
+            setShow(true)
+            reset({firstName:"", lastName:"", email:"", phoneNumber:"", street:"", city:"", zip:"", vacancy:"", cv:"", comments:""})
         });
     }
     
     return (
         <div className="container grey__container">
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header className="modal__header" closeButton>
+                    <Modal.Title>Candidatura enviada</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <div className="container">
+                        <div className="row">
+                            <p>Su candidatura ha sido enviada con éxito. Nos pondremos en contacto con usted para próximas ampliaciones de plantilla</p>
+                        </div>
+                        <div className="row">
+                            <p>Atentamente, equipo Vitae</p>
+                        </div>
+                    </div>
+                    
+                </Modal.Body>
+                <Modal.Footer>
+                    <Button variant="info" onClick={handleClose}>
+                        Close
+                    </Button>
+                </Modal.Footer>
+            </Modal>
             <div className="row  justify-content-center">
                 <div className="col my-2">
                     <h1 className="col mb-4">{t('employ.intro.title')}</h1>
@@ -139,7 +170,7 @@ const Employment = () => {
                             />
                     </Form.Group>
 
-                    <Button variant="primary" type="submit">
+                    <Button variant="info" type="submit">
                         Submit
                     </Button>
                 </Form>
