@@ -1,12 +1,14 @@
 import React, { Suspense } from 'react';
-import {Link} from 'react-router-dom'
 import { useTranslation } from 'react-i18next';
+import {Link} from 'react-router-dom'
+
 
 import './CustomFooter.css'
   
   const CustomFooter = () => {
 
     const { i18n } = useTranslation();
+    const { t } = useTranslation();
 
     return (
         <div className="container-fluid footer__container">
@@ -14,7 +16,7 @@ import './CustomFooter.css'
                 <div className="row mb-2 ">
                     <div className="col border-right d-flex justify-content-center">
                         <div className='mb-5 d-flex flex-column justify-content-center align-items-center'>
-                            <h5 className="text-light mt-3">Contacto</h5>
+                            <h5 className="text-light mt-3">{t('navbar.contact')}</h5>
                             <h6 className="text-light footer__text__1 my-2">exam@vita.com</h6>
                             <h6 className="text-light footer__text__1 my-2">📞 9121765942</h6>
                         </div>
@@ -30,10 +32,10 @@ import './CustomFooter.css'
                     </div>
                     
                     <div className=" justify-content-center align-items-center col mt-4 footer__list">
-                        <Link to="/ayudas/cheque-servicio" className="text-light h5 mx-2">Ayudas</Link>
-                        <Link to="/preguntas-frecuentes" className="text-light h5 mx-2">FAQs</Link>
-                        <Link to="/sobre-nosotros" className="text-light h5 mx-2">Nosotros</Link>
-                        <Link to="/empleo" className="text-light h5 mx-2">Empleo</Link>
+                        <Link to="/ayudas/cheque-servicio" className="text-light h5 mx-2">{t('navbar.aids.title')}</Link>
+                        <Link to="/preguntas-frecuentes" className="text-light h5 mx-2">{t('navbar.faq')}</Link>
+                        <Link to="/sobre-nosotros" className="text-light h5 mx-2">{t('navbar.about')}</Link>
+                        <Link to="/empleo" className="text-light h5 mx-2">{t('navbar.jobs')}</Link>
                         <div className='d-flex justify-content-center align-items-center'> 
                             <Link to="#" onClick={() => i18n.changeLanguage('en')} className="text-light h5 mx-2">EN</Link>
                             <Link to="#" onClick={() => i18n.changeLanguage('es')} className="text-light h5 mx-2">ES</Link>
@@ -53,10 +55,10 @@ import './CustomFooter.css'
                 </div>
                 <div className="d-flex align-items-center row justify-content-between pt-4 second__footer ">
                     <div className="col">
-                        <h6 className="text-light">Proyecto realizado por Alicia Parra Serrano y Diego Cerratos Bravo</h6>
+                        <h6 className="text-light">{t('navbar.footer.madeby')}</h6>
                     </div>
                     <div className="col">
-                        <h6 className="text-light" >Copyright © 2021 | Proyecto realizado con fines académicos.</h6>
+                        <h6 className="text-light" >{t('navbar.footer.academics')}</h6>
                     </div>
                 </div>
             </div>

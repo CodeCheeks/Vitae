@@ -37,7 +37,11 @@
     "contact": "Contacto",
     "area": "Área Personal",
     "login": "Iniciar Sesión",
-    "logout": "Cerrar Sesión"
+    "logout": "Cerrar Sesión",
+    "footer":{
+      "madeby":"Proyecto realizado por Alicia Parra Serrano y Diego Cerratos Bravo",
+      "academics":"Copyright © 2021 | Proyecto realizado con fines académicos."
+    }
   },
   "login" :{
     "email": {

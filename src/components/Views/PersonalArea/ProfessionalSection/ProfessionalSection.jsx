@@ -106,7 +106,7 @@ const ProfessionalSection = (props) => {
             </Modal>
             { professionals ? 
             (<Table size="sm" bordered hover >
-                <thead className="custom__style">
+                <thead className="custom__style__p">
                     <tr>
                         <th>Nombre</th>
                         <th>Departamento</th>
