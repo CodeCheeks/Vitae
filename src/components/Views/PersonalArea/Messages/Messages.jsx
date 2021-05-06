@@ -8,7 +8,6 @@ import { userReceivedMessages, userSentMessages } from "../../../../services/mes
 const Messages = () => {
 
     const { user } = useContext(UserContext);
-    const {elder} = user
 
     const [messages, setMessages] = useState(null);
     const [sentmessages, setSentMessages] = useState(null);
@@ -39,7 +38,7 @@ const Messages = () => {
 
     const getMessages =() => {
         let messagesRow = []
-        messages.sort(function(a,b){return new Date(b.createdAt) - new Date(a.createdAt)}).map(message => {
+        messages.sort(function(a,b){return new Date(b.createdAt) - new Date(a.createdAt)}).forEach(message => {
             
             messagesRow.push(<tr key={message.id}>
                 <td>{message.sender.firstname}</td>
@@ -55,7 +54,7 @@ const Messages = () => {
 
     const getSentMessages =() => {
         let sentMessagesRow = []
-        sentmessages.sort(function(a,b){return new Date(b.createdAt) - new Date(a.createdAt)}).map(message => {
+        sentmessages.sort(function(a,b){return new Date(b.createdAt) - new Date(a.createdAt)}).forEach(message => {
             
             sentMessagesRow.push(<tr key={message.id}>
                 <td>{message.receiver.firstname}</td>

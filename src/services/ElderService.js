@@ -10,4 +10,9 @@ export const getActivities = (elder_id) => {
   return http.get(`/activities/${elder_id}`)
 }
 
+export const getPictures = (elder_id) => {
+  return http.get(`/pictures/${elder_id}`)
+}
+
+
 

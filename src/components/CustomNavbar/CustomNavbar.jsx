@@ -18,9 +18,8 @@ const CustomNavbar = () => {
 
   const changeLang = ()=>{
     language ? i18n.changeLanguage('es') : i18n.changeLanguage('en')
-    
     setLanguage(!language);
-}
+  }
    const [show, setShow] = useState(false);
     const showDropdown = (e)=>{
         setShow(!show);
