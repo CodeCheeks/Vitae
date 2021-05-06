@@ -12,9 +12,7 @@ const Activities = () => {
 
     useEffect(() => {
         getActivities(elder.id)
-        .then(res => {setActivities(res)
-             console.log(res)
-        })
+        .then(res => setActivities(res))
         .catch(error => console.log(error))
     }, [elder.id]);
 
@@ -37,7 +35,6 @@ const Activities = () => {
                     return(
                         
                         <div key={activity.id} className="container act__grey__container my-1">
-                            {console.log(activity)}
                             <div className="row align-items-center ">
                                 <div className="col"><h3>{activity.title}</h3></div>
                                 <div className="col">{ <h6><b>Profesional:</b> { activity.organizer.firstname} { activity.organizer.lastname},{ activity.organizer.occupation} </h6> }</div>
