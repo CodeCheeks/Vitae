@@ -41,7 +41,6 @@ const Animacion = () => {
                         </NavLink>
                     </div>
                 </div>
-
             </div>
         </div>
     );

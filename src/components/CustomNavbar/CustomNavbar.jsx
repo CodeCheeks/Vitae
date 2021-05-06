@@ -103,7 +103,7 @@ const CustomNavbar = () => {
             </div>
           {user && (<NavLink to="/area-personal" className='link__style text__style ml-4'>{t('navbar.area')}</NavLink>)}
           {!user ? 
-            (<NavLink to="/iniciar-sesion" activeClassName="selected" className='link__style text__style'>{t('navbar.login')}</NavLink>)
+            (<NavLink to="/iniciar-sesion" activeClassName="selected" className='link__style text__style custom__width'>{t('navbar.login')}</NavLink>)
           :
             (<NavLink to="/" onClick={logout} className='link__style text__style'>{t('navbar.logout')}</NavLink>)
           }

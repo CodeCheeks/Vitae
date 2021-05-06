@@ -7,7 +7,6 @@ import './CustomFooter.css'
   
   const CustomFooter = () => {
 
-    const { i18n } = useTranslation();
     const { t } = useTranslation();
 
     return (
@@ -36,10 +35,6 @@ import './CustomFooter.css'
                         <Link to="/preguntas-frecuentes" className="text-light h5 mx-2">{t('navbar.faq')}</Link>
                         <Link to="/sobre-nosotros" className="text-light h5 mx-2">{t('navbar.about')}</Link>
                         <Link to="/empleo" className="text-light h5 mx-2">{t('navbar.jobs')}</Link>
-                        <div className='d-flex justify-content-center align-items-center'> 
-                            <Link to="#" onClick={() => i18n.changeLanguage('en')} className="text-light h5 mx-2">EN</Link>
-                            <Link to="#" onClick={() => i18n.changeLanguage('es')} className="text-light h5 mx-2">ES</Link>
-                        </div>
                     </div>
                     <div className="col border-left d-none d-sm-none d-lg-block">
                         <div className="row d-flex align-items-center">

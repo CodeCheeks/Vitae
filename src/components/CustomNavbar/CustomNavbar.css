@@ -52,7 +52,6 @@
     align-items: center;
 }
 
-.dropdown__content:hover{
-
+.custom__width {
+    min-width: 123px;
 }
-

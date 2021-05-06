@@ -3,7 +3,7 @@
     padding: 20px;
     border-radius: 5px;
     color: var(--dark-blue-color);
-    
+    min-width: 500px;
 }
 
 .ContactForm Button{
