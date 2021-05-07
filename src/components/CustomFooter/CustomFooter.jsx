@@ -17,8 +17,8 @@ import './CustomFooter.css'
                     <div className="col border-right d-flex justify-content-center">
                         <div className='mb-5 d-flex flex-column justify-content-center align-items-center'>
                             <h5 className="text-light mt-3">{t('navbar.contact')}</h5>
-                            <h6 className="text-light footer__text__1 my-2">exam@vita.com</h6>
-                            <h6 className="text-light footer__text__1 my-2">📞 9121765942</h6>
+                            <h6 className="text-light footer__text__1 my-2">Vitae@example.com</h6>
+                            <h6 className="text-light footer__text__1 my-2">📞 91 217 65 942</h6>
                         </div>
                         
                     </div>
@@ -40,12 +40,10 @@ import './CustomFooter.css'
                     <div className="col border-left d-none d-sm-none d-lg-block">
                         <div className="row d-flex align-items-center">
                             <div className="col">
-                                {/* <img className="footer__img" src="../../../media/images/fake_map.png" alt="fake-map"/> */}
                                 <Maps/>
                             </div>
                             <div className="col mt-1">
                                 <h6 className="text-light">Paseo de la Chopera Nº14</h6>
-                                <h6 className="text-light">28056 Madrid</h6>
                             </div>
                         </div>
                     </div>
