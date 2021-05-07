@@ -48,7 +48,8 @@
       "title":"Correo Electrónico",
       "error": {
         "required": "Introduzca el correo electrónico",
-        "invalid": "Email incorrecto"
+        "invalid": "Email incorrecto",
+        "activate": "Active su cuenta"
       }
     },
     "pass": {
@@ -56,7 +57,8 @@
       "error": {
         "required": "Introduzca la contraseña",
         "invalid": "Contraseña incorrecta"
-      }
+      },
+      "forgot":"He olvidado mi contraseña"
     },
     "autherror": "Contraseña o email incorrectos"
   },

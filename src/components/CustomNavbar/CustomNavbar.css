@@ -53,5 +53,13 @@
 }
 
 .custom__width {
-    min-width: 123px;
+    min-width: 140px;
+    text-align: center;
+    display: block;
+
 }
+
+.right__nav__block{
+    text-align: center;
+}
+

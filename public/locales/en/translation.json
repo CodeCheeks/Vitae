@@ -48,7 +48,8 @@
       "title":"Email address",
       "error": {
         "required": "Email is required",
-        "invalid": "Email is invalid"
+        "invalid": "Email is invalid",
+        "activate": "Activate your account"
       }
     },
     "pass": {
@@ -56,7 +57,8 @@
       "error": {
         "required": "Password is required",
         "invalid": "Incorrect password"
-      }
+      },
+      "forgot":"I forgot my password"
     },
     "autherror": "Incorrect password or email address"
   },"home" :{

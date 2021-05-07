@@ -42,15 +42,15 @@ const Employment = () => {
                             {errors.email && <div className="invalid-feedback">{t('login.email.error.required')}</div>}
                         </Form.Group>
                         <Form.Group controlId="formBasicPassword">
-                            <Form.Label>Password</Form.Label>
-                            <Form.Control className={(errors.password || authError) && "is-invalid"} type="password" placeholder="Password" 
+                            <Form.Label>{t('login.pass.title')}</Form.Label>
+                            <Form.Control className={(errors.password || authError) && "is-invalid"} type="password" placeholder={t('login.pass.title')}
                             {...register("password", { required: true })}/>
 
                             {errors.password && <div className="invalid-feedback">{t('login.pass.error.required')}</div>}
                             {authError==="auth" && !errors.password && <div className="invalid-feedback">{t('login.autherror')}</div>}
-                            {authError==="activation" && !errors.password && <div className="invalid-feedback">Active su cuenta</div>}
+                            {authError==="activation" && !errors.password && <div className="invalid-feedback">{t('login.email.error.activate')}</div>}
                             <Form.Text className="text-muted my-2 ">
-                                <Link to='/recuperar-contraseña' className='link__style '>He olvidado mi contraseña</Link>
+                                <Link to='/recuperar-contraseña' className='link__style '>{t('login.pass.forgot')}</Link>
                             </Form.Text>
                         </Form.Group>
                         

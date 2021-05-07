@@ -36,13 +36,13 @@ const CustomNavbar = () => {
         setShow2(false);
     }
 
-    const [show3, setShow3] = useState(false);
+    /* const [show3, setShow3] = useState(false);
     const showDropdown3 = (e)=>{
         setShow3(!show3);
     }
     const hideDropdown3 = e => {
         setShow3(false);
-    }
+    } */
 
     const [show4, setShow4] = useState(false);
     const showDropdown4 = (e)=>{
@@ -72,12 +72,12 @@ const CustomNavbar = () => {
                   <NavDropdown.Item><NavLink to="/servicios/terapias/terapia-ocupacional" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.ot')}</NavLink></NavDropdown.Item>
                   <NavDropdown.Item><NavLink to="/servicios/terapias/animacion" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.terapeutics.recreation')}</NavLink></NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown drop='right' className='link__style' title={<span className=" link__style text__style__sm ">{t('navbar.services.assistance.title')}</span>} id="asistenciales" show={show3} onMouseEnter={showDropdown3} onMouseLeave={hideDropdown3}>
+                {/* <NavDropdown drop='right' className='link__style' title={<span className=" link__style text__style__sm ">{t('navbar.services.assistance.title')}</span>} id="asistenciales" show={show3} onMouseEnter={showDropdown3} onMouseLeave={hideDropdown3}>
                   <NavDropdown.Item><NavLink to="/servicios/asistenciales/medicina-enfermeria" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.assistance.medicine')}</NavLink></NavDropdown.Item>
                   <NavDropdown.Item><NavLink to="/servicios/asistenciales/ayuda-domicilio" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.assistance.home')}</NavLink></NavDropdown.Item>
                   <NavDropdown.Item><NavLink to="/servicios/asistenciales/transporte" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.assistance.transport')}</NavLink></NavDropdown.Item>
                   <NavDropdown.Item><NavLink to="/servicios/asistenciales/comedor" className='link__style link__style__sm' activeClassName="selected">{t('navbar.services.assistance.catering')}</NavLink></NavDropdown.Item>
-                </NavDropdown>
+                </NavDropdown> */}
             </NavDropdown>
 
             <NavDropdown title={<span className="link__style text__style">{t('navbar.specialities.title')}</span>}  className='link__style text__style' id="collasible-nav-dropdown" show={show4} onMouseEnter={showDropdown4} onMouseLeave={hideDropdown4}>
@@ -97,11 +97,15 @@ const CustomNavbar = () => {
             
 
           </Nav>
-            <div >
+            <div className='right__nav__block'>
               {language  ? <Link to="#" onClick={ changeLang} className=" link__style text__style  ">EN</Link> : <Link to="#" onClick={changeLang} className=" link__style text__style ">ES</Link>}
             </div>
-          {user && (<NavLink to="/area-personal" className='link__style text__style ml-4'>{t('navbar.area')}</NavLink>)}
+            <div className='right__nav__block'>
+              {user && (<NavLink to="/area-personal" className='link__style text__style ml-4 d-block'>{t('navbar.area')}</NavLink>)}
+            </div>
+          
           {!user ? 
+          
             (<NavLink to="/iniciar-sesion" activeClassName="selected" className='link__style text__style custom__width'>{t('navbar.login')}</NavLink>)
           :
             (<NavLink to="/" onClick={logout} className='link__style text__style'>{t('navbar.logout')}</NavLink>)
