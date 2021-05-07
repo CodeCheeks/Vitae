@@ -48,7 +48,7 @@ import './CustomFooter.css'
                         </div>
                     </div>
                 </div>
-                <div className="d-flex align-items-center row justify-content-between pt-4 second__footer ">
+                <div className="d-flex align-items-center row justify-content-between pt-4 second__footer">
                     <div className="col">
                         <h6 className="text-light">{t('navbar.footer.madeby')}</h6>
                     </div>

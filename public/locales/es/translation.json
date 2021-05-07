@@ -60,7 +60,8 @@
       },
       "forgot":"He olvidado mi contraseña"
     },
-    "autherror": "Contraseña o email incorrectos"
+    "autherror": "Contraseña o email incorrectos",
+    "submit": "Enviar"
   },
   "home" :{
     "section1": {
@@ -712,6 +713,17 @@
       "title3": "Arterapia",
       "title4": "Relajación"
     }
+  },
+  "auth": {
+    "recover":"Recuperar contraseña"
+  },
+  "profile":{
+    "account":"Mi cuenta",
+    "messages": "Mis mensajes",
+    "professionals": "Profesionales",
+    "activities": "Actividades",
+    "reports": "Informes",
+    "gallery": "Galería"
   }
 }
 

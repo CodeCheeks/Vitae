@@ -53,14 +53,14 @@ const RecoverPass = () => {
                 </Modal.Footer>
             </Modal>
             <div className="row justify-content-center">
-                <div className="col-4">
+                <div className="col-8 col-sm-6 col-md-5 col-lg-4">
                     <Form onSubmit={handleSubmit(onSubmit)}>
                         <Form.Group controlId="formBasicPassword">
                             <Form.Control className={(errors.email || authError)  && "is-invalid"} type="email" placeholder={t('login.email.error.required')} {...register("email", { required: true })}/>
                             {errors.email && <div className="invalid-feedback">{t('login.email.error.required')}</div>}
                             {authError && !errors.email && <div className="invalid-feedback">Email incorrecto</div>}
                         </Form.Group>
-                        <Button variant="info" type="submit">Enviar</Button>
+                        <Button variant="info" type="submit">{t('login.submit')}</Button>
                     </Form>
                 </div>
             </div>

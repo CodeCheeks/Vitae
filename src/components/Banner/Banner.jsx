@@ -130,9 +130,37 @@ const Banner = () => {
                 banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572633/Vitae/imagenes/banner/banner-aboutus_rx0tsn.jpg)"
                 banner.title = 'navbar.login'
                 break;
+            case "recuperar-contraseña":
+                banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572633/Vitae/imagenes/banner/banner-aboutus_rx0tsn.jpg)"
+                banner.title = 'auth.recover'
+                break;
             case "area-personal":
                 banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572633/Vitae/imagenes/banner/banner-aboutus_rx0tsn.jpg)"
                 banner.title = 'navbar.area'
+                break;
+            case "perfil":
+                banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572633/Vitae/imagenes/banner/banner-aboutus_rx0tsn.jpg)"
+                banner.title = 'profile.account'
+                break;
+            case "mensajes":
+                banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572633/Vitae/imagenes/banner/banner-aboutus_rx0tsn.jpg)"
+                banner.title = 'profile.messages'
+                break;
+            case "profesionales":
+                banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572633/Vitae/imagenes/banner/banner-aboutus_rx0tsn.jpg)"
+                banner.title = 'profile.professionals'
+                break;
+            case "actividades":
+                banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572633/Vitae/imagenes/banner/banner-aboutus_rx0tsn.jpg)"
+                banner.title = 'profile.activities'
+                break;
+            case "informes":
+                banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572633/Vitae/imagenes/banner/banner-aboutus_rx0tsn.jpg)"
+                banner.title = 'profile.reports'
+                break;
+                case "galeria":
+                banner.image = "url(https://res.cloudinary.com/dv7hswrot/image/upload/v1618572633/Vitae/imagenes/banner/banner-aboutus_rx0tsn.jpg)"
+                banner.title = 'profile.gallery'
                 break;
 
             default:

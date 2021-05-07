@@ -37,7 +37,7 @@ const Employment = () => {
                 <div className="col-lg-4 col-md-5 col-sm-6 col-8">
                     <Form onSubmit={handleSubmit(onSubmit)}>
                         <Form.Group controlId="formBasicEmail">
-                            <Form.Label>Email address</Form.Label>
+                            <Form.Label>{t('login.email.title')}</Form.Label>
                             <Form.Control className={(errors.email || authError) && "is-invalid"} type="email" placeholder={t('employ.email.placeholder')} {...register("email", { required: true })}/>
                             {errors.email && <div className="invalid-feedback">{t('login.email.error.required')}</div>}
                         </Form.Group>
@@ -54,7 +54,7 @@ const Employment = () => {
                             </Form.Text>
                         </Form.Group>
                         
-                        <Button variant="info" type="submit">Submit</Button>
+                        <Button variant="info" type="submit">{t('login.submit')}</Button>
                     </Form>
                 </div>
             </div>

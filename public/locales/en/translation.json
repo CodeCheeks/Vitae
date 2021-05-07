@@ -60,7 +60,8 @@
       },
       "forgot":"I forgot my password"
     },
-    "autherror": "Incorrect password or email address"
+    "autherror": "Incorrect password or email address",
+    "submit": "Submit"
   },"home" :{
     "section1": {
       "title":"Vitae",
@@ -710,5 +711,16 @@
       "title3": "Artherapy",
       "title4": "Relaxation"
     }
+  },
+  "auth": {
+    "recover":"Recover password"
+  },
+  "profile":{
+    "account":"Mi account",
+    "messages": "My messages",
+    "professionals": "Professionals",
+    "activities": "Activities",
+    "reports": "Reports",
+    "gallery": "Gallery"
   }
 }
