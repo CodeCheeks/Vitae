@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 import {Link} from 'react-router-dom'
+import Maps from '../Maps/Maps';
 
 
 import './CustomFooter.css'
@@ -39,10 +40,11 @@ import './CustomFooter.css'
                     <div className="col border-left d-none d-sm-none d-lg-block">
                         <div className="row d-flex align-items-center">
                             <div className="col">
-                                <img className="footer__img" src="../../../media/images/fake_map.png" alt="fake-map"/>
+                                {/* <img className="footer__img" src="../../../media/images/fake_map.png" alt="fake-map"/> */}
+                                <Maps/>
                             </div>
-                            <div className="col">
-                                <h6 className="text-light">Avenida de las Castañas Nº46</h6>
+                            <div className="col mt-1">
+                                <h6 className="text-light">Paseo de la Chopera Nº14</h6>
                                 <h6 className="text-light">28056 Madrid</h6>
                             </div>
                         </div>
