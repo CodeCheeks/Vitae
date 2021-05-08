@@ -2,6 +2,7 @@ import React, { useEffect, useContext, useState } from 'react';
 import './Activities.css'
 import { UserContext } from "../../../../contexts/UserContext";
 import { getActivities } from "../../../../services/ElderService";
+import {  Spinner } from 'react-bootstrap'
 
 const Activities = () => {
 
@@ -27,6 +28,13 @@ const Activities = () => {
                     </h1>
                 </div>
             </div>
+            <div className="col text-center">
+                {activities ? activities.length === 0 && <h6>No hay actividades todavía</h6> : <Spinner className="m-5" animation="border" role="status" variant="info">
+                    <span className="sr-only">Loading...</span>
+                    </Spinner>}
+            </div>
+
+
             {
                 activities ? 
                 

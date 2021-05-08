@@ -36,7 +36,7 @@ const Profile = () => {
                         <div><p><b>Apellidos:</b> {user.elder.lastname}</p></div>
                         <div><p><b>Género:</b> {user.elder.gender}</p></div>
                         <div><p><b>Edad:</b> {user.elder.age}</p></div>
-                        <div><p><b>Fecha de nacimiento:</b> {user.elder.dateOfBirth}</p></div>
+                        <div><p><b>Fecha de nacimiento:</b> {user.elder.dateOfBirth.split('T')[0].split("-").reverse().join("-")}</p></div>
                         <div><p><b>DNI:</b> {user.elder.dni}</p></div>
                         <div><p><b>Dieta:</b> {user.elder.diet}</p></div>
                     </div>

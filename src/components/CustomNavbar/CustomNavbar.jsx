@@ -57,7 +57,7 @@ const CustomNavbar = () => {
           <Navbar.Brand>
             <NavLink className='link__style logo__wrapper'to="/">
               <img src="https://pics.freeicons.io/uploads/icons/png/18081978721600459989-512.png" width="70" height="70" className="d-inline-block align-top mx-3" alt="vitae-logo"/>
-              {/* <div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> */}
+              
               <h4 className='text__style brand__logo__text link__style'>Vitae</h4>
             </NavLink>
           </Navbar.Brand>
