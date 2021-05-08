@@ -44,9 +44,9 @@ const Activities = () => {
                         
                         <div key={activity.id} className="container act__grey__container my-1">
                             <div className="row align-items-center ">
-                                <div className="col"><h3>{activity.title}</h3></div>
-                                <div className="col">{ <h6><b>Profesional:</b> { activity.organizer.firstname} { activity.organizer.lastname},{ activity.organizer.occupation} </h6> }</div>
-                                <div className="col">{<h6><b>Fecha:</b> {activity.startDate.split('T',1)} Hora: {activity.startHour} a {activity.finishHour}</h6>}</div>
+                                <div className="col text-left"><h3>{activity.title}</h3></div>
+                                <div className="col text-left">{ <h6><b>Profesional:</b> { activity.organizer.firstname} { activity.organizer.lastname},{ activity.organizer.occupation} </h6> }</div>
+                                <div className="col text-left">{<h6><b>Fecha:</b> {activity.startDate.split('T',1)} Hora: {activity.startHour} a {activity.finishHour}</h6>}</div>
                             </div>
                         </div>
                     )
