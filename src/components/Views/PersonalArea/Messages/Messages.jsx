@@ -110,7 +110,7 @@ const Messages = () => {
                 </div>
                 <div className="row text-center">
                     <div className="col-12">
-                        {getMessages().length === 0 && <h6>Todavía no hay mensajes</h6>}
+                        {getMessages().length === 0 && <h6>Todavía no existen mensajes</h6>}
                         
                     </div>
                 </div>
@@ -146,7 +146,7 @@ const Messages = () => {
                 </div>
                 <div className="row text-center">
                     <div className="col-12">
-                        {getSentMessages().length === 0 && <h6>Todavía no hay mensajes</h6>}
+                        {getSentMessages().length === 0 && <h6>Todavía no existen mensajes</h6>}
                     </div>
                 </div>
             </div>
