@@ -2,13 +2,15 @@ import React, { Suspense, useState } from 'react';
 import { Button, Form, Modal } from 'react-bootstrap';
 import { recoverPass } from '../../../services/AuthService';
 import { useForm } from "react-hook-form";
-
+import { useHistory } from 'react-router';
+import { Spinner } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import './RecoverPass.css'
 
 
 const RecoverPass = () => {
 
+    const { push } = useHistory();
     const { t } = useTranslation();
     const [authError, setAuthError] = useState(null)
     const { register, handleSubmit, reset, formState: { errors } } = useForm({ defaultValues: { email: "" } });
@@ -23,6 +25,7 @@ const RecoverPass = () => {
         .then(res => {
             setShow(true)
             reset({email:""})
+            setTimeout(() => push('/iniciar-sesion') , 3000)
         })
         .catch(error => {
             error.response.status === 404 ? setAuthError(true) : setAuthError(false)
@@ -42,6 +45,10 @@ const RecoverPass = () => {
                         </div>
                         <div className="row">
                             <p>Atentamente, equipo Vitae</p>
+                        </div>
+                        <div className="row">
+                            <p>Redirigiendo</p>
+                            <Spinner animation="grow" variant="info" />
                         </div>
                     </div>
                     
