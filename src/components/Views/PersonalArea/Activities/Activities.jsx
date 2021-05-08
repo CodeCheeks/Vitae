@@ -29,7 +29,7 @@ const Activities = () => {
                 </div>
             </div>
             <div className="col text-center">
-                {activities ? activities.length === 0 && <h6>No hay actividades todavía</h6> : <Spinner className="m-5" animation="border" role="status" variant="info">
+                {activities ? activities.length === 0 && <h6>No existen actividades disponibles</h6> : <Spinner className="m-5" animation="border" role="status" variant="info">
                     <span className="sr-only">Loading...</span>
                     </Spinner>}
             </div>
