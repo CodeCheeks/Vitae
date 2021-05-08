@@ -57,11 +57,10 @@ const Messages = () => {
         sentmessages.sort(function(a,b){return new Date(b.createdAt) - new Date(a.createdAt)}).forEach(message => {
             
             sentMessagesRow.push(<tr key={message.id}>
-                <td>{message.receiver.firstname}</td>
+                <td>{message.receiver.firstname}, {message.receiver.occupation}</td>
                 <td>{message.title}</td>
                 <td>{message.createdAt.split('T').join(' a las ').split('.',1)}</td>
                 <td><img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978131/Vitae/iconos/mesasge_cpbni4.png"  name={message.message} title={message.title} alt="delete" className="mx-3 custom__hover" width="20px" onClick={handleShow}/></td>
-    
             </tr>)
             
         })
@@ -93,19 +92,29 @@ const Messages = () => {
             <div className="row my-5">
                 
             { messages ? 
-                <Table size="sm" bordered hover >
-                    <thead className="custom__style">
-                        <tr>
-                            <th>Enviado por:</th>
-                            <th className='mw-100'>Título</th>
-                            <th className='mw-100'>Fecha</th>
-                            <th>Ver</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    {getMessages()}
-                    </tbody>
-                </Table>
+            <div className='container '>
+                <div className="row">
+                    <Table size="sm" bordered hover >
+                        <thead className="custom__style">
+                            <tr>
+                                <th>Enviado por:</th>
+                                <th className='mw-100'>Título</th>
+                                <th className='mw-100'>Fecha</th>
+                                <th>Ver</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {getMessages()}
+                        </tbody>
+                    </Table>
+                </div>
+                <div className="row text-center">
+                    <div className="col-12">
+                        {getMessages().length === 0 && <h6>Todavía no hay mensajes</h6>}
+                        
+                    </div>
+                </div>
+            </div>
                 : (<Spinner className="m-5 text-center" animation="border" role="status" variant="info">
                         <span className="sr-only">Loading...</span>
                     </Spinner>)
@@ -119,19 +128,28 @@ const Messages = () => {
                     </h1>
                 </div>
             { sentmessages ? 
-                <Table size="sm" bordered hover >
-                    <thead className="custom__style">
-                        <tr>
-                            <th>Enviado por:</th>
-                            <th>Título</th>
-                            <th>Fecha</th>
-                            <th>Ver</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    {getSentMessages()}
-                    </tbody>
-                </Table>
+            <div className='container '>
+                <div className="row">
+                    <Table size="sm" bordered hover >
+                        <thead className="custom__style">
+                            <tr>
+                                <th>Enviado a:</th>
+                                <th>Título</th>
+                                <th>Fecha</th>
+                                <th>Ver</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {getSentMessages()}
+                        </tbody>
+                    </Table>
+                </div>
+                <div className="row text-center">
+                    <div className="col-12">
+                        {getSentMessages().length === 0 && <h6>Todavía no hay mensajes</h6>}
+                    </div>
+                </div>
+            </div>
                 : (<Spinner className="m-5" animation="border" role="status" variant="info">
                         <span className="sr-only">Loading...</span>
                     </Spinner>)
