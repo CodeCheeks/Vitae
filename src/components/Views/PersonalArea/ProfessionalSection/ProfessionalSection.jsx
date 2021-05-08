@@ -53,13 +53,14 @@ const ProfessionalSection = (props) => {
     const getProfessionals =() => {
         let professionalsRow = []
         professionals.forEach(prof => {
-            
-            professionalsRow.push(<tr key={prof.id}>
-                <td>{prof.firstname} {prof.lastname}</td>
-                <td>{prof.occupation}</td>
-                <td>{prof.email}</td>
-                <td><img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978131/Vitae/iconos/mesasge_cpbni4.png" id={prof.id} name={`${prof.firstname} ${prof.lastname}`} alt="delete" className="mx-3 custom__hover" width="20px" onClick={handleShow}/></td>
-            </tr>)
+            if(prof.active){
+                professionalsRow.push(<tr key={prof.id}>
+                    <td>{prof.firstname} {prof.lastname}</td>
+                    <td>{prof.occupation}</td>
+                    <td>{prof.email}</td>
+                    <td><img src="https://res.cloudinary.com/dv7hswrot/image/upload/v1619978131/Vitae/iconos/mesasge_cpbni4.png" id={prof.id} name={`${prof.firstname} ${prof.lastname}`} alt="delete" className="mx-3 custom__hover" width="20px" onClick={handleShow}/></td>
+                </tr>)
+            }
             
         })
         return professionalsRow
