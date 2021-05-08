@@ -144,7 +144,7 @@ const Employment = () => {
 
                     <Form.Group as={Col} controlId="cv">
                         <Form.File id="cv" label="Curriculum Vitae" {...register("cv", { required: true })}/>
-                        {errors.vacancy && <div className="invalid-feedback">{t('employ.cv.error')}</div>}
+                        {errors.cv && <div className="invalid-feedback">{t('employ.cv.error')}</div>}
                     </Form.Group>
                     </Form.Row>
 

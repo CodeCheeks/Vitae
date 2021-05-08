@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import { Button, Form, Modal } from 'react-bootstrap';
 import { doRecoverPass } from '../../../services/AuthService';
 import { useForm } from "react-hook-form";
-import { useParams } from 'react-router';
+import { useHistory, useParams } from 'react-router';
 import { PASSWORD_PATTERN } from '../../../constants/regex'
 import './RecoverPass.css'
-
+import { Spinner } from 'react-bootstrap';
 
 const Activate = () => {
+    const { push } = useHistory();
     const {token} = useParams()
     const { register, handleSubmit, reset, formState: { errors } } = useForm({ defaultValues: { password: "", password2:"" } });
     const [samePassError, setSamePassError] = useState(false)
@@ -27,6 +28,7 @@ const Activate = () => {
             .then(res => {
                 setShow(true)
                 reset({password: "", password2:""} )
+                setTimeout(() => push('/iniciar-sesion') , 2000)
             })
             .catch(e => console.log(e))
         }
@@ -41,10 +43,13 @@ const Activate = () => {
                 <Modal.Body>
                     <div className="container">
                         <div className="row">
-                            <p>Su contraseña ha sido modificada con éxito. Para acceder a su perfil vaya a iniciar sesión e introduzca sus nuevas credenciales</p>
+                            <p>Su contraseña ha sido modificada con éxito. Redirigiendo. </p>
                         </div>
                         <div className="row">
                             <p>Atentamente, equipo Vitae</p>
+                        </div>
+                        <div className="row">
+                        <Spinner animation="grow" variant="info" />
                         </div>
                     </div>
                     
